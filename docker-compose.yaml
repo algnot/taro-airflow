@@ -18,11 +18,18 @@ x-airflow-common:
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
     _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
     _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
+    DISCORD_USICK_ALERT_WEBHOOK_URL: ${DISCORD_USICK_ALERT_WEBHOOK_URL:-}
+    DISCORD_TONGLA_NOTION_WEBHOOK_URL: ${DISCORD_TONGLA_NOTION_WEBHOOK_URL:-}
+
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+  command: 
+    - bash
+    - -c
+    - pip install -r requirement.txt
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -215,6 +222,7 @@ services:
       - bash
       - -c
       - airflow
+  
   flower:
     <<: *airflow-common
     command: celery flower

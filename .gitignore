@@ -5,6 +5,12 @@
 /plugins/*
 !/plugins/.gitkeep
 
-/dage/__pycache__/
+/dags/job/__pycache__/
+/dags/model/__pycache__/
 
 .env
+.venv/
+
+.vscode/
+Pipfile
+Pipfile.lock
