@@ -6,3 +6,5 @@
 !/plugins/.gitkeep
 
 /dage/__pycache__/
+
+.env
