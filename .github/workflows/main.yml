@@ -20,5 +20,4 @@ jobs:
           script: /
             cd /taro-airflow
             git pull
-            docker-compose build --force-rm --no-cache --compress
             docker-compose up -d
