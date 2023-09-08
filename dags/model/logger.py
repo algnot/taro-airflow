@@ -1,7 +1,19 @@
 from requests import post
 import os
-from .config import Config
 import datetime
+from dotenv import load_dotenv
+import os
+
+
+class Config:
+    def __init__(self):
+      load_dotenv()
+      
+    def get(self, name, defualt=""):
+        if name in os.environ:
+            return os.environ[name]
+        
+        return defualt
 
 
 class Logger:
@@ -48,6 +60,7 @@ class Logger:
   
   def send_message_to_webhook(self, topic, message, level):
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
     try:
       post(url=self.get_webhook(level), json={
         "embeds": [

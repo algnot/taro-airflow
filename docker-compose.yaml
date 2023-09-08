@@ -5,6 +5,7 @@ x-airflow-common:
   image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.7.0}
   environment:
     &airflow-common-env
+    TZ: ${TZ:-Asia/Bangkok}
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: ${AIRFLOW__DATABASE__SQL_ALCHEMY_CONN:-postgresql+psycopg2://airflow:airflow@postgres/airflow} 
     AIRFLOW__CORE__SQL_ALCHEMY_CONN: ${AIRFLOW__CORE__SQL_ALCHEMY_CONN:-postgresql+psycopg2://airflow:airflow@postgres/airflow}
@@ -18,8 +19,12 @@ x-airflow-common:
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
     _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
     _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
+    AIRFLOW__CORE__DEFAULT_TIMEZONE: ${AIRFLOW__CORE__DEFAULT_TIMEZONE:-Asia/Bangkok}
     DISCORD_USICK_ALERT_WEBHOOK_URL: ${DISCORD_USICK_ALERT_WEBHOOK_URL:-}
     DISCORD_TONGLA_NOTION_WEBHOOK_URL: ${DISCORD_TONGLA_NOTION_WEBHOOK_URL:-}
+    NOTION_TOKEN: ${NOTION_TOKEN:-}
+    NOTION_DATABASE_ID: ${NOTION_DATABASE_ID:-}
+    NOTION_BASE_URL: ${NOTION_BASE_URL:-}
 
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
