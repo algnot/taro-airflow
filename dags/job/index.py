@@ -6,8 +6,10 @@ from airflow.operators.bash import BashOperator
 from model.logger import Logger
 from model.notion import Notion
 from model.common import get_next_datetime_schedule_by_schedule
-
+import os
 import time
+
+os.environ["TZ"] = "Asia/Bangkok"
 time.tzset()
 
 schedule = "5 0 * * * *"
