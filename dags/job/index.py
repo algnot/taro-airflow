@@ -78,6 +78,10 @@ with DAG(dag_id="update_notion_status_job",
             end_date = result["properties"]["Date"]["date"]["end"]
             selected_date = end_date if end_date else start_date            
             status = "Done"
+            
+            if "T" in selected_date:
+                selected_date = selected_date.split("T")[0]
+            
             selected_date = datetime.strptime(selected_date, "%Y-%m-%d")
                         
             if(selected_date < today):
