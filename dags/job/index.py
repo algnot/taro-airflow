@@ -91,7 +91,7 @@ with DAG(dag_id="update_notion_status_job",
                 name = result["properties"]["Name"]["title"][0]["plain_text"]
                 date = selected_date
                 public_url = result["public_url"]
-                inprogress_message += f"- [{name}]({public_url}) ending at `({date})`)\n"
+                inprogress_message += f"- [{name}]({public_url}) ending at ()`{date}`)\n"
                 
             if result["properties"]["Status"]["status"]["name"] == "Planned":
                 status = "Cancel"
