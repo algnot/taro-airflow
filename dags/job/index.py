@@ -5,16 +5,15 @@ from airflow.decorators import task
 from airflow.operators.bash import BashOperator
 from model.logger import Logger
 from model.notion import Notion
-from model.common import get_next_datetime_schedule_by_schedule
-import time
+from time import tzset
 
-time.tzset()
+tzset()
 
-schedule = "5 0 * * * *"
+schedule = "5 0 * * *"
 
 with DAG(dag_id="update_notion_status_job",
          description="Sync Notion Status Job",
-         start_date=datetime.now(),
+         start_date=datetime.now(), 
          tags=["notion"],
          schedule=schedule) as dag:
 

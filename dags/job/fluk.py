@@ -3,11 +3,11 @@ from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.decorators import task
 from model.logger import Logger
-import time
+from time import tzset
 
-time.tzset()
+tzset()
 
-schedule = "5 0 * * * *"
+schedule = "5 0 * * *"
 
 with DAG(dag_id="fluckkk",
          description="Fluckkk",
