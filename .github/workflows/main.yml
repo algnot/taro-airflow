@@ -22,6 +22,5 @@ jobs:
           script: 
             cd ./taro-airflow &&
             git pull &&
-            docker-compose down &&
             docker-compose up -d &&
             echo "Deploy completed!"
