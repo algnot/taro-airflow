@@ -78,6 +78,7 @@ with DAG(dag_id="update_notion_status_job",
             end_date = result["properties"]["Date"]["date"]["end"]
             selected_date = end_date if end_date else start_date            
             status = "Done"
+            current_status = result["properties"]["Status"]["status"]["name"]
             
             if "T" in selected_date:
                 selected_date = datetime.strptime(selected_date, "%Y-%m-%dT%H:%M:%S.000+07:00")
@@ -85,14 +86,14 @@ with DAG(dag_id="update_notion_status_job",
                 selected_date = datetime.strptime(selected_date, "%Y-%m-%d")
                 selected_date = selected_date.replace(hour=23, minute=59, second=59)
                                         
-            if(selected_date > today):
+            if selected_date > today and current_status == "Confirm":
                 status = "In progress"
                 name = result["properties"]["Name"]["title"][0]["plain_text"]
                 date = selected_date
                 public_url = result["public_url"]
                 inprogress_message += f"- [{name}]({public_url}) ending at (`{date}`)\n"
                 
-            if result["properties"]["Status"]["status"]["name"] == "Planned":
+            if current_status == "Planned":
                 status = "Cancel"
                 
             properties = {
@@ -103,8 +104,9 @@ with DAG(dag_id="update_notion_status_job",
                 },
             };
             
-            notion.update(page_id, properties)
-            message += f"- Updated card (`{page_id}`) to `{status}`.\n";
+            if status != current_status:
+                notion.update(page_id, properties)
+                message += f"- Updated `{page_id}` `{current_status}` -> `{status}`\n";
             
         if message:
             logger.info(f"{message}\n\n🐶 dataDone={datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -113,5 +115,7 @@ with DAG(dag_id="update_notion_status_job",
                 
         if inprogress_message:
             logger.notify(f"Tomorrow task ({today.strftime('%d/%m/%Y')})\n{inprogress_message}")
+        else:
+            logger.notify("Tomorrow you don't have any task 😃")
             
     notify_start_job() >> update_notion_status_job()
