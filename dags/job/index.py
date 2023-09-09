@@ -9,7 +9,7 @@ from time import tzset
 
 tzset()
 
-schedule = "5 0 * * *"
+schedule = "0 5 0 * * *"
 
 with DAG(dag_id="update_notion_status_job",
          description="Sync Notion Status Job",

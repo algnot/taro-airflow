@@ -7,7 +7,7 @@ from time import tzset
 
 tzset()
 
-schedule = "0 0 * * *"
+schedule = "0 0 0 * * *"
 
 with DAG(dag_id="fluckkk",
          description="Fluckkk",
