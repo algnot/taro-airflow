@@ -6,10 +6,8 @@ from airflow.operators.bash import BashOperator
 from model.logger import Logger
 from model.notion import Notion
 from model.common import get_next_datetime_schedule_by_schedule
-import os
 import time
 
-os.environ["TZ"] = "Asia/Bangkok"
 time.tzset()
 
 schedule = "5 0 * * * *"
@@ -82,16 +80,18 @@ with DAG(dag_id="update_notion_status_job",
             status = "Done"
             
             if "T" in selected_date:
-                selected_date = selected_date.split("T")[0]
-            
-            selected_date = datetime.strptime(selected_date, "%Y-%m-%d")
+                selected_date = datetime.strptime(selected_date, "%Y-%m-%dT%H:%M:%S.000+07:00")
+            else:
+                selected_date = datetime.strptime(selected_date, "%Y-%m-%d")
+                
+            logger.info(f"selected_date={selected_date} today={today}")
                         
-            if(selected_date < today):
+            if(selected_date > today):
                 status = "In progress"
                 name = result["properties"]["Name"]["title"][0]["plain_text"]
                 date = selected_date
                 public_url = result["public_url"]
-                inprogress_message += f"- [{name}]({public_url}) ending at ()`{date}`)\n"
+                inprogress_message += f"- [{name}]({public_url}) ending at (`{date}`)\n"
                 
             if result["properties"]["Status"]["status"]["name"] == "Planned":
                 status = "Cancel"
