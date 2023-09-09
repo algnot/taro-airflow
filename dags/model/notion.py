@@ -1,7 +1,6 @@
 from .config import Config
 from requests import post, patch
 
-import datetime
 
 class Notion():
     token = ""

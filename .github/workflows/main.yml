@@ -1,25 +1,25 @@
-# name: CI
+name: CI
 
-# on: [push]
+on: [push]
 
-# jobs:
+jobs:
 
-#   deploy:
-#     if: github.ref == 'refs/heads/master'
-#     runs-on: [ubuntu-latest]
-#     steps:
-#       - uses: actions/checkout@v4
-#       - name: Deploy
-#         uses: appleboy/ssh-action@master
-#         with:
-#           host: ${{ secrets.SERVER_IP }}
-#           # username: ${{ secrets.SERVER_USERNAME }}
-#           # password: ${{ secrets.SERVER_PASSWORD }}
-#           key: ${{ secrets.SERVER_SSH_KEY }}
-#           script_stop: true
-#           command_timeout: 200m
-#           script: /
-#             cd /taro-airflow 
-#             git pull 
-#             docker-compose up -d
-#             echo "Deploy completed!"
+  deploy:
+    if: github.ref == 'refs/heads/master'
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          # username: ${{ secrets.SERVER_USERNAME }}
+          # password: ${{ secrets.SERVER_PASSWORD }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          script_stop: true
+          command_timeout: 200m
+          script: /
+            cd /taro-airflow 
+            git pull 
+            docker-compose up -d
+            echo "Deploy completed!"

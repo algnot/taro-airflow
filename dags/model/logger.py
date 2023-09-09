@@ -2,7 +2,6 @@ from requests import post
 import os
 import datetime
 from dotenv import load_dotenv
-import os
 
 
 class Config:
