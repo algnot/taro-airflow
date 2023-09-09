@@ -1,5 +1,6 @@
 from requests import get, post
 
+from datetime import datetime
 from airflow import DAG
 from airflow.decorators import task
 from model.logger import Logger
