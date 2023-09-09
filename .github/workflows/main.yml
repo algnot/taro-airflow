@@ -17,6 +17,7 @@ jobs:
           # password: ${{ secrets.SERVER_PASSWORD }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           script_stop: true
+          debug: true
           command_timeout: 200m
           script: /
             cd /taro-airflow 
