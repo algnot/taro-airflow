@@ -83,9 +83,7 @@ with DAG(dag_id="update_notion_status_job",
                 selected_date = datetime.strptime(selected_date, "%Y-%m-%dT%H:%M:%S.000+07:00")
             else:
                 selected_date = datetime.strptime(selected_date, "%Y-%m-%d")
-                
-            logger.info(f"selected_date={selected_date} today={today}")
-                        
+                                        
             if(selected_date > today):
                 status = "In progress"
                 name = result["properties"]["Name"]["title"][0]["plain_text"]
