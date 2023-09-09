@@ -112,6 +112,6 @@ with DAG(dag_id="update_notion_status_job",
             logger.warning(f"🐶 Not have update card\n\ndataDone={datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
                 
         if inprogress_message:
-            logger.notify(f"Tomorrow task ({today.strftime("%d/%m/%Y")})\n{inprogress_message}")
+            logger.notify(f"Tomorrow task ({today.strftime('%d/%m/%Y')})\n{inprogress_message}")
             
     notify_start_job() >> update_notion_status_job()
