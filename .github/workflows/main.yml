@@ -20,7 +20,7 @@ jobs:
           debug: true
           command_timeout: 200m
           script: 
-            cd ./taro-airflow 
-            git pull 
-            docker-compose up -d
+            cd ./taro-airflow &&
+            git pull &&
+            docker-compose up -d &&
             echo "Deploy completed!"
