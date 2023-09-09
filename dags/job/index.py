@@ -83,6 +83,7 @@ with DAG(dag_id="update_notion_status_job",
                 selected_date = datetime.strptime(selected_date, "%Y-%m-%dT%H:%M:%S.000+07:00")
             else:
                 selected_date = datetime.strptime(selected_date, "%Y-%m-%d")
+                selected_date = selected_date.replace(hour=23, minute=59, second=59)
                                         
             if(selected_date > today):
                 status = "In progress"
@@ -111,6 +112,6 @@ with DAG(dag_id="update_notion_status_job",
             logger.warning(f"🐶 Not have update card\n\ndataDone={datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
                 
         if inprogress_message:
-            logger.notify(f"Tomorrow task ({selected_date})\n{inprogress_message}")
+            logger.notify(f"Tomorrow task ({today.strftime("%d/%m/%Y")})\n{inprogress_message}")
             
     notify_start_job() >> update_notion_status_job()
