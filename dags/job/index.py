@@ -14,7 +14,7 @@ schedule = "5 0 * * *"
 with DAG(dag_id="update_notion_status_job",
          description="Sync Notion Status Job",
          start_date=datetime.now(), 
-         tags=["notion"],
+         tags=["notion"],        
          schedule=schedule) as dag:
 
     logger = Logger()
