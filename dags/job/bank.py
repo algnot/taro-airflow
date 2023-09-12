@@ -1,6 +1,6 @@
 from requests import get, post
 
-from datetime import datetime
+from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.decorators import task
 from model.logger import Logger
@@ -13,9 +13,9 @@ schedule = "0 0 * * *"
 
 with DAG(dag_id="bank",
          description="Bank",
-         start_date=datetime.now(),
+         start_date=datetime.now() - timedelta(days=1),
          tags=["Bank"],
-         schedule=schedule) as dag:
+         schedule_interval=schedule) as dag:
 
     logger = Logger()
     config = Config()
