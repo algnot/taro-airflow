@@ -9,6 +9,8 @@ class Discord:
         if webhook:
             self.webhook = webhook
     
-    def send_message(self, message):
+    def send_message(self, message, image=""):
         post(self.webhook, json={"content": message})
+        if image:
+            post(self.webhook, json={"embeds": [{"image": {"url": image}}]})
     

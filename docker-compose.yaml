@@ -28,6 +28,8 @@ x-airflow-common:
     NOTION_TOKEN: ${NOTION_TOKEN:-}
     NOTION_DATABASE_ID: ${NOTION_DATABASE_ID:-}
     NOTION_BASE_URL: ${NOTION_BASE_URL:-}
+    SERPAPT_API_SECRET: ${SERPAPT_API_SECRET:-}
+    SERPAPT_BASE_URL: ${SERPAPT_BASE_URL:-https://serpapi.com}
 
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
