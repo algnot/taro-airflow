@@ -15,7 +15,7 @@ class Notion():
         
     def query(self, filter):
         url = self.base_url + "/v1/databases/" + self.database_id + "/query"
-        query = {
+        query = { 
             "filter": filter 
         }
         res = post(url=url, json=query, headers={
