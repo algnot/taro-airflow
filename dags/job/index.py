@@ -83,9 +83,10 @@ with DAG(dag_id="update_notion_status_job",
                 selected_date = datetime.strptime(selected_date, "%Y-%m-%dT%H:%M:%S.000+07:00")
             else:
                 selected_date = datetime.strptime(selected_date, "%Y-%m-%d")
-                selected_date = selected_date.replace(hour=23, minute=59, second=59)
+            
+            selected_date = selected_date.replace(hour=23, minute=59, second=59)
                                         
-            if selected_date > today and current_status == "Confirm":
+            if selected_date > today and current_status != "Planned":
                 status = "In progress"
                 name = result["properties"]["Name"]["title"][0]["plain_text"]
                 date = selected_date
