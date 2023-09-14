@@ -264,6 +264,8 @@ services:
       DATABASE_URL: ${UNLEASH_DATABASE_URL:-postgres://airflow:admin@postgres/airflow}
       DATABASE_SSL: "false"
       LOG_LEVEL: "debug"
+      INIT_FRONTEND_API_TOKENS: "default:development.unleash-insecure-frontend-api-token"
+      INIT_CLIENT_API_TOKENS: "default:development.unleash-insecure-api-token"
     depends_on:
       postgres:
         condition: service_healthy
