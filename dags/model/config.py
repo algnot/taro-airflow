@@ -13,7 +13,7 @@ class Config:
     
     def __init__(self):
       load_dotenv()
-      client.initialize_client()
+      self.client.initialize_client()
       
     def get(self, name, defualt=""):
       try:
