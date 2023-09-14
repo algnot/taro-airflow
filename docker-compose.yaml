@@ -17,7 +17,7 @@ x-airflow-common:
     AIRFLOW__WEBSERVER__WARN_DEPLOYMENT_EXPOSURE: 'false'
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session'
     AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
-    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+    _PIP_ADDITIONAL_REQUIREMENTS: 'UnleashClient'
     _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
     _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
     AIRFLOW__CORE__DEFAULT_TIMEZONE: ${AIRFLOW__CORE__DEFAULT_TIMEZONE:-Asia/Bangkok}
@@ -30,6 +30,8 @@ x-airflow-common:
     NOTION_BASE_URL: ${NOTION_BASE_URL:-}
     SERPAPT_API_SECRET: ${SERPAPT_API_SECRET:-}
     SERPAPT_BASE_URL: ${SERPAPT_BASE_URL:-https://serpapi.com}
+    INIT_FRONTEND_API_TOKENS: "default:development.unleash-insecure-frontend-api-token"
+    INIT_CLIENT_API_TOKENS: "default:development.unleash-insecure-api-token"
 
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
@@ -37,10 +39,6 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
     - ${AIRFLOW_PROJ_DIR:-.}/data:/opt/airflow/data
-  command: 
-    - bash
-    - -c
-    - pip install -r requirement.txt
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -58,6 +56,12 @@ services:
       POSTGRES_DB: ${POSTGRES_DB:-airflow}
     volumes:
       - postgres-db-volume:/var/lib/postgresql/data
+    expose:
+      - 5432
+    # command: 
+    #   - bash
+    #   - -c
+    #   - createdb -h localhost -p 5432 -U $${POSTGRES_USER:-airflow} unleash
     healthcheck:
       test: ["CMD-SHELL", 'pg_isready -U "$${POSTGRES_DB:-airflow}"']
       interval: 10s
@@ -208,6 +212,7 @@ services:
         fi
         mkdir -p /sources/logs /sources/dags /sources/plugins
         chown -R "${AIRFLOW_UID}:0" /sources/{logs,dags,plugins}
+        su - airflow -s /bin/bash -c "pip install -r /sources/requirement.txt"
         exec /entrypoint airflow version
     environment:
       <<: *airflow-common-env
@@ -251,5 +256,24 @@ services:
       airflow-init:
         condition: service_completed_successfully
 
+  unleash-web:
+    image: unleashorg/unleash-server:latest
+    ports:
+      - "4242:4242"
+    environment:
+      DATABASE_URL: ${UNLEASH_DATABASE_URL:-postgres://airflow:admin@postgres/airflow}
+      DATABASE_SSL: "false"
+      LOG_LEVEL: "debug"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: [ "node", "index.js" ]
+    healthcheck:
+      test: wget --no-verbose --tries=1 --spider http://localhost:4242/health || exit 1
+      interval: 1s
+      timeout: 1m
+      retries: 5
+      start_period: 15s
+  
 volumes:
   postgres-db-volume:

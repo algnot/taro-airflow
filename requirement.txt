@@ -3,3 +3,4 @@ python-dotenv
 datetime
 pandas
 numpy
+UnleashClient
