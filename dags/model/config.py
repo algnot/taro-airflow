@@ -17,7 +17,7 @@ class Config:
       
     def get(self, name, defualt=""):
       try:
-        value = client.get_variant("NOTION_BASE_URL") 
+        value = client.get_variant(name) 
         
         if "payload" in value and "value" in value["payload"]:
           return value["payload"]["value"]
@@ -25,7 +25,6 @@ class Config:
         elif name in os.environ:
           return os.environ[name]
         
-        return defualt  
       except Exception:
         if name in os.environ:
           return os.environ[name]
