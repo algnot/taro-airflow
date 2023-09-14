@@ -21,19 +21,19 @@ class Config:
         print(value)
         
         if "payload" in value and "value" in value["payload"]:
-          print(f"Get config {name} from unleash value {value['payload']['value']}")
+          print(f"Get config {name} from unleash")
           return value["payload"]["value"]
         
         elif name in os.environ:
-          print(f"Get config {name} from env value {os.environ[name]}")
+          print(f"Get config {name} from env value")
           return os.environ[name]
         
       except Exception as e:
         print(e)
         if name in os.environ:
-          print(f"Get config {name} from env value {os.environ[name]}")
+          print(f"Get config {name} from env value")
           return os.environ[name]
         
-        print(f"Get config {name} from defualt value {defualt}")
+        print(f"Get config {name} from defualt value")
         return defualt   
     
