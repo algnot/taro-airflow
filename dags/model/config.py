@@ -20,14 +20,18 @@ class Config:
         value = client.get_variant(name) 
         
         if "payload" in value and "value" in value["payload"]:
+          print(f"Get config {name} from unleash value {value['payload']['value']}")
           return value["payload"]["value"]
         
         elif name in os.environ:
+          print(f"Get config {name} from env value {os.environ[name]}")
           return os.environ[name]
         
       except Exception:
         if name in os.environ:
+          print(f"Get config {name} from env value {os.environ[name]}")
           return os.environ[name]
         
+        print(f"Get config {name} from defualt value {defualt}")
         return defualt   
     
