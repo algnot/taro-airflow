@@ -18,7 +18,6 @@ class Config:
     def get(self, name, defualt=""):
       try:
         value = self.client.get_variant(name) 
-        print(value)
         
         if "payload" in value and "value" in value["payload"]:
           print(f"Get config {name} from unleash")

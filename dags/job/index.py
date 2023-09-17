@@ -40,7 +40,7 @@ with DAG(dag_id="update_notion_status_job",
                 {
                     "property": "Date",
                     "date": {
-                        "before": today.strftime("%Y-%m-%dT%H:%M:%S.000Z")
+                        "before": today.strftime("%Y-%m-%dT23:59:59.000Z")
                     }
                 },
                 {
