@@ -7,7 +7,8 @@
 
 /dags/job/__pycache__/
 /dags/model/__pycache__/
-
+/bot/src/__pycache__/
+/bot/src/database/__pycache__/
 .env
 .venv/
 

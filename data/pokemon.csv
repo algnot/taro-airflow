@@ -1,0 +1,1011 @@
+id,name,evo_from_id,image,weight,height,type
+0,ฟุชิกิดาเนะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cf47f9fac4ed3037ff2a8ea83204e32aff8fb5f3.png,6.9,0.7,หญ้า พิษ
+1,ฟุชิกิโซ,0,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3245e4f8c04aa0619cb31884dbf123c6918b3700.png,13,1,หญ้า พิษ
+2,ฟุชิกิบานะ,1,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0186d64c5773c8d3d03cd05dc79574b2d2798d4f.png,100,2,หญ้า พิษ
+3,ฮิโตคาเงะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d0ee81f16175c97770192fb691fdda8da1f4f349.png,8.5,0.6,ไฟ
+4,ลิซาร์โดะ,3,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/285395ca77d82861fd30cea64567021a50c1169c.png,19,1.1,ไฟ
+5,ลิซาร์ดอน,4,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2050f1fd1283f473d7d048f8631712e7e003f802.png,90.5,1.7,ไฟ บิน
+6,เซนิกาเมะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5794f0251b1180998d72d1f8568239620ff5279c.png,9,0.5,น้ำ
+7,คาเมล,6,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a3bc17e6215031332462cc64e59b7922ddd14b91.png,22.5,1,น้ำ
+8,คาเม็กซ์,7,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2fe157db59153af8abd636ab03c7df6f28b08242.png,85.5,1.6,น้ำ
+9,คาเตอร์ปี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/68f0cec6bcba20a0c53db3d8cfce81bd319d2c82.png,2.9,0.3,แมลง
+10,ทรานเซล,9,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/05fd4676fa4a4b58288510a97a5211e066e02464.png,9.9,0.7,แมลง
+11,บัตเตอร์ฟรี,10,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/eacd20285cb634ba9fea41fc0fa13871c2fcbc66.png,32,1.1,แมลง บิน
+12,บีเดิล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5ae74d403ec682eaf13e066850afd4b0c20d85f7.png,3.2,0.3,แมลง พิษ
+13,โคคูน,12,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dd41f31a3c97f1f9d998361b125362584873157b.png,10,0.6,แมลง พิษ
+14,สเปียร์,13,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/70f4206271b72492c9ba71d708d6183a80ba0e96.png,29.5,1,แมลง พิษ
+15,ป็อปโปะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0e7c6e616404c683f00701b591eeab56e465641a.png,1.8,0.3,ปกติ บิน
+16,พีเจียน,15,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a2935587b7c61e6e6da88da3578d700c133246e5.png,30,1.1,ปกติ บิน
+17,พีเจียต,16,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/01e13954dff668c1420407c98b308c81b83f6dda.png,39.5,1.5,ปกติ บิน
+18,โครัตตา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3e4b38ab7545ebd938154d9aed9502cb068569d6.png,3.5,0.3,ปกติ
+19,รัตตา,18,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e97c62e4e4b46017be60806d00f4d389d003f115.png,18.5,0.7,ปกติ
+20,โอนิสึซึเมะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e815cb4b8ba9c2d0841dfa364c87164880944e3a.png,2,0.3,ปกติ บิน
+21,โอนิดริล,20,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8b326a6f77b73b3c250ba95f3a97fc21b28c8f4b.png,38,1.2,ปกติ บิน
+22,อาร์โบ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ad90ec632849d032615d707ebe8ad741651eee06.png,6.9,2,พิษ
+23,อาร์บ็อก,22,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/eb3c14ed44c1e4a2ba4c2d7970cddf07cd8ef67f.png,65,3.5,พิษ
+24,พิคาชู,23,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2b3f6ff00db7a1efae21d85cfb8995eaff2da8d8.png,6,0.4,ไฟฟ้า
+25,ไรชู,24,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9c28defa939e230800ec0d0c421d9f82c60df77a.png,30,0.8,ไฟฟ้า
+26,แซนด์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f5fcf7a292a180320138ace7235f8a2c16f6594a.png,12,0.6,ดิน
+27,แซนด์แพน,26,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d00d72f082b7dae546fa8bd5cf09fcfe53ffcae8.png,29.5,1,ดิน
+28,นิโดรัน♀,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/14179c8ab9c2003fc5b27a29e91e4cd195283d52.png,7,0.4,พิษ
+29,นิโดรินา,28,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fed980fd2341745923812e9dcd88a039aaaf36ea.png,20,0.8,พิษ
+30,นิโดควีน,29,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5174a41a9db00baf5dd664c92a12254b0baa5fde.png,60,1.3,พิษ ดิน
+31,นิโดรัน♂,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/237579eaf2141edad61d647c62f074d53653337b.png,9,0.5,พิษ
+32,นิโดริโน,31,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f3d8e45646fb05516dff845922c3d62d9aa33cbe.png,19.5,0.9,พิษ
+33,นิโดคิง,32,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ce24d9eb27f4e554ea5bd29840a35957f7bd9d30.png,62,1.4,พิษ ดิน
+34,ปิปปี,33,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/18e9dc86ced1320d6846f2c192c4eb04e517963a.png,7.5,0.6,แฟรี่
+35,ปิคซี,34,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1865f85f9e417522f8de1a239fbff27f2106783b.png,40,1.3,แฟรี่
+36,โรคอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f285c634efd141918f6ad066a6f59c20746d9050.png,9.9,0.6,ไฟ
+37,คิวคอน,36,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cc96e6a4eee980724ebd725bb8785334d3290074.png,19.9,1.1,ไฟ
+38,พูริน,37,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7a2bec0dd522d66353f0cf3df9148070456a3349.png,5.5,0.5,ปกติ แฟรี่
+39,พูคูริน,38,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b3724395d41de1d0def948966c69148bd9f0f9c1.png,12,1,ปกติ แฟรี่
+40,ซูแบท,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5d54b9d9cefa287ea258517537ba26f4103dda36.png,7.5,0.8,พิษ บิน
+41,โกลแบท,40,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cedbf9afd3155d3df1e2ffebf049902598ebd74b.png,55,1.6,พิษ บิน
+42,นาโซโนะคุสะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6bad448cb0997a928b94e72b67eacb861271f796.png,5.4,0.5,หญ้า พิษ
+43,คุไซฮานะ,42,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/62973d0fc5f9bd5d8c819b8c885bd1f216983ff1.png,8.6,0.8,หญ้า พิษ
+44,รัฟเฟรเซีย,43,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a95af5f577260373074117cb756e5ea38cd674ef.png,18.6,1.2,หญ้า พิษ
+45,พารัส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/837bcac8efc9329d9e3b9e46e95670a5d493b60a.png,5.4,0.3,แมลง หญ้า
+46,พาราเซ็คท์,45,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e5838e76eb33d88601ba9d6e045e1bdf7e20f46a.png,29.5,1,แมลง หญ้า
+47,คองปัง,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8b550ab54d22a87dc784ee1af6cff4ad33aa10a2.png,30,1,แมลง พิษ
+48,มอร์ฟอน,47,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c57d464a64424f031a9872f2ec3f7c0b8052d3c1.png,12.5,1.5,แมลง พิษ
+49,ดิกดา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/583fa625d6fda586a5734f5f9e455952aa6af15f.png,0.8,0.2,ดิน
+50,ดักทริโอ,49,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/de7c2ea1a9f39427b4732a6122284f257f9e87aa.png,33.3,0.7,ดิน
+51,เนียส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6ea01871238908780334293e6407033650d803a9.png,4.2,0.4,ปกติ
+52,เปอร์เซียน,51,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8da0bb6b5587f2150f41b08e0d61a80827d7229f.png,32,1,ปกติ
+53,โคดัก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0783062d0d860b8ae7d8e859241a700359c4d981.png,19.6,0.8,น้ำ
+54,โกลดัก,53,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0dd5b6e921f55c5d49978b84ee66e458336518ae.png,76.6,1.7,น้ำ
+55,แมนคี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/00fb5703d7c2b7a89933bbed89f4c84e48c59ea2.png,28,0.5,ต่อสู้
+56,โอโคริซารุ,55,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/37a3edfcf9c5cbdb68bcf8945ff89fe2999e5a30.png,32,1,ต่อสู้
+57,การ์ดี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/333e2aef290059dc46274b77ea4095094784316a.png,19,0.7,ไฟ
+58,วินดี,57,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7ef9e71e9dc624e5558d7b4619f75ea8659eff55.png,155,1.9,ไฟ
+59,เนียวโรโมะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8e8d47c5af6084904793496ddddb3e5f516e79f7.png,12.4,0.6,น้ำ
+60,เนียวโรโซ,59,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7e16ace7443d45cc1def215c8cf82beefc69041c.png,20,1,น้ำ
+61,เนียวโรบอน,60,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/da2fce266d1c13743742451617b2976d6bfd483d.png,54,1.3,น้ำ ต่อสู้
+62,เคซี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5d05e6f2393a6a72fb36da26a79fd3db95ae7412.png,19.5,0.9,พลังจิต
+63,ยุนเกเรอร์,62,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/96613b8fe63edfdf800cde823078fadc6ea9aae9.png,56.5,1.3,พลังจิต
+64,ฟูดิน,63,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/265d42cf68deea0a54dacf3a4f1953198f55ad53.png,48,1.5,พลังจิต
+65,วันริกี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0074c7d90ce7d2a6926d28fe777d2bcb0b4ccb0b.png,19.5,0.8,ต่อสู้
+66,โกริกี,65,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/634e1c205ab72071fe941043f816a9e2f31db3ae.png,70.5,1.5,ต่อสู้
+67,ไคริกี,66,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8f2f69ae05bd6c76f0d6fe6d03f1e22ec1a8010a.png,130,1.6,ต่อสู้
+68,มาดาซึโบมิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/47ae88a63c66e32e957da303ad50b72268e097e4.png,4,0.7,หญ้า พิษ
+69,อุซึดง,68,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b19541cee78bc2a00eb3f59f7a2fcca67469eb78.png,6.4,1,หญ้า พิษ
+70,อุซึบ็อท,69,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f010b09344a212ecb98c6f209233c0661db0e7a8.png,15.5,1.7,หญ้า พิษ
+71,เมโนคุราเกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3da5f9c26f39884f5f44a861e6965fdc1722241b.png,45.5,0.9,น้ำ พิษ
+72,โดคุคุราเกะ,71,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e8720bf3fe40182141dc5f442f5fb83eff544a6e.png,55,1.6,น้ำ พิษ
+73,อิชิซึบูเตะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4b483c95c2124018519380eaa06cc657c5b76a64.png,20,0.4,หิน ดิน
+74,โกโลน,73,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f3ae64c5acf41a159e07b63da847cccc773bb184.png,105,1,หิน ดิน
+75,โกโลเนีย,74,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/02fb8976b07089e975a9911ae2ff1327b5e3340d.png,300,1.4,หิน ดิน
+76,โพนีตะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dacab2be1777c14ed7da12824dd85c2cdbd2ebf9.png,30,1,ไฟ
+77,แกลล็อป,76,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cb874883fcffc227e8d065e275221e1e05ece46c.png,95,1.7,ไฟ
+78,ยาดง,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/441132f5cdf87b0e46f96952f16c2dfc75911054.png,36,1.2,น้ำ พลังจิต
+79,ยาโดรัน,78,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4d93d1171a1b9551989b17b4ae6838e4e9e98378.png,78.5,1.6,น้ำ พลังจิต
+80,คอยล์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8dfff91e7e39b06d0a9fcfb414565b25de55bdf1.png,6,0.3,ไฟฟ้า โลหะ
+81,แรคอยล์,80,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5f8732c548e90780b660f65926e5567755aa2a6c.png,60,1,ไฟฟ้า โลหะ
+82,คาโมเนกิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/810c4dc60ff4f315216717a2ecaa3c7dfe3fcf09.png,15,0.8,ปกติ บิน
+83,โดโด,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/63ff86cee884446925e664d99b82e3e8de988412.png,39.2,1.4,ปกติ บิน
+84,โดโดริโอ,83,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/de41d6a29c38d65f1f39bc5ecb3afe30c5e057eb.png,85.2,1.8,ปกติ บิน
+85,เพาเวา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fc1342f9b5bc761333a44d74dc47ba0ff30ad6c8.png,90,1.1,น้ำ
+86,จูกอน,85,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2a2e293a8524ac94136bada7346ddfe57e12e47e.png,120,1.7,น้ำ น้ำแข็ง
+87,เบโตเบตา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/57f22ceb2f8765f927ff3fd1f4b4bf52a7033097.png,30,0.9,พิษ
+88,เบโตเบตัน,87,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/db91b8849e602828aaff3939f9e0816dd9ce92ab.png,30,1.2,พิษ
+89,เชลเดอร์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/36918010e6d91103c9017f4ce4d1764c9f145db8.png,4,0.3,น้ำ
+90,พาร์เชน,89,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d5ebac9e1afe16f2a1d16a7593e022fc576aed9e.png,132.5,1.5,น้ำ น้ำแข็ง
+91,โกส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5c619391fb78cbe0d3646a9b76da07372a18580e.png,0.1,1.3,ผี พิษ
+92,โกสท์,91,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b8bcfb490b9a54a7cfc607ac82f413f4e582cb56.png,0.1,1.6,ผี พิษ
+93,เก็งกา,92,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/47549471dc54feb8acd4b3de3a27ea8e9e9fd25c.png,40.5,1.5,ผี พิษ
+94,อิวาร์ค,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/134d26303c22ac0e0173bdf5121a3a3aae10e36c.png,210,8.8,หิน ดิน
+95,สลีป,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1d82671099cdd52c4a0b84724d72033d305538bd.png,32.4,1,พลังจิต
+96,สลีปเปอร์,95,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9d0915f92dac45eca21a50d63799abe53404f7d4.png,75.6,1.6,พลังจิต
+97,แครบ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/15ec38c5c458545368bf8e85da77d49f4b09104d.png,6.5,0.4,น้ำ
+98,คิงเกลอร์,97,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/04f0bfa98547db408430513e07a15e3655095dca.png,60,1.3,น้ำ
+99,บิริริดามา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cfa3cfb38563c9afdb4d6fac40607fa78db97721.png,10.4,0.5,ไฟฟ้า
+100,มารุมายน์,99,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/823f1e2536f6036d7423f17fa4969ecd7cf08e00.png,66.6,1.2,ไฟฟ้า
+101,ทามะทามะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2b23bf26e6063e8fe37a5122a112abb1a475b052.png,2.5,0.4,หญ้า พลังจิต
+102,นัชชี,101,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a17a1d3fbeeba958495697c23b287b1966fd11dc.png,120,2,หญ้า พลังจิต
+103,คาระคาระ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6c44a0ccb922bbb4345214f3fa0b9436a03c11f2.png,6.5,0.4,ดิน
+104,การะการะ,103,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1a2a79bce9b5c63de4d6db9b895a34ce6bf6733d.png,45,1,ดิน
+105,ซาวามูลาร์,104,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3e864b76679d4c2d1e46878dc241e06bdb8f8d1d.png,49.8,1.5,ต่อสู้
+106,เอบิวาลาร์,105,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6c57fef755afbd6ddda7f3c21f20bb38159494c6.png,50.2,1.4,ต่อสู้
+107,เบโรรินกา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fe41bccc4b1fd3c2ab748d09a157e3c0c28c7700.png,65.5,1.2,ปกติ
+108,โดกาซ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fd10b57c1ac95c00638aed70b4a41d679e9af2b6.png,1,0.6,พิษ
+109,มาตาโดกัซ,108,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4c76d556bda94f8eb8b73a9e58ef051262e78b7d.png,9.5,1.2,พิษ
+110,ไซฮอร์น,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8de47e638f274aae17eb13dc5c1e6e36e8224775.png,115,1,ดิน หิน
+111,ไซดอน,110,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2db37f2dc4e86437160294178fd134fb65a1e8c3.png,120,1.9,ดิน หิน
+112,ลัคกี,111,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/67786c71bc7911f9faa28b01ab1b2cf661d4c28f.png,34.6,1.1,ปกติ
+113,มอนจารา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e6fdba2d3e167f34a8a75eb7ed3965fb3ddd4df8.png,35,1,หญ้า
+114,การูรา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c959a88d4dd9e2007d466535100ae40439d8ff82.png,80,2.2,ปกติ
+115,ทัททู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7ef51aff01e21866babb18f14bac42790a65d5db.png,8,0.4,น้ำ
+116,ซีดรา,115,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cb1a1ab939d93ed0504753e1fbf7a4e180f733d5.png,25,1.2,น้ำ
+117,โทซาคินโตะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/266278a59d39e9770b8f34c9a635243133334a28.png,15,0.6,น้ำ
+118,อซึมาโอ,117,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f395dd22d77d0a3f298c4bd261a3c56ecfbdace7.png,39,1.3,น้ำ
+119,ฮิโตเดมัน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2b4031883bcdc61d67e67673af8d893bfa3dba5c.png,34.5,0.8,น้ำ
+120,สตาร์มี,119,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6f6ffd1276a2a1fb4aa9843f9e2fed9e79d2ba5f.png,80,1.1,น้ำ พลังจิต
+121,บาร์เรียด,120,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3bf0162c653873e4ecf5810c830191bac19cb540.png,54.5,1.3,พลังจิต แฟรี่
+122,สไตรค์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/da1f6bb1f75f73b684a5b6902694912b697f6a4d.png,56,1.5,แมลง บิน
+123,รูจูลา,122,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8838c65ba52945317cda0d31f8de760860dd71ec.png,40.6,1.4,น้ำแข็ง พลังจิต
+124,เอเลบู,123,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/af28498e1bd42cb316b6e2fa0c34b68f2ce89ce8.png,30,1.1,ไฟฟ้า
+125,บูเบอร์,124,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fd5333ca5e2c3de321183c65cf30536cfcd478b0.png,44.5,1.3,ไฟ
+126,ไคลอส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/46dc016521478f4d19e78f6547dd58420a793657.png,55,1.5,แมลง
+127,เคนเทารอส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a0b41d9051cb5c540734d103964d7791105dd243.png,88.4,1.4,ปกติ
+128,คอยคิง,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3755f6d1176c7f8c64f663dae13ef9f1406d007a.png,10,0.9,น้ำ
+129,เกียราดอส,128,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ee070a971884e2c4da87d7a728e5821f9636f56d.png,235,6.5,น้ำ บิน
+130,ลาพลาซ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1583b45023aabc829f405629e4b0d7259f80a2c0.png,220,2.5,น้ำ น้ำแข็ง
+131,เมตามอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5f27124544444c7565d9dc54c3227f3970aa7454.png,4,0.3,ปกติ
+132,อีวุย,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1fab9d9b86c9071e3f10c14b7869e3ec338f1429.png,6.5,0.3,ปกติ
+133,ชาวเวอร์ส,132,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6a744cd8a7461d218c7dab0ff084cad30c4c6872.png,29,1,น้ำ
+134,ธันเดอร์ส,133,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/117467cd6471aded1857f44f639965cc3305c4af.png,24.5,0.8,ไฟฟ้า
+135,บูสเตอร์,134,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c837f7f95ed1870458db055583e78c33152c556e.png,25,0.9,ไฟ
+136,โพรีกอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/211c6c26da2a55b6717119f26bb74a6db7dc9b21.png,36.5,0.8,ปกติ
+137,ออมไนต์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1f2291efe7407a5585b30792e7b81829cc120a0b.png,7.5,0.4,หิน น้ำ
+138,ออมสตาร์,137,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c9b99543b14fc3859bb695d3f45d2e38163aacc0.png,35,1,หิน น้ำ
+139,คาบูโตะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f0757ab6ec3fa6574202a4d1646e2967bbe6fd03.png,11.5,0.5,หิน น้ำ
+140,คาบูท็อปส์,139,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b27f8689027a59c36e875834453df03f4b200ce9.png,40.5,1.3,หิน น้ำ
+141,พเทอรา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0fa47ef9ac7be2f3c447e538152c69e9e2bd3720.png,59,1.8,หิน บิน
+142,คาบิกอน,141,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a42f1e83fdb6809384f2461670a1d81e227df05c.png,460,2.1,ปกติ
+143,ฟรีเซอร์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a1b9576b6cf4bde4abeb391af3b55c5370205557.png,55.4,1.7,น้ำแข็ง บิน
+144,ธันเดอร์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/427bb0b94b44ff442449cfba55dc6829df76891c.png,52.6,1.6,ไฟฟ้า บิน
+145,ไฟเยอร์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9d83c451429ae1858ff1588ba5724ffbad4b55c1.png,60,2,ไฟ บิน
+146,มินิริว,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/27a6cc8fdc7abc93def1b061b582dac7a93430c1.png,3.3,1.8,มังกร
+147,ฮาคุริว,146,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f6ae3010972469372d493e3cc4a516c574df3974.png,16.5,4,มังกร
+148,ไคริว,147,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ecdc5527d67488c92c242e34458844fe2afac525.png,210,2.2,มังกร บิน
+149,มิวทู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ad7ffb53f984a6623c53f01cfbc06fc8565ecbd4.png,122,2,พลังจิต
+150,มิว,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3373da1ae6e9a429e7fc8dbad72bf5f4726eb13b.png,4,0.4,พลังจิต
+151,จิโคริตา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e127895003b77059897486f99746811e9cae12fe.png,6.4,0.9,หญ้า
+152,เบย์ลีฟ,151,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b6d37d0ff3dc1482af8dc42b5c16aaa3d047776a.png,15.8,1.2,หญ้า
+153,เมกาเนียม,152,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ce0ed390ecb8d857d35fc9f9218107752500889a.png,100.5,1.8,หญ้า
+154,ฮิโนอาราชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2bb9e4bf2a9b1c425ebdbb8d5178df126c2333e6.png,7.9,0.5,ไฟ
+155,แม็กมาราชิ,154,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b9166e1c91e56572078bf939fa6aea1fc2fefa4f.png,19,0.9,ไฟ
+156,บาคุฟูน,155,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/98126582af9f41623f2dde46b3b002ac9dbd1943.png,79.5,1.7,ไฟ
+157,วานิโนโกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5473aeb81495d8b1df4a8940c254404296383f06.png,9.5,0.6,น้ำ
+158,อัลลิเกต,157,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f5c9be79842f37a3e2a006ef55b5f7fb7f3fd1b8.png,25,1.1,น้ำ
+159,ออไดล์,158,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/22bb3b1209f265b8385de0b0a16fb792409ccfa4.png,88.8,2.3,น้ำ
+160,โอทาจิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c62023072207e924d58d36eeaec88f8b3c9f71c7.png,6,0.8,ปกติ
+161,โอโอทาจิ,160,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d299a38705f8996d41b9f90d7adb538d2cee037a.png,32.5,1.8,ปกติ
+162,โฮโฮ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fdbf14547b799ca4c085aef7e726f404040a93dd.png,21.2,0.7,ปกติ บิน
+163,โยรุโนะซึคุ,162,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1474f0bc26dd822d6e7c6e036212d47856c4f6b3.png,40.8,1.6,ปกติ บิน
+164,เรดิบา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1b93a345075dcdb2bcf109109091ec89017499bd.png,10.8,1,แมลง บิน
+165,เรเดียน,164,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cf4a7eaae610d99301c26247fc5410e0d6f65492.png,35.6,1.4,แมลง บิน
+166,อิโตมารุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/eb659a48ac9c0cd70b8c1604a1831068402c0ff5.png,8.5,0.5,แมลง พิษ
+167,อาริอาโดส,166,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d7496c91016058c7cf89b16f67369dd72f09d2fd.png,33.5,1.1,แมลง พิษ
+168,โครแบท,167,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7d16cd4b1acee855ff05899612f63baca173fbf4.png,75,1.8,พิษ บิน
+169,ชอนชี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/527a66fcd0837797a294a464bf3f07a9904dbc69.png,12,0.5,น้ำ ไฟฟ้า
+170,แลนเทอร์น,169,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7bfc27e022e6cc7c43064f90fa255d861bc4bdae.png,22.5,1.2,น้ำ ไฟฟ้า
+171,พิชู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/224892b2e43c31d5666f73bc6116d0e5719293d2.png,2,0.3,ไฟฟ้า
+172,ปี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f8d9a9ab1fb0acb4e56272cfe3f208c155724f98.png,3,0.3,แฟรี่
+173,พูพูริน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7f25f2cc2cea32c62707b06517bb5f5a5626673f.png,1,0.3,ปกติ แฟรี่
+174,โทเกปี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e724713a13271ef531f5410da782e24f729cb6d6.png,1.5,0.3,แฟรี่
+175,โทเกชิก,174,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/13880fa450aae3e32c35ae82cfed342ee3c5129b.png,3.2,0.6,แฟรี่ บิน
+176,เนที,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cca7a5df3cb9a3a93487b80927eee7ea96175272.png,2,0.2,พลังจิต บิน
+177,เนทิโอ,176,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/829f17e8a869f9c559949d640296af27dd9b223e.png,15,1.5,พลังจิต บิน
+178,เมรีป,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/af9b687d23dbe6c6c9d2bf77b099de1a2ed22a09.png,7.8,0.6,ไฟฟ้า
+179,โมโคโค,178,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/da7b76fa5088c88d99b8d1c55ca7d3a670fcd9a4.png,13.3,0.8,ไฟฟ้า
+180,เด็นริว,179,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/51eb2421ee1151aeab3ea709e5011f5746aa133e.png,61.5,1.4,ไฟฟ้า
+181,คิเรอิฮานะ,180,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9b1e56153094b9d1db297f7a60e90b7c3a82349f.png,5.8,0.4,หญ้า
+182,มาริล,181,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8f3081ec95ca6c89a77bee5c6ddfa2623daf5cb7.png,8.5,0.4,น้ำ แฟรี่
+183,มาริลลิ,182,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3ca1ab344f1f2e9c537268a453a03d2fcaa9f74a.png,28.5,0.8,น้ำ แฟรี่
+184,อุซกกี,183,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/56ae9d96bbe5821b94578796607927b1ee453782.png,38,1.2,หิน
+185,เนียวโรโทโนะ ,184,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4b33c4f3411bb63fc80d5d149c64b1621a689e36.png,33.9,1.1,น้ำ
+186,ฮาเน็กโกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a6cd03cedc410612756b9e0674ed1b9cc9c88815.png,0.5,0.4,หญ้า บิน
+187,โพพ็อกโกะ,186,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4fefde6b87731c8092588625553e2fa78805d395.png,1,0.6,หญ้า บิน
+188,วาทักโกะ,187,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0b39f16b54ea23e7d81701cfefbca79bd9f935cb.png,3,0.8,หญ้า บิน
+189,เอย์แพม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2c8d12e9405757e28a53864b566cead59010c7a0.png,11.5,0.8,ปกติ
+190,ฮิมานัทส์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bcbac805591444c0cc4d1c992f6573fc5b9ded8e.png,1.8,0.3,หญ้า
+191,คิมาวาริ,190,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a03119d2d01d0a0372e42635fe171fb85051ebd9.png,8.5,0.8,หญ้า
+192,ยันยันมา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0f208d632c75fbc248446209cd1e82b74a082dd7.png,38,1.2,แมลง บิน
+193,อูปา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/89bb8a79aa81cb47b5e221c14d9d808603ebf2b6.png,8.5,0.4,น้ำ ดิน
+194,นูโอ,193,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/695f16aee44c5436f2bd003f8f1ab1100cdf5383.png,75,1.4,น้ำ ดิน
+195,เอฟี,194,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c2d8c73ae839798f984fb381043ff9b274a03406.png,26.5,0.9,พลังจิต
+196,แบล็กกี,195,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7d3c898aeb5a230d279fdb610748e07dd2ba8a40.png,27,1,ความมืด
+197,ยามิคาราซึ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6849382bee6f0be5495fe96c03d86ddf7decc963.png,2.1,0.5,ความมืด บิน
+198,ยาโดคิง,197,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/31aa203eeae4980dfcce57f2e1316406683a4774.png,79.5,2,น้ำ พลังจิต
+199,มูมา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b191b64618b8edb44a2f23a43be93d9edc066af9.png,1,0.7,ผี
+200,อันโนน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fefb6743a3fd8483fe5686ad1ff01a5c9019bed0.png,5,0.5,พลังจิต
+201,โซนานส์,200,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0f94860cb73755f14d3930eeda4117f6d196c336.png,28.5,1.3,พลังจิต
+202,คิรินริกิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2182d28133c986d950b630f5a43236bb0f08faf7.png,41.5,1.5,ปกติ พลังจิต
+203,คุนุกิดามะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/22a2254aebb989278195adf314fbf64aed36d67e.png,7.2,0.6,แมลง
+204,ฟอเรทอส,203,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/77c8376d8d1621b06af93a734d7aefcd19178485.png,125.8,1.2,แมลง โลหะ
+205,โนก็อจจิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d9f11b641b3c9225def14f64fa8124b102e0066e.png,14,1.5,ปกติ
+206,ไกลกา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9a88e8d66a56b5682ff3bcab0abee0257f6e990d.png,64.8,1.1,ดิน บิน
+207,ฮากาเนล,206,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/47aeb3e1d1ff57e2d791882d9d4252a24bb2ad0d.png,400,9.2,โลหะ ดิน
+208,บูล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7cba1a134a26246be1a42a136ade9e48209ba3e8.png,7.8,0.6,แฟรี่
+209,แกรนบูล,208,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/15265c73c53e1b19646fbf9cab53b896bc0b7383.png,48.7,1.4,แฟรี่
+210,ฮารีเซน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fbe27663874b2252d195898ea6ed6996db6781e6.png,3.9,0.5,น้ำ พิษ
+211,ฮัซซัม,210,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/00f9b6fc77b07974b842263e7077e8381edaec55.png,118,1.8,แมลง โลหะ
+212,สึโบสึโบะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/15634187ca4adda870c98f3e946eb5c65d035332.png,20.5,0.6,แมลง หิน
+213,เฮราครอส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ee7414ca8181a0f52a87928daa9884dedcba9fb1.png,54,1.5,แมลง ต่อสู้
+214,นิวลา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f6aa8ba86641d37951e957c98ca24852415eaa79.png,28,0.9,ความมืด น้ำแข็ง
+215,ฮิเมกุมะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cfc46c413c96ee522461bc07fcaf0e52a1cefded.png,8.8,0.6,ปกติ
+216,ริงกุมะ,215,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/84d5dfac179b1165400bced3fb26d6efe941db8e.png,125.8,1.8,ปกติ
+217,มักแม็ก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2464897cf0117a088c44f79d3b38d3a0c7cdf1c1.png,35,0.7,ไฟ
+218,มักคาร์โก,217,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f2c7684047094bb7669c1ef4070475ada8ed6d25.png,55,0.8,ไฟ หิน
+219,อุริมู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fd50130cf69a3b355666f6534cd14c0d648a8500.png,6.5,0.4,น้ำแข็ง ดิน
+220,อิโนมู,219,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/30144ab2b19d163a8c4cb1f5f2da76fab216705f.png,55.8,1.1,น้ำแข็ง ดิน
+221,ซันนีโก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fed93acdbe2d4fdf4677c55c4964128a54711d7d.png,5,0.6,น้ำ หิน
+222,เทปโปโอ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4edd69e79aacbd95a49517b11198ad37f86b9ccf.png,12,0.6,น้ำ
+223,ออคตัน,222,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/40698c62ba96d60aa0edb2672c444b7da05a6f8f.png,28.5,0.9,น้ำ
+224,เดลิเบิร์ด,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3070d20fbfdfe27e849f36fc29bb120c6e98f8a1.png,16,0.9,น้ำแข็ง บิน
+225,แมนไทน์,224,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ff171798dc7c58cacc6fb5a1072e3027ac630402.png,220,2.1,น้ำ บิน
+226,แอร์มุโด,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bd1928522605553c6a669e8f32a8de3fdcc8a315.png,50.5,1.7,โลหะ บิน
+227,เดลวิล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d035645f7b74a36eb0ab22c453244c54d432d412.png,10.8,0.6,ความมืด ไฟ
+228,เฮลการ์,227,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/13586581e62759dc41f668168c9f51c9a75c9356.png,35,1.4,ความมืด ไฟ
+229,คิงดรา,228,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dcebc814b47a66f6af995293c4c9703510f3203c.png,152,1.8,น้ำ มังกร
+230,โกมาโซ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/43e554fc9e1f4b2abe8ad1d142b68d74e16223a1.png,33.5,0.5,ดิน
+231,ดอนแฟน,230,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e3e47319f8e791fd35559c75f552ceb36d6a141f.png,120,1.1,ดิน
+232,โพรีกอน2,231,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e0cf20200e19405d7cffd0940e0380f5725e0451.png,32.5,0.6,ปกติ
+233,โอโดชิชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/508351880e80ddb6603147396172f87a86d53988.png,71.2,1.4,ปกติ
+234,โดเบิล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a5f9a095f4598f63d6092a077c765e1839687707.png,58,1.2,ปกติ
+235,บัลกี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dac21223589cec6f966b60aca69116f34d29e904.png,21,0.7,ต่อสู้
+236,คาโพเอลาร์,235,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bdedd5abef36cedc665b7f8fd63c8ce103444b54.png,48,1.4,ต่อสู้
+237,มุจูล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/17973f54d105d192a89f202f32d4338cda0e2738.png,6,0.4,น้ำแข็ง พลังจิต
+238,เอเลคิด,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e827edb2bf8db22caea14f21da3469a1d7173844.png,23.5,0.6,ไฟฟ้า
+239,บูบี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/280744894a29f2990909bf6f8f50d07c2cababbd.png,21.4,0.7,ไฟ
+240,มิลแทงค์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e22a57632e83045e3c510f2f31dbb0f249c61a34.png,75.5,1.2,ปกติ
+241,แฮปปีนาส,240,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2ea9c95fc5631b6f3c053994398ecff332b40e56.png,46.8,1.5,ปกติ
+242,ไรโค,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c1261aabc35a32d67c08bcaea12c4c879ea2aff3.png,178,1.9,ไฟฟ้า
+243,เอ็นเต,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/967b76092000c899bf62b7c15a2e9e6827f5e304.png,198,2.1,ไฟ
+244,ซุยคูน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2de9e74170ed9d1aac76d9d87ea578d76e5baa0a.png,187,2,น้ำ
+245,โยกิราส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9d882f56b195135b492a494c2136928aabd00395.png,72,0.6,หิน ดิน
+246,ซานากิราส,245,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c82e383cc71b7f58078692a9611c6134bbdbaca5.png,152,1.2,หิน ดิน
+247,บันกิราส,246,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9fbe8d7d76096b418aa495e0ceb6e284e612a081.png,202,2,หิน ความมืด
+248,ลูเกีย,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/44708bc0531c717525ca3fc2bc92baf00c59de75.png,216,5.2,พลังจิต บิน
+249,โฮโอ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/76401a64fd7bc07a3476b288e29f91b7966e5ed0.png,199,3.8,ไฟ บิน
+250,เซเลบี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/af204c2381a4d78eae3f801521137bbf63ffd944.png,5,0.6,พลังจิต หญ้า
+251,คิโมริ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e09cc249c929843514abac5c9fbd644ede62e5b2.png,5,0.5,หญ้า
+252,จุปไทล์,251,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/85e9e0a83a2281527cbdb9d0a151e53881ba716b.png,21.6,0.9,หญ้า
+253,จูไคน์,252,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d39f0f1df713e8e0199cc72e8cf7af47cd5a5855.png,52.2,1.7,หญ้า
+254,อาชาโม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5903561fb10a3c625a06c2e01d44faff8946d398.png,2.5,0.4,ไฟ
+255,วาคาชาโม,254,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f8ec5dcba640056246a9b80ca0474d64f08e743b.png,19.5,0.9,ไฟ ต่อสู้
+256,บาชาโม,255,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/947ff39f80129baca28d55a25cda84dc47087ecd.png,52,1.9,ไฟ ต่อสู้
+257,มิซึโกโร,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/33b32e8a93e55cbb39d07fa08f6bf183013572bc.png,7.6,0.4,น้ำ
+258,นูมาโคร,257,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5018f4ca271afb8a95528a2cb8b30d765dc00627.png,28,0.7,น้ำ ดิน
+259,ลากลาจ,258,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/913d9d8024c8f4ba1f9d22ae8ba0e7b0bd4bf77e.png,81.9,1.5,น้ำ ดิน
+260,โปชิเอนา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/07f7dfe943112a1c0e38be9fae7ffd6330637dc6.png,13.6,0.5,ความมืด
+261,กราเอนา,260,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c5e61e356be7f909b01f9876101300567f11f76c.png,37,1,ความมืด
+262,จิกุซากุมะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1dc1c0b84985b9ccb9fea189dfa4e3c5ded56c71.png,17.5,0.4,ปกติ
+263,มัสสึกุมะ,262,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6613011ef43e2f824fe1b6d15c711e7a83bf7da9.png,32.5,0.5,ปกติ
+264,เคมุตโสะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9bfcec414eb2ebb6cbc79e29f03f13fcd69fcb20.png,3.6,0.3,แมลง
+265,คาราซาลิส,264,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b599bf87caad47845cd9551000d5425465a32ed8.png,10,0.6,แมลง
+266,อาเกฮันท์,265,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fc5b91d5ab9164d29ed8e39dc042894dcdb8f557.png,28.4,1,แมลง บิน
+267,มายูลด์,266,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2baa4691e20d513e789c4d16be1a59cce584b53a.png,11.5,0.7,แมลง
+268,โดคุเคล,267,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8b16c85225f33c702e66e09f31f8afa77237c255.png,31.6,1.2,แมลง พิษ
+269,ฮาซึโบ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0a143ce04509eae43e5e91277eddf2939b4ba80f.png,2.6,0.5,น้ำ หญ้า
+270,ฮาซึเบรโร,269,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/34c6a830a8bf6416149bb08103b30217e3db8a97.png,32.5,1.2,น้ำ หญ้า
+271,รุนปัปปา,270,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a7a8b9c0b9b71013143e1de566457f6901118b2e.png,55,1.5,น้ำ หญ้า
+272,ทาเนโบ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0496bf6b13e163870cf4122c770e5bfd6729b29e.png,4,0.5,หญ้า
+273,โคโนฮานะ,272,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bb200583abae1e469215744c859ee3e6403b7e6d.png,28,1,หญ้า ความมืด
+274,ดาเทนกุ,273,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/752f3246c2ee7d729ab6caeec6a13542902e0ef4.png,59.6,1.3,หญ้า ความมืด
+275,สึบาเมะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/44e8c7a3a24251a240fc9d4a764b7a561b08d02c.png,2.3,0.3,ปกติ บิน
+276,โอโอสึบาเมะ,275,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e8429346c393f7bbb55eb05f1049c8eba3dc73a3.png,19.8,0.7,ปกติ บิน
+277,คาโมเมะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b23c968296c1b62d6b36bdbbdca00fe31aa71456.png,9.5,0.6,น้ำ บิน
+278,เพลิปเปอร์,277,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7c464b5870010c09f605c00e1589cacd1463335b.png,28,1.2,น้ำ บิน
+279,ราลทซ์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f03985b3592de4c132f47ea359f8e700f86f1a3b.png,6.6,0.4,พลังจิต แฟรี่
+280,เคอเรีย,279,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/581324fb829bc344584a92e7443b759146fdeda0.png,20.2,0.8,พลังจิต แฟรี่
+281,เซอไนท์,280,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bc3d0b23c6c391470d9f4f37e7f8882a55a74da8.png,48.4,1.6,พลังจิต แฟรี่
+282,อาเมทามะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/db6699b1299a5ddc6fac072521e6a7af5608b4b8.png,1.7,0.5,แมลง น้ำ
+283,อาเมมอธ,282,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/12c31be9dcf1bfc481fd2c4a51af3a5b07bd4ed4.png,3.6,0.8,แมลง บิน
+284,คิโนโคโค,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/40b5abece6dc9e699df8186077425bd76e0af9b1.png,4.5,0.4,หญ้า
+285,คิโนกัซซา,284,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3aa8c625ee9c1d0dee559a73d8d4ea455aaea785.png,39.2,1.2,หญ้า ต่อสู้
+286,นามาเคโร,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/25ecd635b6ac9803e574229c886ede9a2f1fbd38.png,24,0.8,ปกติ
+287,ยารุคิโมโนะ,286,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e47866fb565a6326a380e7d28387d29306a9a23f.png,46.5,1.4,ปกติ
+288,เค็คคิง,287,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/706c8f11741c23d1fe770bfaa46d57b7c424522c.png,130.5,2,ปกติ
+289,สึจินิน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/37fa1f22e8e92f938fb29efce57ba58100e88eba.png,5.5,0.5,แมลง ดิน
+290,เท็คคานิน,289,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e2e8dd2e56438f24777a0e35d3578a90650cd911.png,12,0.8,แมลง บิน
+291,นูเคนิน,290,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/850c05d9fe18acb5bdb2ea553866d02e20077945.png,1.2,0.8,แมลง ผี
+292,โกเนียวเนียว,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/317425bdb3ad33c3d6b35fbd2622cc34ec24f525.png,16.3,0.6,ปกติ
+293,โดกอม,292,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/01aaefd3d17c873253e4fbfbee5454f3b33e3544.png,40.5,1,ปกติ
+294,บาคุองก์,293,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3ed66e5f66b0cae2e3334e50b4dddc8df01c48d5.png,84,1.5,ปกติ
+295,มาคุโนชิตะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/afb1e8613ddbbb67651e34b2977d79adcc9867b6.png,86.4,1,ต่อสู้
+296,ฮาริเทยามะ,295,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3f8fdd2c376fdbe4b6ad58d2718b45037bf1bca1.png,253.8,2.3,ต่อสู้
+297,รูริริ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ade062c9da7639429267dd29d9e093edc88c7e82.png,2,0.2,ปกติ แฟรี่
+298,โนซพาส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fd64e4090e0985ef6ee49f5deccc1243987d71e2.png,97,1,หิน
+299,เอเนโค,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/52d8028278c9f61be39821b39ecb0e5fdaf437fa.png,11,0.6,ปกติ
+300,เอเนโคโรโระ,299,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2e210c674cc59abdcfef8561d4008bf6a0714746.png,32.6,1.1,ปกติ
+301,ยามิรามิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fa0be236a62823ea2f16dfe75b68dd597cf316ad.png,11,0.5,ความมืด ผี
+302,คูชีท,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/889dc12582d38d6858844fc6820fc5663b6c11c4.png,11.5,0.6,โลหะ แฟรี่
+303,โคโคโดรา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ff57836104f21864d9c6b73460292e4ebbdd1950.png,60,0.4,โลหะ หิน
+304,โคโดรา,303,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/35cc921be4c5981676eaadfb35236eb59afe7160.png,120,0.9,โลหะ หิน
+305,บอสโกโดรา,304,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c83c6d2b5959dcaa2c83f8d55613b4cabd2d7361.png,360,2.1,โลหะ หิน
+306,อาซานัน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3e18d8d058e1e401c5863d031a63778ff7fad255.png,11.2,0.6,ต่อสู้ พลังจิต
+307,ชาเรม,306,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/22277aef9f552d52589f1485cbb139ffc6754030.png,31.5,1.3,ต่อสู้ พลังจิต
+308,ราคุไร,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e516fbd2badb639de2f6b4f06628c8652df0bfaf.png,15.2,0.6,ไฟฟ้า
+309,ไลโวลต์,308,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/72dc1c948d1d1d1661c1f2135e5d0c084fc39ee6.png,40.2,1.5,ไฟฟ้า
+310,พราเซิล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f82fd557ce114e76004cbf6114660cb5908222c7.png,4.2,0.4,ไฟฟ้า
+311,ไมนัน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/317110bc394b29a1b4e783f000a3150ca54af50d.png,4.2,0.4,ไฟฟ้า
+312,บารูบีท,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/36e87722b0ac2cc117c7fbb61f9176cc9fefb760.png,17.7,0.7,แมลง
+313,อิลูมิเซะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6e589fd8b0a08203c0cc934f4b80735a7d23c424.png,17.7,0.6,แมลง
+314,โรเซเลีย,313,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/eb1a308886e9b0a734eb27cb2f2740c0632b56c5.png,2,0.3,หญ้า พิษ
+315,โกคูลิน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1850cb4846961e0db1adcfd58ec2b9e56f8a262a.png,10.3,0.4,พิษ
+316,มารุโนม,315,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b088de672c6d701013eae99356e28be0d34e75e7.png,80,1.7,พิษ
+317,คิบาเนีย,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c30bd2eece3f4b999be082bfd49eb00a9b97110b.png,20.8,0.8,น้ำ ความมืด
+318,ซาเมฮาเดอร์,317,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1772155ca13336ff64240c06257f1547dea9e72e.png,88.8,1.8,น้ำ ความมืด
+319,เวลโกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1e371b9b7d30fbb2e06b808ae490e8b2bd27477b.png,130,2,น้ำ
+320,เวลโอ,319,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/59f7cf285bda532a39de3040f20ef6fed6c23c6d.png,398,14.5,น้ำ
+321,ดอนเมล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f0ce0f0c4ab180ab790d03a0b8dceb9925ec3c9d.png,24,0.7,ไฟ ดิน
+322,บาคูดา,321,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6ef26ba0948b71b449df47a73da48d60e7df88bf.png,220,1.9,ไฟ ดิน
+323,โคทอยซ์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f838f5040357a632ffd49172e050e279da79aebb.png,80.4,0.5,ไฟ
+324,บาเนบู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f344077453ed49553a75c8c6e12409e4b86d39ee.png,30.6,0.7,พลังจิต
+325,บูพิก,324,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/369dc25a556964d636f28054f6ea8f1555675223.png,71.5,0.9,พลังจิต
+326,พัทชีล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6d72b2dce3e16d3c083943b05eef10b89efc2f9f.png,5,1.1,ปกติ
+327,นัคครา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/eceedae11954b6e253088a94fc8d4ce5830a713a.png,15,0.7,ดิน
+328,วิบราวา,327,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1e28beac98bd9d52fe346f06c64b4c3d4e73148b.png,15.3,1.1,ดิน มังกร
+329,ฟลายกอน,328,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/842de5935ca2e534049c2294abe164d22c253f52.png,82,2,ดิน มังกร
+330,ซาโบเนีย,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/08c4d0bd21e0f0d9d2d99b6aeb334d658d6c7c9b.png,51.3,0.4,หญ้า
+331,น็อคทัส,330,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ace94f428f74aaa5381f18a67b875512307685ff.png,77.4,1.3,หญ้า ความมืด
+332,ทิลท์โท,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/26b9e1a44d8132826a66902935baf612a684c5c4.png,1.2,0.4,ปกติ บิน
+333,ทิลทาลิส,332,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0583f1badf583c486638ee75c63e8abcab20761a.png,20.6,1.1,มังกร บิน
+334,แซงกูส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0f40a89ed68c4539ee864e432980b73af7e46b7a.png,40.3,1.3,ปกติ
+335,ฮาบูเนค,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/30c40ba00673e1c9b979752477ad740397a6bcd7.png,52.5,2.7,พิษ
+336,ลูนาโทน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1361445d102f53120406033174f81254e83c1a77.png,168,1,หิน พลังจิต
+337,โซลร็อก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/88fa12f4bcea6b739baf4f6e5a57662360cff123.png,154,1.2,หิน พลังจิต
+338,โดโจทช์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9ad4f081bac9acb6cf6b865b33a3ff960efdbb34.png,1.9,0.4,น้ำ ดิน
+339,นามาซูน,338,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a4dfef7af997fdd8ffec571ac370f1c9f04dc066.png,23.6,0.9,น้ำ ดิน
+340,เฮกานิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/44c7090c460ef1724f454facf78bc1a393e5aaef.png,11.5,0.6,น้ำ
+341,ชิซาริเกอร์,340,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4992f2e073cfcd56e6a83b7e536dcee7026c8bd0.png,32.8,1.1,น้ำ ความมืด
+342,ยาจิลอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/79f506a3da448fb439a46a84b6b9d480614060ca.png,21.5,0.5,ดิน พลังจิต
+343,เนนดอลล์,342,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a6616b936253c1226245d642c2bd19f4ad9eb273.png,108,1.5,ดิน พลังจิต
+344,ลิลีลา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c213418116405410589d47a08fcbe12d0d8caffb.png,23.8,1,หิน หญ้า
+345,ยูเรเดิล,344,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d729e836684b7c7a7ecd60a69f57459a27329e8a.png,60.4,1.5,หิน หญ้า
+346,อน็อปธ์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a57102129d4a2459746492364898b93889a4cd6b.png,12.5,0.7,หิน แมลง
+347,อามัลโด,346,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/25568943eadb2ec8b4298f0d9e92b643a74cdb58.png,68.2,1.5,หิน แมลง
+348,ฮินบาส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/33bc0797c597538eb05373ba35b7a2a84038f87f.png,7.4,0.6,น้ำ
+349,มิโลคารอส,348,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fea142043a53539815b5a08756a010348931350a.png,162,6.2,น้ำ
+350,โปวาลุน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2417d34f6020c9ebcc1bc09f161b78d56eab92e0.png,0.8,0.3,ปกติ
+351,คาคุเลียน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ab6201c92f656bc6123c9a759184b4e20c38c95f.png,22,1,ปกติ
+352,คาเงะโบสึ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8b236d327f2aeae5c3f6491ad4b218bb5c2cca3b.png,2.3,0.6,ผี
+353,จุปเป็ตตะ,352,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d79c0c0d438ff5dde2e0d3f7c3fe4fd312c55b38.png,12.5,1.1,ผี
+354,โยมาวารุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/14a960a289c7782d6b1f1e21d669e16153fd4004.png,15,0.8,ผี
+355,ซามาโยรุ,354,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6a82e5a5f541702a1f624f24f8d8b65f25002558.png,30.6,1.6,ผี
+356,โทรพิอุส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/65685a0773fc5d4182361c4312e992fcb779cf05.png,100,2,หญ้า บิน
+357,ชิรีน,356,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4509025f08b3748ef1f99a25918992f055efd703.png,1,0.6,พลังจิต
+358,แอบโซล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1eaad86bbb4faf9b3bca77fffadb906ba8180d32.png,47,1.2,ความมืด
+359,โซนาโนะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e5f3ddbd4b2b4373167af18a564b9a906e3687a7.png,14,0.6,พลังจิต
+360,ยูกิวาราชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bfd143df49d01a4dff9172c05baa85bc89d6da55.png,16.8,0.7,น้ำแข็ง
+361,โอนิโกริ,360,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/341bd41b95b187f828b4be98d1aca6fde684563a.png,256.5,1.5,น้ำแข็ง
+362,ทามาซาราชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b78c1937ad2d789abb26d2d33dd51a968c63bf1c.png,39.5,0.8,น้ำแข็ง น้ำ
+363,โทดอกเกลอร์,362,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ea5fc37423479f10a042155ab39fef318cf413d5.png,87.6,1.1,น้ำแข็ง น้ำ
+364,โทโดเซรุกา,363,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1b3da13ac5c89d5e538b6d4695e1d69d28c30dd1.png,150.6,1.4,น้ำแข็ง น้ำ
+365,ปาลูลุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/10aa8119b6768f4946443b3b1f301efaea1e75b0.png,52.5,0.4,น้ำ
+366,ฮันเทล,365,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f947aa53eb167d6f5d1948ac41e80782209a36c1.png,27,1.7,น้ำ
+367,ซาคุราบิส,366,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8275c09a2212c257e685b14f803678cda9410611.png,22.6,1.8,น้ำ
+368,จีแลนซ์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7969fb948b9b1cae796b538682b08d7c875e4732.png,23.4,1,น้ำ หิน
+369,เลิฟคัส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3baff8d6497b6d553da9b9caf99ebcdf10f6f068.png,8.7,0.6,น้ำ
+370,ทัทซึเบ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/34d420292325938434380d6f2f1abde7456cdaf5.png,42.1,0.6,มังกร
+371,โคโมรู,370,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b4fc26ce33521e32f64d84494abaca94ad76b1b0.png,110.5,1.1,มังกร
+372,โบมันเดอร์,371,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1b6da69201f81f16752be61288bbb07575b71113.png,102.6,1.5,มังกร บิน
+373,ดันบัล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/874e1c98380ed5026b0938552f5cb60d2eab3743.png,95.2,0.6,โลหะ พลังจิต
+374,เมแทงก์,373,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6ac7e6e8ff9ac9fbcd55647f90973822caba43fd.png,202.5,1.2,โลหะ พลังจิต
+375,เมทากรอส,374,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7ed3b8018182fffad36c3b3534930170e5ed92a7.png,550,1.6,โลหะ พลังจิต
+376,เรจิร็อก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2dd466d60c03933d6d4f60c3859ed69058ac6d67.png,230,1.7,หิน
+377,เรจิไอซ์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a797782c9295522a9642e6682f279cc373921a3d.png,175,1.8,น้ำแข็ง
+378,เรจิสตีล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bc27a28a5ca69294fef59bf9815f848173b9a486.png,205,1.9,โลหะ
+379,ลาทิอาส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/648f3a069476c341b6c7ce755fde65ff244504aa.png,40,1.4,มังกร พลังจิต
+380,ลาทิโอส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5a25f1cc2f86cab788c01291e2f5888545e73f54.png,60,2,มังกร พลังจิต
+381,ไคออกา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/791478067602b397c7ffd0defdd380bad39f2a6f.png,352,4.5,น้ำ
+382,กราดอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d19f02a5b30541b7b696a6efeb8f368756702e3d.png,950,3.5,ดิน
+383,เร็คควอซา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f6a02199446c37509259046601ee6ac55542e97f.png,206.5,7,มังกร บิน
+384,จิราชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/03c12c7894da033493007adcef4c9ac650a23cd8.png,1.1,0.3,โลหะ พลังจิต
+385,ดีอ็อกซิส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3dd911dcc578432a78731ed5f2d8ab6ab07dabac.png,60.8,1.7,พลังจิต
+386,นาเอเติล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/57dadab31f0df98224f839e026b9883aa1ae3924.png,10.2,0.4,หญ้า
+387,ฮายาชิกาเมะ,386,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1b8f0bbccf1cb73068608a2735fd004b040d996a.png,97,1.1,หญ้า
+388,โดไดโทส,387,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bb78c61177528eb7bd09e3f7a5a20628514506cc.png,310,2.2,หญ้า ดิน
+389,ฮิโกซารุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0ca7040a3690c1d41d5134720da585d237c91837.png,6.2,0.5,ไฟ
+390,โมคาซารุ,389,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e603602d3bdccf5ea667b2e6134172c5cbae7809.png,22,0.9,ไฟ ต่อสู้
+391,โกคาซารุ,390,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bf75e37cf956934e36389065dd83d3fd8156a0a1.png,55,1.2,ไฟ ต่อสู้
+392,โพจจามะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f3868a6a16c75d75435819deab8bab97926fc54c.png,5.2,0.4,น้ำ
+393,โพจไทชิ,392,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8cfb7e43b94feb75e11e612a2b18075a247a820e.png,23,0.8,น้ำ
+394,เอ็มเพลท์,393,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b9315248eb858f1d27c2820c3143f0592981a8c9.png,84.5,1.7,น้ำ โลหะ
+395,มุคคูรุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2b43cb4cdbac1c6c0f318c0cb28dd98cf0bc5d7b.png,2,0.3,ปกติ บิน
+396,มุคูเบิร์ด,395,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/19a96fc505bababdb3dcea2fb57c9b33c45a6b86.png,15.5,0.6,ปกติ บิน
+397,มุคูฮอว์ก,396,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/17e6bc79d3b91f5d0ff143d89d547f71db27c63d.png,24.9,1.2,ปกติ บิน
+398,บิปปา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9a509a9fd23f903d12173115e765838158e64e99.png,20,0.5,ปกติ
+399,บีดารุ,398,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f53052bc375f8a98f717890ff06990988f8601a2.png,31.5,1,ปกติ น้ำ
+400,โคโรโบชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/414be2a80cbdafbdbf0f7f16dc26bdcd1d8ffdc8.png,2.2,0.3,แมลง
+401,โคโรท็อก,400,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/92ccd9bf8d8023b2e27412e7e52298c3eb3f5ba0.png,25.5,1,แมลง
+402,โคลิงก์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7d601b22a8768e5fa738d4c1191463fd2bcdc91c.png,9.5,0.5,ไฟฟ้า
+403,ลุคซิโอ,402,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d660b35873cef4509258fd5e58c4560dcf80ff80.png,30.5,0.9,ไฟฟ้า
+404,เร็นโทรา,403,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7275dd75bb1942ebb59caf6f82b8a3477a012a8d.png,42,1.4,ไฟฟ้า
+405,ซึโบมี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8e60ea2b7a749fd94ba0d37a1a5adf5d4e84b675.png,1.2,0.2,หญ้า พิษ
+406,โรสเรด,405,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/61031473809ecac81ea3e45d71ffbe1bda223247.png,14.5,0.9,หญ้า พิษ
+407,ซึไกโดส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/963bb1c3938fe9087b19d13102190aec22558dfb.png,31.5,0.9,หิน
+408,แรมพาร์ด,407,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/479c4e29266ab5c24e2e347ce4a238bbed7a9773.png,102.5,1.6,หิน
+409,ทาเทท็อปส์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1e91c3a0f939f8a07c8ef2bab61ad73aa1eea664.png,57,0.5,หิน โลหะ
+410,โทริเด็ปส์,409,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/24633af77416e9ffdeeed8143937ed4fb11d100d.png,149.5,1.3,หิน โลหะ
+411,มิโนมุจจิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/750ccc2f54ee66c3a47e331b58f11ec01b28405d.png,3.4,0.2,แมลง
+412,มิโนมาดาม,411,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5d503a9822d853625f41ab4bea29869cf84bd659.png,6.5,0.5,แมลง หญ้า
+413,กาเมล,412,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/feacd42d2d663a5a197404b946fab984988bfe7c.png,23.3,0.9,แมลง บิน
+414,มิทซึฮันนี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/39406d5636d65c1b6dda3ed450ac3cfed069026c.png,5.5,0.3,แมลง บิน
+415,บีควิน,414,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dc6d73b8b5256bac9aa95f48ce2fd65edf33113b.png,38.5,1.2,แมลง บิน
+416,พาจิริซึ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f54134fa0e748ccc3a2afc4a70ace59b34ddcb1f.png,3.9,0.4,ไฟฟ้า
+417,บุยเซล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9427f1daedb70cf30d38a7e63b70685369ed1c30.png,29.5,0.7,น้ำ
+418,โฟลเซล,417,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ea306b206591d1736654c86725dca1435cf9cd07.png,33.5,1.1,น้ำ
+419,เชอรินโบ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0f5e18c1e5ea2314ec06514470e74856385409e7.png,3.3,0.4,หญ้า
+420,เชอริม,419,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/47fa1ec52ec478732d8c5043e3570e6120365310.png,9.3,0.5,หญ้า
+421,คารานะคูชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/88dea047d3aede92739fae69fdd28f2b8e41d926.png,6.3,0.3,น้ำ
+422,ไทรโทดอน,421,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a2c628aa140ea33e8fbfc225e714e2fe47fed8c3.png,29.9,0.9,น้ำ ดิน
+423,เอเทโบธ,422,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b3986927eb4ca6c18f7344122a3a37ff2d8a7ef3.png,20.3,1.2,ปกติ
+424,ฟูวันเต,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d0afac04203335cd41f01d4edec50f3f4d3ef1dc.png,1.2,0.4,ผี บิน
+425,ฟูวาไรด์,424,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ae7f12e0eb9929e9b3ee936496435f6711f0947b.png,15,1.2,ผี บิน
+426,มิมิโรล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3c74d09fc5c77d453e8267cce72d7263a16fee40.png,5.5,0.4,ปกติ
+427,มิมิล็อป,426,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/451e8286b8948ebd061450a5d2c5d21cea53c1fc.png,33.3,1.2,ปกติ
+428,มูมาจิ,427,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2ed3fc7439681c14e9679c5e03f808522aedebcb.png,4.4,0.9,ผี
+429,ดอนคาราซึ,428,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4ae0dd4cbd1b787580b246fa0359d4c364075626.png,27.3,0.9,ความมืด บิน
+430,เนียรุมา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/211a2a746e956cc71256745ed31d2689a0225d9b.png,3.9,0.5,ปกติ
+431,บูเนียตโตะ,430,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/62de04737da0fb972352a9cb8aa3f2234eeb866e.png,43.8,1,ปกติ
+432,ลีชาน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bda164d09f72c726b5c9bb471a17b2b20993fe17.png,0.6,0.2,พลังจิต
+433,สกังพู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/54a97452974114ee7ad44a2a646ac17587962eb7.png,19.2,0.4,พิษ ความมืด
+434,สกาแทงค์,433,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8ffc8914f81e8ce1f3d63da79d13c87cb5e4bc50.png,38,1,พิษ ความมืด
+435,โดมิเรอร์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4d4d7ede9f3fcabe88868fd00c24e5e853e86d15.png,60.5,0.5,โลหะ พลังจิต
+436,โดทาคุน,435,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a656b7eb5b6ea83b2b73ec735e934362414adcb9.png,187,1.3,โลหะ พลังจิต
+437,อุโซฮาจิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7edc819f6ebd67cdd927c94ba24597db632d1382.png,15,0.5,หิน
+438,มาเนเน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fffde76e49de70c9df4dae6b7f72ca89319427ec.png,13,0.6,พลังจิต แฟรี่
+439,พินพูคุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/68fb6785cd8ac32bd3e9a623c29dd4f9f880c0bc.png,24.4,0.6,ปกติ
+440,เพแรป,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e5c49f066748cdb4093e4176d0e5cc0d8a8ff30a.png,1.9,0.5,ปกติ บิน
+441,มิคารูเกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9f00195b2791c7f796148202bb38a4eb2adc04f5.png,108,1,ผี ความมืด
+442,ฟุคามารุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/809114c002019e1937a8738a7c5b02f77f641768.png,20.5,0.7,มังกร ดิน
+443,กาไบต์,442,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/34f2f90f5146bb8b42c89d6608c582f8f4651ff3.png,56,1.4,มังกร ดิน
+444,กาเบรียส,443,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d4d0ef0113d937d63f150354bd7a1869b36f33ea.png,95,1.9,มังกร ดิน
+445,กอนเบะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9045520683084c28ae9f459d29426567e72d8abe.png,105,0.6,ปกติ
+446,ริโอลุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/aae700aa7bb29fae4a30b77c495b0b66406d74d6.png,20.2,0.7,ต่อสู้
+447,ลูคาริโอ,446,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1e83fbcb00ab179cc89db5c53baea3e72d5942ad.png,54,1.2,ต่อสู้ โลหะ
+448,ฮิปโปโปตัส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b29e7ce575c69eb80894de8c529eaa073528cfc0.png,49.5,0.8,ดิน
+449,คาบัลดอน,448,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9cf686e06841bf55df81b7d081d7329851eb5d50.png,300,2,ดิน
+450,สกอร์ปี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0e7e54f2b2460caca3d9c56dacc988679667fbd7.png,12,0.8,พิษ แมลง
+451,โดราเปียน,450,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/004f2219d6d2e54f41e00343714b9313d9efd99d.png,61.5,1.3,พิษ ความมืด
+452,กูเรกกรู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/985595fa70c8adc4f26a2074e19aa2d9596b116a.png,23,0.7,พิษ ต่อสู้
+453,โดคูร็อก,452,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1f4f69841259e490584d640a1d8d8cc69f6f57a8.png,44.4,1.3,พิษ ต่อสู้
+454,มัสคิปปา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8ab6e40e0c858498151863038c26694589773b86.png,27,1.4,หญ้า
+455,เคโคโอ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1b036ae520b440aa9741b1c4193c7a50ce5214e7.png,7,0.4,น้ำ
+456,เนโอแลนท์,455,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/da6e50df7d20aad11facd637f65e767516821418.png,24,1.2,น้ำ
+457,ทาแมนทา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a8eb238e6822602c3a151f7ed56de77517284d3b.png,65,1,น้ำ บิน
+458,ยูกิคาบูริ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/55f6459045c82463cf86e6021a78673a308e2b5d.png,50.5,1,หญ้า น้ำแข็ง
+459,ยูกิโนะโอ,458,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/78cf3a00eb7c442d2f93136ac1e5ff298381c135.png,135.5,2.2,หญ้า น้ำแข็ง
+460,มานิวลา,459,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4647a07643460c510c56a3d66a0a056d3acecfbe.png,34,1.1,ความมืด น้ำแข็ง
+461,จิบะคอยล์,460,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2ab2b39586d0d13a9f5bbb10bbc5ca7acfd1b87d.png,180,1.2,ไฟฟ้า โลหะ
+462,เบโรเบลท์,461,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8b39a69974c0a1bf5ae8076e241bc6cd56147420.png,140,1.7,ปกติ
+463,โดไซดอน,462,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/532303e5b084a5a419be52e8b1e788cd92156450.png,282.8,2.4,ดิน หิน
+464,โมจัมโบ,463,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/db4c38f5a6f59162fc470cb02f8cbd03df71b144.png,128.6,2,หญ้า
+465,เอเลคิเบิล,464,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ea3336a1c8d6fbbfddf7339f748f516fdbf479a2.png,138.6,1.8,ไฟฟ้า
+466,บูเบิร์น,465,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6bec00f39c3b07e12175e9b9723ce3c7e87fe910.png,68,1.6,ไฟ
+467,โทเกคิส,466,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d3c43e93db47217ee457ac9226115fcc514e983e.png,38,1.5,แฟรี่ บิน
+468,เมกะยันมา,467,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/570d7e9399add0a24e70929bd65a8d959329d7a9.png,51.5,1.9,แมลง บิน
+469,ลีเฟีย,468,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7f1e68189aba8d4c1fa4513ea2a9559d1e64799a.png,25.5,1,หญ้า
+470,กราเซีย,469,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bac1f907c1b3d8eb9ea77477c395cf31147b47e5.png,25.9,0.8,น้ำแข็ง
+471,ไกลออน,470,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d7733c329cc74387d6c197cb3ba72061d0c5c718.png,42.5,2,ดิน บิน
+472,แมมมู,471,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b4b1364ac4bb4e243c43749a26ed3a1d617d2244.png,291,2.5,น้ำแข็ง ดิน
+473,โพรีกอน-แซด,472,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1f2551fec0bed487d3e7e55c5300aed0175e02f3.png,34,0.9,ปกติ
+474,เอรูเรโด,473,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/20b55228e9d4c4160aed8b25cffbb2be48b80a16.png,52,1.6,พลังจิต ต่อสู้
+475,ไดโนซ,474,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3ef169934683ee93a67974436a500df55cbaed7a.png,340,1.4,หิน โลหะ
+476,โยนัวร์,475,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/48ae5a55b7cd9a0f8809a00bcede50612027d279.png,106.6,2.2,ผี
+477,ยูกิเมโนโกะ,476,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/caa060a11c4104aed3812e715417ebf6666cfaa7.png,26.6,1.3,น้ำแข็ง ผี
+478,โรตอม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0e8fe050bf0d35f752267629707bddef00bc1405.png,0.3,0.3,ไฟฟ้า ผี
+479,ยุคซี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/abdc1a6d8fbf97d2ce4f42f39a7618ed5ee58f29.png,0.3,0.3,พลังจิต
+480,เอ็มริต,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c4c3b5fa66ccb67b58294e01c1dab249be5468a0.png,0.3,0.3,พลังจิต
+481,อักนอม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7a5384f7f9544160fac09bb8a5288236b78547fa.png,0.3,0.3,พลังจิต
+482,ดีอัลกา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8668d7ffbb6f65021375ea43c9cc717d8ec1b156.png,683,5.4,โลหะ มังกร
+483,พัลเกีย,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/72ef81c09d7c20d3b0004d8a2a3407553ed2440b.png,336,4.2,น้ำ มังกร
+484,ฮีดราน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/33ffbccab92231180b36e4f6ce5fdb24da4c14a0.png,430,1.7,ไฟ โลหะ
+485,เรจิกิกัส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ffa9cf41b9ce0171942705f59a3280b5c561f6b7.png,420,3.7,ปกติ
+486,กิราตินา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1a16fdaf9e25191bd623a9ba290010a820687a73.png,750,4.5,ผี มังกร
+487,เครเซเลีย,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b55203b6d8f744d6cf9fd013be8d158d1c505c76.png,85.6,1.5,พลังจิต
+488,ฟีโอเน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0b3d0a6b63c1d52eaf8cce331a95e7d5676aae13.png,3.1,0.4,น้ำ
+489,มานาฟี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a152d107ddb35dda63f879eda326e0f391b5746b.png,1.4,0.3,น้ำ
+490,ดาร์กไร,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b42d945352da56b666f18921e82460bba81898c8.png,50.5,1.5,ความมืด
+491,เชมิน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b841c39ff825aa872522556a84a32da17cab9146.png,2.1,0.2,หญ้า
+492,อาร์เซอุส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1c86ad9c6ea2870346de2ecc1c4d2ffad244c9fc.png,320,3.2,ปกติ
+493,วิคทินี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dee875dc781108a1a78575973be7a984a7d68161.png,4,0.4,พลังจิต ไฟ
+494,สึทาจะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c95f08ee54a6d137323467bef5891d216e692e66.png,8.1,0.6,หญ้า
+495,จาโนวี,494,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b1409b57829ef8db3ff1ee2d076d483f99c9d077.png,16,0.8,หญ้า
+496,จาโลดา,495,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fa33acbef6766bfd3829d8ef803b058b19e5e76b.png,63,3.3,หญ้า
+497,โพคาบู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/da19a597632cf370f791ef7fac3753f560a1b2c7.png,9.9,0.5,ไฟ
+498,จาโอบู,497,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/649b3c0f69e218d567e16e97253d7a20648c64bb.png,55.5,1,ไฟ ต่อสู้
+499,เอ็นบูโอ,498,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1cd28ab410622799104688403306c7d08481cc03.png,150,1.6,ไฟ ต่อสู้
+500,มิจูมารุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4781cf224a92b952b90c5c54f7897f6870ce8f1e.png,5.9,0.5,น้ำ
+501,ฟุตาจิมารุ,500,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d5ab7b1f85abce36f339e724810299b8398b9c19.png,24.5,0.8,น้ำ
+502,ไดเคนคิ,501,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ae31ab484a7e6a02246162a218869ca07eb313df.png,94.6,1.5,น้ำ
+503,มิเนซูมิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/40253c8285a743847c453e827c3679384c90f809.png,11.6,0.5,ปกติ
+504,มิรูฮอก,503,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/79ceae19f2bb89678a3f1093154ddb8675dac384.png,27,1.1,ปกติ
+505,โยเทอรี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/db1d1136071e4c949e5a72b8dcd832951261c85f.png,4.1,0.4,ปกติ
+506,เฮอเดอเรีย,505,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c1d3a315400ca09df7a136a99f6dae8a048737c5.png,14.7,0.9,ปกติ
+507,มูแลนด์,506,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3ad49ec1ba4e0f253e3e06342526b15a26b94fcb.png,61,1.2,ปกติ
+508,โจโรเนโกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c0cb468a31cb0b1cd34b6ad4c6c4c02de1d4c595.png,10.1,0.4,ความมืด
+509,เลพัลดัส,508,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/322b3f833e407ecacd0ffad02f2366a6571a9694.png,37.5,1.1,ความมืด
+510,ยานัปปุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c25f48da1d158d3ea91aecdcf51c76d51c813f32.png,10.5,0.6,หญ้า
+511,ยานักกี,510,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f92dd2546c461aaa9ae2d5b23fa4c0f423001b43.png,30.5,1.1,หญ้า
+512,บาอปปุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/400f7f86bc2c72506e64f0a72d4127b1df78439f.png,11,0.6,ไฟ
+513,บาอกกี,512,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6dc5d409e1859b7483ceb9fb4c330370ff926bba.png,28,1,ไฟ
+514,ฮิยัปปุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1c210f9a05a30f7fd11b0c8a7a53b51b67aa6b7f.png,13.5,0.6,น้ำ
+515,ฮิยักกี,514,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/eab31510354030b251bdccb1e197cc5698487ef9.png,29,1,น้ำ
+516,มุนนะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2741d4fca8020f7af77a993dc97c7076097416b5.png,23.3,0.6,พลังจิต
+517,มุชานา,516,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/773b1377f48e87f722ef14f2258ce4039a17cc44.png,60.5,1.1,พลังจิต
+518,มาเมพาโตะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/08569c067d1cd32fdc4cfe4c90dea542f499efb4.png,2.1,0.3,ปกติ บิน
+519,ฮาโทโบ,518,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8905a7c857f548a2e8a11c92919975506b8f7b3c.png,15,0.6,ปกติ บิน
+520,เคนโฮโล,519,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b94492deaefcc86ada0bd891761493c599bc3984.png,29,1.2,ปกติ บิน
+521,ชิมามา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a0380ab915fb9363a8ac901c0fbec4bdbc64b666.png,29.8,0.8,ไฟฟ้า
+522,ซีบรายกา,521,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4ab6448b998e37191208cdc3662bd3d739c57d90.png,79.5,1.6,ไฟฟ้า
+523,ดันโกโร,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7c82f150c893f9c87b74d95d8da382958ff49f30.png,18,0.4,หิน
+524,กันเทิล,523,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/75e53e1ce31cebcfc3a6e183146e8b9354d1a133.png,102,0.9,หิน
+525,กิไกอาซ,524,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/90e51270734d57f8c38f7355e8acd29388e3f933.png,260,1.7,หิน
+526,โคโรโมริ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/18cb78a471bb907e93820adb9053710af5e550e2.png,2.1,0.4,พลังจิต บิน
+527,โคโคโรโมริ,526,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3ed8d60664171759b5157c96e0fc0951efe5b0f6.png,10.5,0.9,พลังจิต บิน
+528,โมกุริว,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/50900f0a398f5971589345312b17ba475f36668c.png,8.5,0.3,ดิน
+529,โดริวซึ,528,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f44eb698f802a20540ea999d7aa7d301d159506b.png,40.4,0.7,ดิน โลหะ
+530,ทาบุนเนะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/833d0a297a2a2da9bf5f5716f4ede3bbc0d50128.png,31,1.1,ปกติ
+531,ด็อคโคเรอร์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/065a1acb341a62db757dd55f88730a9c5e59ba2e.png,12.5,0.6,ต่อสู้
+532,โดเท็คคทซึ,531,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/276efea41b8ea6a566dbb51a3c65582eca9f8ecf.png,40,1.2,ต่อสู้
+533,โรบูชิน,532,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/073c92e8d29fea596c1885d9f7ecbd3bd6d2f9f1.png,87,1.4,ต่อสู้
+534,โอทามาโร,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/69aa3915b724bf1725db2d5251ff0a58e39b9c97.png,4.5,0.5,น้ำ
+535,กามาการุ,534,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4216de014ca85c2c2c81241accf217e371f948ca.png,17,0.8,น้ำ ดิน
+536,กามาเกโรเกะ,535,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f2ff6d14c214a076b125e42291da5d61462fb2cf.png,62,1.5,น้ำ ดิน
+537,นาเกคิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4e4f2fd67d78ade2f15c16c271a271c7506455d0.png,55.5,1.3,ต่อสู้
+538,ดาเกคิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/eea9b5dae0506e7a00642125391b398a5c7471d8.png,51,1.4,ต่อสู้
+539,คูรูมีรุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f9a1983b877f502fa4ff160e47eb882b4b5a5f68.png,2.5,0.3,แมลง หญ้า
+540,คูรูมายุ,539,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6292853d0aaee114dca27697c06f6ec7ed675088.png,7.3,0.5,แมลง หญ้า
+541,ฮาฮาโคโมริ,540,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8d0adfb56ce85d090fc34b0370c578d29bda5485.png,20.5,1.2,แมลง หญ้า
+542,ฟูชิเดะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b7a2e1c4b2c140412ae468a8b9ebcd9678243ba7.png,5.3,0.4,แมลง พิษ
+543,วีกา,542,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c306e50d93f2a7b5f3c5891cf528dd58f0c9d505.png,58.5,1.2,แมลง พิษ
+544,เพนโดรา,543,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b7d01da3f99b6af08a631f054352b1e752c0a82a.png,200.5,2.5,แมลง พิษ
+545,โมนเมน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a1b26c2d3d1e4c86bf72e0f7f04e803a7c86ab02.png,0.6,0.3,หญ้า แฟรี่
+546,เอลฟูน,545,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/51db1f9485915c397954484d590554325cab7621.png,6.6,0.7,หญ้า แฟรี่
+547,จูริเน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7773fc363fc1668cc18ceb45cecd5afc2c9ac433.png,6.6,0.5,หญ้า
+548,เดรเดีย,547,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6000b1d710f8a1d1967ceffb4ad19e3dee6fbf71.png,16.3,1.1,หญ้า
+549,บาสราโอ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0b03c8202a6e153f949a9db2706ecba54737321d.png,18,1,น้ำ
+550,เมะกุโรโกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2b0e1359df5fbd6268f102e59fd8bb1ae39ae0f0.png,15.2,0.7,ดิน ความมืด
+551,วารุวิล,550,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5b91ecbeb182b8b514dd76d202678b8fc0e0af4f.png,33.4,1,ดิน ความมืด
+552,วารุเวียล,551,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8892641984b53913c621294dbe85ca6ec7103ff9.png,96.3,1.5,ดิน ความมืด
+553,ดารุมักกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a3bd097caf7a202d8c8db24da6a92aecd4f2d758.png,37.5,0.6,ไฟ
+554,ฮิฮิดารุมะ,553,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/885a7de675821f21daf149636c9a1214b53be1d8.png,92.9,1.3,ไฟ
+555,มาราคัจจิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/477b1ae23e08a9e7a74117f594af3e7fbeb29798.png,28,1,หญ้า
+556,อิชิซึไม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4d39cfb58d0644bc643a19ca29ced119dd6aa82a.png,14.5,0.3,แมลง หิน
+557,อิวาพาเลซ,556,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/23a6e116c09a4fcfbb6dd12797a8a0c9e35452ea.png,200,1.4,แมลง หิน
+558,ซึรุกกุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6662199ef18814db2e22bae20d67e04a3a72966f.png,11.8,0.6,ความมืด ต่อสู้
+559,ซึรุซึคิน,558,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/871b12f945f4f644264b070d1849811f9f2ad256.png,30,1.1,ความมืด ต่อสู้
+560,ซิมโบลา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1a647d33d1bb147e57880f9506c7772fee959fce.png,14,1.4,พลังจิต บิน
+561,เดธมาส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4d84dfa13eeb9c857b46521e1c0ccb778cb05118.png,1.5,0.5,ผี
+562,เดธคาน,561,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a212573886f18131796d1ef9ce53ce6d3d6eef3e.png,76.5,1.7,ผี
+563,โปรโตกา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b47314b559383865d29943d4bac97451a533fc75.png,16.5,0.7,น้ำ หิน
+564,อบาโกรา,563,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3b6eac91b21e2820c57c3ccea6ce0e6941c31d58.png,81,1.2,น้ำ หิน
+565,อาเคน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/473e9a55d58b76c605506ec374586d6f57e9c99d.png,9.5,0.5,หิน บิน
+566,อาเคโอส,565,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/22de05e7bb36ffde0c4520238cf078027168f8e6.png,32,1.4,หิน บิน
+567,ยาบุคุรอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a0d42129ee9682ed51f601fded624d87131a2188.png,31,0.6,พิษ
+568,ดัสต์ดาส,567,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/eb8c2a131a54e7d97e81cc45a59801f24d8abfd7.png,107.3,1.9,พิษ
+569,โซรัว,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d18ec337859cde104d62f59581460a4c6321e2b0.png,12.5,0.7,ความมืด
+570,โซโรอาร์ค,569,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d69b628e2eaffb69aef999d83997a62215a3f749.png,81.1,1.6,ความมืด
+571,จิลามี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2966d06c1b23bfda20d34cfc45660fd1a6b2bb6c.png,5.8,0.4,ปกติ
+572,จิลาจีโน,571,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c184094b8fc7e9d377cba817aaca8cb8740695c7.png,7.5,0.5,ปกติ
+573,โกธิมู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c5d54b1cc508dac32da37b5a3654c49a4a1ee12a.png,5.8,0.4,พลังจิต
+574,โกธิมิรุ,573,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e270c8a30b0b5cf5605f24cd98203fb25f3e76e1.png,18,0.7,พลังจิต
+575,โกธิรูเซล,574,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c2c91139b9e7cfc560da23d636a3af5fc419982a.png,44,1.5,พลังจิต
+576,ยูนิรัน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4470501b17ac51adfbb14b9a0aa4d0bbac81ea38.png,1,0.3,พลังจิต
+577,ดาบูลัน,576,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3490db5e4338f226f9abb1f9c8221677e27c6ffa.png,8,0.6,พลังจิต
+578,แลนคูลัส,577,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2ff9af190923a0db448f841c4939438e5b533bfe.png,20.1,1,พลังจิต
+579,โคอารูฮี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4770412ac2e9374d54fd962a5be5074b2f021c41.png,5.5,0.5,น้ำ บิน
+580,สวอนนา,579,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bb052aa6d1ae577b3ecad8865dcf316d75c0f25e.png,24.2,1.3,น้ำ บิน
+581,วานิเพ็ตติ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d00d73cd72c2aeb1f6de0acf463cad854107bbcd.png,5.7,0.4,น้ำแข็ง
+582,วานิริช,581,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/be29c009e5a02190b11b28a9a396103c309a7455.png,41,1.1,น้ำแข็ง
+583,ไบวานิลลา,582,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a475d9661d5d6ee4b2d8670a51a8b85bafe58919.png,57.5,1.3,น้ำแข็ง
+584,ชิคิจิกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5e2cf0d899af0641a566ffc80c6abcace1e2d0ab.png,19.5,0.6,ปกติ หญ้า
+585,เมบูคิจิกะ,584,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/db2a3f73947aac8b264b9faf7f298a3d54b767d9.png,92.5,1.9,ปกติ หญ้า
+586,เอมอนกา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f0ce08a54cf47851169d5c6960ecc7bbc7fd1279.png,5,0.4,ไฟฟ้า บิน
+587,คาบูรูโมะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/88a159b759fd77e0fcc4b1f17ddb725635877c60.png,5.9,0.5,แมลง
+588,ชูวัลโก,587,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9e717420381941b3cbfaeef5653e13a8ff1a4995.png,33,1,แมลง โลหะ
+589,ทามาเกะทาเคะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3ad8071d5915d5fe0d9fd6728c788f9e2052080a.png,1,0.2,หญ้า พิษ
+590,โมโรบาเรรุ,589,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0e85da4945fbe5276bfdf1569b9bf47ad0021a43.png,10.5,0.6,หญ้า พิษ
+591,พูรูริล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/73f31a43d0cd788311b92ab1a739136d9e228802.png,33,1.2,น้ำ ผี
+592,บูรุนเจล,591,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/935ab51c0d6b3daea5c42f97920db56fccb626cf.png,135,2.2,น้ำ ผี
+593,มามันโบ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/046c364aeeb7b1d5c0d865b4b477488c8ca1d801.png,31.6,1.2,น้ำ
+594,บาชูรุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c8d944f4635d9244195951be138aedd6dd670802.png,0.6,0.1,แมลง ไฟฟ้า
+595,เดนทูลา,594,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/184e143b71359d9010bf9cbcf6bf526202281ec0.png,14.3,0.8,แมลง ไฟฟ้า
+596,เทสซีด,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7902d965dec4b6ef5348ec0c8f40aa6c49bc11e6.png,18.8,0.6,หญ้า โลหะ
+597,นัทเทรย์,596,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e08e4d3e26cec97a86153675f117278a2c051ed5.png,110,1,หญ้า โลหะ
+598,เกียร์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/456dd9919e3435acb916099ae1703fd388898eef.png,21,0.3,โลหะ
+599,กิเกียร์,598,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/643a526b322606329554a89294c986ff71099975.png,51,0.6,โลหะ
+600,กิกิเกียร์,599,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0e09345eebd712678d7f133886ec716382c9fa98.png,81,0.6,โลหะ
+601,ชิบิชิราซึ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c2dfb5de65a2006c86b077331e71ed15c7c57482.png,0.3,0.2,ไฟฟ้า
+602,ชิบิบีล,601,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ffe49d4631433e1819397d7b3b5a27ef7b90f9bf.png,22,1.2,ไฟฟ้า
+603,ชิบิรูดอน,602,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e9154df3b824fcbdf19587886db9fd6968047d10.png,80.5,2.1,ไฟฟ้า
+604,ลีเกรย์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/142cf386a916731784f80fee0b7864ad26198d36.png,9,0.5,พลังจิต
+605,โอเบ็ม,604,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/15470de21b8f6bd60c27c9c7c37316ff451e3dc0.png,34.5,1,พลังจิต
+606,ฮิโตโมชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cb303ff7c350996e1f4a69673c2f1b423b3ef308.png,3.1,0.3,ผี ไฟ
+607,แลมพูลา,606,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fde113e99c40eb6dfa18a1ceb9be4b2df6a61e76.png,13,0.6,ผี ไฟ
+608,แชนเดลา,607,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6c591295dc0e5ce2d2a6835fc5e01f0123401a10.png,34.3,1,ผี ไฟ
+609,คิบาโกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/364bf73185caeae816d1ce72c8a3b4947a243082.png,18,0.6,มังกร
+610,โอโนนโดะ,609,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b2396a29ff90be785d3b78d75fa5db24c2c253ba.png,36,1,มังกร
+611,โอโนโนคุส,610,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/015a96ddbcb1163e2c31a4be04751fd0fd523bc6.png,105.5,1.8,มังกร
+612,คูมะชุน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e4f0cef46058c997eb555070aee3a95a5c68673f.png,8.5,0.5,น้ำแข็ง
+613,ทันแบร์,612,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/38000d24cc0fd4e72645d1deb707af2da861c69e.png,260,2.6,น้ำแข็ง
+614,ฟรีจิโอ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dfc5f83c407d257f098c0570645c7a081bf3bf0c.png,148,1.1,น้ำแข็ง
+615,โชโบมากิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/24f49690d1b395c1f7d74f681859c3a9a89e0bc6.png,7.7,0.4,แมลง
+616,อกิลดา,615,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1eaffcd047ae882324ca705986bd333a15e13256.png,25.3,0.8,แมลง
+617,มักเกียว,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/661cea7873f3ac3c00ce39e4def3c82664a13d98.png,11,0.7,ดิน ไฟฟ้า
+618,โคโจฟู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a5e37e37f124bbaf7e1031b52ac35e94cdc611f9.png,20,0.9,ต่อสู้
+619,โคโจนโดะ,618,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/72e9960e3a648f2d3cad440bceefc520c6014e11.png,35.5,1.4,ต่อสู้
+620,คริมแกน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/742981ddf85105e43ec651f70bb9b4488dc0eeae.png,139,1.6,มังกร
+621,โกบิท,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b1f092b069ab90e469c7794bc3b7ab8a4b15eb0e.png,92,1,ดิน ผี
+622,โกลูก,621,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6bca54075e849ac580ce4981b51298d1546e81a2.png,330,2.8,ดิน ผี
+623,โคมาทานา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d91d960991e5b1607aba9bc2c791851654582ada.png,10.2,0.5,ความมืด โลหะ
+624,คิริคิซัน,623,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5fec90c2ab3eb206d6d87b85fa48f3d895edf665.png,70,1.6,ความมืด โลหะ
+625,บัฟฟรอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/40a5be6047781fa247fccdea74066096c575606d.png,94.6,1.6,ปกติ
+626,วาชิบอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dfff3482db4eef46b226545d495c1ee9489a3111.png,10.5,0.5,ปกติ บิน
+627,วอร์เกิล,626,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/51a8ef5fe80e7fadf313c2da29be14d440ca4989.png,41,1.5,ปกติ บิน
+628,วัลไจ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e2b58116dd5ee0a2b1b8a91115ba471ff12ffe52.png,9,0.5,ความมืด บิน
+629,วัลจีนา,628,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e6c54076ac21ca45a8d745c6a8adf2a426f30a06.png,39.5,1.2,ความมืด บิน
+630,คุยทาแรน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2fce1f6ab0824dadbf7bac201f471f8f73b9ad05.png,58,1.4,ไฟ
+631,ไอแอนท์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/134334e676d49d0ade99439cd9de73d7c8324f6f.png,33,0.3,แมลง โลหะ
+632,โมโนซึ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c9519391c07fd5e412de6c63933612d4b1634679.png,17.3,0.8,ความมืด มังกร
+633,จิเฮด,632,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a4489abc675f056cc9a20f5ab8e9e734f7a39051.png,50,1.4,ความมืด มังกร
+634,ซาซันดรา,633,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/072285cb2f79f560e25fce81cc981a7432fa0123.png,160,1.8,ความมืด มังกร
+635,เมลาร์วา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d6faebfa8e2d06c606414fa2ce8901c493d30ca2.png,28.8,1.1,แมลง ไฟ
+636,อุลกามอธ,635,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/40bed77fa79926f97a5dbb32103449377879feca.png,46,1.6,แมลง ไฟ
+637,โคบัลออน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/131193172ac33d8fbb4c5efa3f4985287b366447.png,250,2.1,โลหะ ต่อสู้
+638,เทราคิออน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9a1980e702ceeb122fd621c99fe3b144e07d3cd4.png,260,1.9,หิน ต่อสู้
+639,วิริซิออน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dd6eeb37307ac3fe672f752ff39c13c96c438566.png,200,2,หญ้า ต่อสู้
+640,ทอร์เนลอส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b6c824c7e946b1659359ffea302e87eb4afb342c.png,63,1.5,บิน
+641,โวลโทลอส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/801985228cc582056867b2e8edda88847539a876.png,61,1.5,ไฟฟ้า บิน
+642,เรชิรัม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/48118fd19743ec8e657bba40e25b47ae8c8ed387.png,330,3.2,มังกร ไฟ
+643,เซครอม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c3e1c0fcd66e27795e93a2a10373ef65b3e2ebf4.png,345,2.9,มังกร ไฟฟ้า
+644,แลนโดลอส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/507a3f63c612c7b2d6eb57ff89939f0ed2547668.png,68,1.5,ดิน บิน
+645,คิวเรม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/89c4623193508f3dfd2efeeb98c9f6d2acfb3baa.png,325,3,มังกร น้ำแข็ง
+646,เคลดิโอ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c41f51f51ace34226b7bc11d8ebfcdae727c4955.png,48.5,1.4,น้ำ ต่อสู้
+647,เมโลเอตตา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/be66ca041d0dc553a53ec97224dd2acc17141aa0.png,6.5,0.6,ปกติ พลังจิต
+648,เกโนเซ็กท์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d180d278c53e6e0795df7b127f44cf9c4582b661.png,82.5,1.5,แมลง โลหะ
+649,ฮาริมารอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/097105c105712a1d868efdac0c3555b7f0e159e4.png,9,0.4,หญ้า
+650,ฮาริบอร์ก,649,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0e2e40abcc2a41087b72cbcbf73f68c1a8c5de04.png,29,0.7,หญ้า
+651,บริการอน,650,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/24caf5ca5e30cdf2e4f6e6263ba852734a6cb3fc.png,90,1.6,หญ้า ต่อสู้
+652,ฟ็อกโกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/466cc6aa93526c3b9038c11f1a0192e4eadc0761.png,9.4,0.4,ไฟ
+653,เทลนาร์,652,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/101f605694b139b22ef0de0092e1b871a5d0377d.png,14.5,1,ไฟ
+654,มาฟ็อกซี,653,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/86a193546573e34b151e475fd156dc993634d05c.png,39,1.5,ไฟ พลังจิต
+655,เคโรมัตซึ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cd2282e3ecef2ea7889594f954f7f04865bc48e4.png,7,0.3,น้ำ
+656,เกโคกาชิระ,655,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d30e6f3f6bf49eb279d644ee7aaaaee450f69d9d.png,10.9,0.6,น้ำ
+657,เก็คโคกะ,656,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/13627ce66606dbdb41d6a11a0a48d3991a26858c.png,40,1.5,น้ำ ความมืด
+658,โฮรุบี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6d19d6e79ff74b3b1ca41d52da40ea57a39685a1.png,5,0.4,ปกติ
+659,โฮรูโด,658,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ead58d06cd66763d91cb4d068329d794c256c319.png,42.4,1,ปกติ ดิน
+660,ยายาโคมะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/51ecb8e515063c14806af72585bb314ba25e3984.png,1.7,0.3,ปกติ บิน
+661,ฮิโนยาโคมะ,660,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/27c6439bfec4bc2e55c3e2eb3a22da843284c662.png,16,0.7,ไฟ บิน
+662,ไฟร์แอโรว์,661,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6bc085a6abce6d0ae3bc07907722e3e5b057431a.png,24.5,1.2,ไฟ บิน
+663,โคฟูคิมูชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/724baa586df2ba3484223ceeaeb68317b67c574d.png,2.5,0.3,แมลง
+664,โคฟูไร,663,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d08bd01f157d28ad2e5088a5631c0d18ce838304.png,8.4,0.3,แมลง
+665,วิวิญอง,664,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/adbc56b774dfcc830e2a2cd976e42d4cc68bae03.png,17,1.2,แมลง บิน
+666,ชิชิโกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/96093a20f080d56e746074e4671008143743a2f0.png,13.5,0.6,ไฟ ปกติ
+667,คาเอ็นจิชิ,666,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/178651cf50e433de3ccd0d0193eec147e7e009c7.png,81.5,1.5,ไฟ ปกติ
+668,ฟลาเบเบ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2fb6fcbdaec3dbc9a35f6ab8403279b602b4a49b.png,0.1,0.1,แฟรี่
+669,ฟลาเอตเต,668,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dce983430308aa9dd96a67f3e5cade9356c83d0a.png,0.9,0.2,แฟรี่
+670,ฟลาเจส,669,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2c8cf4e6491c28f45333dab4292f1a65c0a5cf8c.png,10,1.1,แฟรี่
+671,เมเคิล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e7b0bfa43186215ba2fa982594ba63c689ce4737.png,31,0.9,หญ้า
+672,โกโกท,671,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6014b36155ac43135f4d8fbe2a36eb9a9cce8344.png,91,1.7,หญ้า
+673,ยันชัม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f510b915acbdc6aa3e7c7eb7e9ea196fd8ce7da1.png,8,0.6,ต่อสู้
+674,โกรอนดะ,673,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a3b401376e352cd49f9a8788996b3f787f1606c7.png,136,2.1,ต่อสู้ ความมืด
+675,ทริมเมียน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4fb01f5dee192aa16343fdf2d928cd80fea91c2b.png,28,1.2,ปกติ
+676,เนียสเปอร์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f72139f9f5be1dbfbfa0b6c52506790b155ece4e.png,3.5,0.3,พลังจิต
+677,เนียโอนิกซ์,676,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4be8e39e3cbdd126783061d5214ebe9901df3679.png,8.5,0.6,พลังจิต
+678,ฮิโตทซึกิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d934c3406fa7d99031de78f45a01547a9aab22ae.png,2,0.8,โลหะ ผี
+679,นิดังกิล,678,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e67b9c0f32bfbeb72bb333a2e8df8592bcef958d.png,4.5,0.8,โลหะ ผี
+680,กิลการ์ด,679,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/71d8f8eb95e3a4057f17eabc052945d290d8eb09.png,53,1.7,โลหะ ผี
+681,ชูชูป,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/98d7f93e271e1ee619927d79d6769885fcc5e809.png,0.5,0.2,แฟรี่
+682,เฟรฟุวัน,681,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1e267b37e4871410374323e2c06c00a5d9f95311.png,15.5,0.8,แฟรี่
+683,เพร็อพพัฟ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b26f8878b61f5f8686e3b133b1631eca26376e4a.png,3.5,0.4,แฟรี่
+684,เพโรรีม,683,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d2a55d756001052b9646d38c15ebe631d158fe66.png,5,0.8,แฟรี่
+685,มาอีกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f3480489a6ad7ff98fbd0708ecf9b97cbe5f9b24.png,3.5,0.4,ความมืด พลังจิต
+686,คาลามาเนโร,685,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/51dee90d6cd474bb3456ed2dfb79e347171c60a8.png,47,1.5,ความมืด พลังจิต
+687,คาเมเทเทะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ca9434be6a371a9d4d2ea45ee1e19fbc5472c891.png,31,0.5,หิน น้ำ
+688,กาเมโนเดส,687,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/289998da5c8805f2e1a553cdad65a631076fe5fe.png,96,1.3,หิน น้ำ
+689,คูซูโม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b575dbb5b365a5270c7291d4cd8328f0612b5f01.png,7.3,0.5,พิษ น้ำ
+690,ดรามิโดโร,689,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c57e3d4a4ae6bb4e1746a996660ecea01b5d99c1.png,81.5,1.8,พิษ มังกร
+691,อุเด็ปโป,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/95daebd9e3171147780016468e2d434becf2bf2f.png,8.3,0.5,น้ำ
+692,บลอสเตอร์,691,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/27312866a029608cbae0418f331f8b47903548c9.png,35.3,1.3,น้ำ
+693,เอลิคิเทล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/11c0a11ee26b3d78cd3807dc5964433067df314a.png,6,0.5,ไฟฟ้า ปกติ
+694,เอเลซาร์ด,693,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2fa779347865d8e0c28e243605c9bcc25dbfeb1a.png,21,1,ไฟฟ้า ปกติ
+695,จิโกรัส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/21c14f5f9c6616ae34aa1a0e381915ffa3029104.png,26,0.8,หิน มังกร
+696,กาจิโกรัส,695,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/39aa457757bc80212c28bc0b9cc21445756f0359.png,270,2.5,หิน มังกร
+697,อมารุส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4ddff47a47c19e20497c9889bbdc33313f458f42.png,25.2,1.3,หิน น้ำแข็ง
+698,อมารูรูกา,697,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9aaab70c23e037ee7728a43ea1cfabefa65b0c0f.png,225,2.7,หิน น้ำแข็ง
+699,นิมเฟีย,698,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/80d8d4e084e235c529592acac6c91d53bbc3b621.png,23.5,1,แฟรี่
+700,ลูจาบูล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a0e0558d9cfc881488ea24d3d6c061a5c8fae3a1.png,21.5,0.8,ต่อสู้ บิน
+701,เดเด็นเนะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/35ef0824686f13dd2602d7dd9c76d1e2971dd00e.png,2.2,0.2,ไฟฟ้า แฟรี่
+702,เมเลซี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/87d0fb9df447137ceed7917a1ee6edbb44280185.png,5.7,0.3,หิน แฟรี่
+703,นูเมรา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/09f4017acc849e26540dcb9425bba77143d16818.png,2.8,0.3,มังกร
+704,นูเมล,703,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4c29084515b8c38cf197e3997daded3afcfb6134.png,17.5,0.8,มังกร
+705,นูเมลกอน,704,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0bc264cfd7d9eee6a9a036537d0035f91a65d9fc.png,150.5,2,มังกร
+706,เคลฟฟี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/96df42aa97d89e737d616b672775930889a07116.png,3,0.2,โลหะ แฟรี่
+707,โบคุเร,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/aa9608e646c63e9b381dfd796e9a0ae084f7223d.png,7,0.4,ผี หญ้า
+708,โอร็อต,707,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c98bc46227fd7bd93bc9e469ee4499f95f38d214.png,71,1.5,ผี หญ้า
+709,บาเค็จจะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/47f1875adf25668c641a95e7deb6162e23c1f0d5.png,5,0.4,ผี หญ้า
+710,พัมพ์จิน,709,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/72dd2d61b6ff474fb875f3429a1edfd6bb68e0ab.png,12.5,0.9,ผี หญ้า
+711,คาจิคอล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bc8e528c7d9de84102dbc7c737c2a2d3ab62418d.png,99.5,1,น้ำแข็ง
+712,เครเบส,711,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1c95f83ae9cb854f8a4995b91fcb8ce3e272e585.png,505,2,น้ำแข็ง
+713,ออนแบท,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dfa7a8c4df11f5a41a8de17d974b102a55a248c4.png,8,0.5,บิน มังกร
+714,ออนเวิร์น,713,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/28d08346f209845910402d7d1228d8b512612c1a.png,85,1.5,บิน มังกร
+715,เซอเนียส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c46fa6803887839b3bcc3556e0426bac7150f142.png,215,3,แฟรี่
+716,อีเวลทอล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/89db5688db5488640415bae0c8cda83dc21fc69f.png,203,5.8,ความมืด บิน
+717,ซีการ์ด,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3176b0d993fc39745550a34c321456a942e4b0ff.png,305,5,มังกร ดิน
+718,ดีแอนซี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d596c0bfb0ea8434b3af0071c32b7ee492395fed.png,8.8,0.7,หิน แฟรี่
+719,ฮูปา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3c73a97b410b1405657b08a4c613651d31895f37.png,9,0.5,พลังจิต ผี
+720,โวลเคเนียน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/152ec7d834670b6d15d985417e2c0fe0e0c44d35.png,195,1.7,ไฟ น้ำ
+721,โมคุโร,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0bca57b27bed8e50cf33ac9411a45482d61d807b.png,1.5,0.3,หญ้า บิน
+722,ฟุคุซึโร,721,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/69f0cbee26f6072c431cadb6703d474175ea88dd.png,16,0.7,หญ้า บิน
+723,จูไนเปอร์,722,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5bcab6c827737cff7e45aea42ac0f9bedd217aac.png,36.6,1.6,หญ้า ผี
+724,เนียบี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7209981494238c12df642416938348b1440b03e9.png,4.3,0.4,ไฟ
+725,เนียฮีท,724,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6794b752a836422c4a77919a4784bdefab6688e1.png,25,0.7,ไฟ
+726,กาโอกาเอ็น,725,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9e3219183dcd98f25b088b30856a74fd49dbd235.png,83,1.8,ไฟ ความมืด
+727,อชิมาริ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/91eecd901b0ff44316b62056a473a6e9bb61e8b6.png,7.5,0.4,น้ำ
+728,โอชามาริ,727,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6bc9a1f3b0d48566d79a1d503f0fee7e5a68255a.png,17.5,0.6,น้ำ
+729,อชิเรน,728,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8fc52146f5b8a62bbfe3f6998f75b743b7e7c4c4.png,44,1.8,น้ำ แฟรี่
+730,สึสึเคระ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cc2451ed1b7a3028fe52227a848b28e0af952ba8.png,1.2,0.3,ปกติ บิน
+731,เครารัปปา,730,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d771a6d5550757b41d77eb89fd6f8ff970b85c5d.png,14.8,0.6,ปกติ บิน
+732,โดเดคาบาชิ,731,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/145b211be4c5a3434da9a122626d0a98cda4f727.png,26,1.1,ปกติ บิน
+733,ยังกูส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7ddf529cf19103f4a8fbdf0ec7170777dad8d6e4.png,6,0.4,ปกติ
+734,เดคากูส,733,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5d578ea13212983c8bd1144028379a4d72adc452.png,14.2,0.7,ปกติ
+735,อโกจิมูชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/00ec3ae66513d75217890a655d7346c13f930fc0.png,4.4,0.4,แมลง
+736,เด็นจิมูชิ,735,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9fa1c18aaa89d4b7c5a3c8bee83d55c6fec23d6a.png,10.5,0.5,แมลง ไฟฟ้า
+737,คุวากานอน,736,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cffb8c97372158d1007c845119409df43a0f5981.png,45,1.5,แมลง ไฟฟ้า
+738,มาเค็นคานิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/533e1080b155472c7f21b2ef9dfdca513d15b958.png,7,0.6,ต่อสู้
+739,เคเค็นคานิ,738,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d8b235e442b5a2964647f63512dd146f1e11afd0.png,180,1.7,ต่อสู้ น้ำแข็ง
+740,โอโดริโดริ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c21a178a7974df42d07b05df699d3fe03e3aeb80.png,3.4,0.6,ไฟ บิน
+741,อบูรี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/57b66a4985eb039608e7114f0167760a3290f7b5.png,0.2,0.1,แมลง แฟรี่
+742,อบูริบง,741,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/08e19e3e744d0529d631cbbd767e6dd6ff76c2ee.png,0.5,0.2,แมลง แฟรี่
+743,อิวังโค,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2d759e6d2a7539d82730e0347f4bc8c85fafbb03.png,9.2,0.5,หิน
+744,ลูกาลูกัน,743,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/898b8ea4e2ecd6bd9077b4ae32bb98b72a645768.png,25,0.8,หิน
+745,โยวาชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/44312cde35a3facd7e6ea97036d81b1727c59cb2.png,0.3,0.2,น้ำ
+746,ฮิโดอิเดะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1abf9d071513f602746089a206d485418c44d20d.png,8,0.4,พิษ น้ำ
+747,โดฮิโดอิเดะ,746,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e64b2ebd4d7dfcdeeb0268cf6be6362534246ae3.png,14.5,0.7,พิษ น้ำ
+748,โดโรบังโค,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cf5a8cc8010578101575f9b021ff9fa0f454b55a.png,110,1,ดิน
+749,บัมบะโดโร,748,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9cccd26efcce455050a6be01618f5bd2ea7f2012.png,920,2.5,ดิน
+750,ชิซึคุโม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/df94b2e899e020f1cf35fac26252816b477d7bea.png,4,0.3,น้ำ แมลง
+751,โอนิชิซึคุโม,750,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a4d1c654393ab9ad9a73c9f529cff5ce3990cc3c.png,82,1.8,น้ำ แมลง
+752,คาริคิริ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/295969b21babd5afa00c903a6851e7b75d9aeccb.png,1.5,0.3,หญ้า
+753,รารันเทส,752,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f7a5ae402a13c1fd89ea48914464a5f832f656d9.png,18.5,0.9,หญ้า
+754,เนมาชู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2eb2f746c9121127583fccc81266f3efacde6fd6.png,1.5,0.2,หญ้า แฟรี่
+755,มาเชโดะ,754,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/afa275368cba9ce633e684f1e7e77f361db486ce.png,11.5,1,หญ้า แฟรี่
+756,ยาโทโมริ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c9989d6c060a2ff538f4439f832fd59332683cf6.png,4.8,0.6,พิษ ไฟ
+757,เอ็นนิวท์,756,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3b405b659d284efd18f8d36bf43f2ecfcb9f8cf1.png,22.2,1.2,พิษ ไฟ
+758,นุยโคกุมะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e51e74b9bf8bad42b2593f54e47b0a04e5a562a0.png,6.8,0.5,ปกติ ต่อสู้
+759,คิเทรุกุมะ,758,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/632e2165537cc40b789cc3b0d239e64b42ea0a98.png,135,2.1,ปกติ ต่อสู้
+760,อมาคาจิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ec88b1229e35912908b68375c582471da09359f6.png,3.2,0.3,หญ้า
+761,อมามาอิโกะ,760,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3648828a5eee063c14b0b24f4f05643250a05f81.png,8.2,0.7,หญ้า
+762,อมาโจ,761,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5ba090d5e7db5c5a1459f1390e35d29254b8e4c5.png,21.4,1.2,หญ้า
+763,คิววะวา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dcb71456401fed865508875367a8690e67661bdc.png,0.3,0.1,แฟรี่
+764,ยาเรยูตัน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/017202e97b6ba5eabc742df1d6c0ff9d4e1d79ca.png,76,1.5,ปกติ พลังจิต
+765,นาเกสึเคซารุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b7442e3ff396fdf6bddc1b72582768c84c6d7776.png,82.8,2,ต่อสู้
+766,โคโซคูมูชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c6924b9a0e436bffe38eb5774e280b8ba6e80531.png,12,0.5,แมลง น้ำ
+767,กูโซคูมูฉะ,766,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/eea3b777e8b22e588935e15c44139de932acfbbd.png,108,2,แมลง น้ำ
+768,ซึนาบา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6d70b55f5adb847b2d612e6701204a5ed32e7b78.png,70,0.5,ผี ดิน
+769,ชิโรเดซึนะ,768,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b07824553ad822ed636b3705291e56862c13eb6a.png,250,1.3,ผี ดิน
+770,นามาโคบูชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0989665d6cdb9fba98ff78c683939ef5d51d1c37.png,1.2,0.3,น้ำ
+771,ไทป์: นัล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bee3b8754cd61f158ed39ca7e5796e1c34fc143d.png,120.5,1.9,ปกติ
+772,ซิลวาดี,771,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d17f6d7cb160cc17cf156a4b01fc59f3997e47a5.png,100.5,2.3,ปกติ
+773,เมเทโน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f43f1c4ce03d67015244f0946a758bb5690c86ce.png,40,0.3,หิน บิน
+774,เน็คโคอาลา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a131c896c7b60a9a006ccbbca3b40b1213a3f2f1.png,19.9,0.4,ปกติ
+775,บาคุกาเมส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5bd120bbf539c79b9f7d77628a41d0655cd76842.png,212,2,ไฟ มังกร
+776,โทเกะเดมารุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/aa9800c65076bfc5f7282d358f4046fb88600032.png,3.3,0.3,ไฟฟ้า โลหะ
+777,มิมิคคิว,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/53b743e93280fd3993d12bc4dbcce5e43e9402e6.png,0.7,0.2,ผี แฟรี่
+778,ฮากิกิชิริ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ab3dd59cf20bccb134ceb7cf4b14d40d7f627c58.png,19,0.9,น้ำ พลังจิต
+779,จิจีลอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2bd471fe25084f2270cb90d286df18ed99d3f176.png,185,3,ปกติ มังกร
+780,ดาดาริน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bd916fc4b74f3f66a81a0e6622e5cd3c967350b6.png,210,3.9,ผี หญ้า
+781,จาราโค,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6c88c4cd80099525728cb37c78fafa2046b4a9e2.png,29.7,0.6,มังกร
+782,จารังโก,781,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1a31d813f83ef5dfdb288b57e201fa825d1b6c64.png,47,1.2,มังกร ต่อสู้
+783,จารารังกา,782,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7d30c73276cc9fd76c89aa23ce34c3cf7fc185cb.png,78.2,1.6,มังกร ต่อสู้
+784,คาปู โคเคโค,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1482c117ffa98807a8a860c43bdd444dbbc5635b.png,20.5,1.8,ไฟฟ้า แฟรี่
+785,คาปู เทเทฟู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5bb5f4bd8f7164cda62a554bbec44cde53fd87c0.png,18.6,1.2,พลังจิต แฟรี่
+786,คาปู บูลูลู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a30e8adcdad135f9ea1795c23c4b5165b71039ab.png,45.5,1.9,หญ้า แฟรี่
+787,คาปู เรฮิเร,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/44a49ddad9eaed53bd57f5a7e85f80543ec07f03.png,21.2,1.3,น้ำ แฟรี่
+788,คอสม็อก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/639792f18b3e75183a7d676dfb32507872bfd7fc.png,0.1,0.2,พลังจิต
+789,คอสโมม,788,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6ce15c0f99f50c2df645c6cae1efde9591c044ca.png,999.9,0.1,พลังจิต
+790,โซลกาเลโอ,789,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3084f3f24323befd29db6ff3aa1eb147ffacf8b3.png,230,3.4,พลังจิต โลหะ
+791,ลูนาอาลา,790,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/565ab7b35666fe2234fa1b8865ce9e9727d7a23d.png,120,4,พลังจิต ผี
+792,อุทซึรอยด์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5358c3df3d6f1744b31831c1ed7185a55f796714.png,55.5,1.2,หิน พิษ
+793,มัสชิบูน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/db24643dfeb6c3a050669060db0450638b1569cb.png,333.6,2.4,แมลง ต่อสู้
+794,เฟโรเช,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3e1f5e499614c3cb42fc0384fd2d3e5a33a3d3f5.png,25,1.8,แมลง ต่อสู้
+795,เด็นจูโมคุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/293838ab9f4f1c567d6e618173cbb735b6a4bf87.png,100,3.8,ไฟฟ้า
+796,เท็คคากูยะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2f27eb51d96cc65921f0055ac12d5808beb5cd2c.png,999.9,9.2,โลหะ บิน
+797,คามิทซึรูกิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6ea1b775a45366178e1dd3ceae9e03abaa2b323d.png,0.1,0.3,หญ้า โลหะ
+798,อคูจิคิง,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d3acf3e200ff8c4a924252c2af4d1cf3a351934b.png,888,5.5,ความมืด มังกร
+799,เนครอสมา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/50dc208b42aef0978d1f36192031c4d1d122f54b.png,230,2.4,พลังจิต
+800,มาเกียนา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3cb52a53de56e3eae210beb2b7326da6802bce38.png,80.5,1,โลหะ แฟรี่
+801,มาร์ชาโดว์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/71b1313df943a51db42e2c7c18e0a5712250a959.png,22.2,0.7,ต่อสู้ ผี
+802,เบเวนอม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9834f778f2f60db2dc726235ccdcf165ca95c9ce.png,1.8,0.6,พิษ
+803,อาโกโยง,802,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c30c65d8d05093a751d4ddbeaf2bf995b1dbffc0.png,150,3.6,พิษ มังกร
+804,สึนเดะสึนเดะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/596aed1d0e10c733aa35553bd7120f4c14809c97.png,820,5.5,หิน โลหะ
+805,ซุกะโด้ง,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/128171f219211688d817f31beb738885105f69b6.png,13,1.8,ไฟ ผี
+806,เซราโอรา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0c8050bc7cd1ed6da7154284613887fac8a570ac.png,44.5,1.5,ไฟฟ้า
+807,เมลตัน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2825d73578419b80d3a244c74ad8210b43818067.png,8,0.2,โลหะ
+808,เมลเมทัล,807,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b687875f5722bcc962d30631b03b254dd9597071.png,800,2.5,โลหะ
+809,ซารุโนริ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c56cdb5a0d8c4977553e3ce0052913c40874ca6f.png,5,0.3,หญ้า
+810,บาจินคี,809,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6855f224855dc4e044ef2b0b73de000c2e15d0c9.png,14,0.7,หญ้า
+811,กอริลลันดา,810,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/27d88f3c80242866397ec4170552f70cb9eec0c8.png,90,2.1,หญ้า
+812,ฮิบานี,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b45cd493ca9bdf984d7c132741c5bffe6cc75560.png,4.5,0.3,ไฟ
+813,แรบบิฟุต,812,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fa5e2bf587b6294472b85b01bacc53854e454e4c.png,9,0.6,ไฟ
+814,เอสเบิร์น,813,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/75ba01425af3c244c3960ab85c30ce9b9201fdad.png,33,1.4,ไฟ
+815,เมซซอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fe3ab2772b1cced99847daa5c532bc29025708b4.png,4,0.3,น้ำ
+816,จิเมเลียน,815,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/17f47b8494bbe0fd713de0de5cc7678891d654f0.png,11.5,0.7,น้ำ
+817,อินเทเลียน,816,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b0ec22a0a8ce7509bce1331c12386e631d496e4c.png,45.2,1.9,น้ำ
+818,โฮชิกะริสึ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7dc830a7f01226881e2acaed24d6b09006c81f55.png,2.5,0.3,ปกติ
+819,โยคุบะริสึ,818,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/baaf983333afbde532260636540639c09070aa20.png,6,0.6,ปกติ
+820,โคโคการะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8a54118be74f2468fcdb8127b46b0b00ddc59c0d.png,1.8,0.2,บิน
+821,อาโอการาสึ,820,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d3e8b839dd30e17aa2be412b693e8442f40551ca.png,16,0.8,บิน
+822,อาร์เมอร์การ์,821,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3435d3dd88eef664574a8fb11dafc14be27f62e6.png,75,2.2,บิน โลหะ
+823,ซัจจิมุชิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0578d9fca2f846008b22851320a5a3c529da942f.png,8,0.4,แมลง
+824,เรโดมุชิ,823,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/76ea8fa8379adc9ab739e2ff30affa59af843214.png,19.5,0.4,แมลง พลังจิต
+825,อิออร์บ,824,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9b3f929406fd0bf1c4cfed226cf31909ad58a4dc.png,40.8,0.4,แมลง พลังจิต
+826,คุสุเนะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7612d8c931099a7233b4b12b812b381f45a5c936.png,8.9,0.6,ความมืด
+827,ฟ็อกสไล,826,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3f022cb64e1128d57db569578a26724212f3cf50.png,19.9,1.2,ความมืด
+828,ฮิเมงกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b17e046975c85c96267c7b588a839f66679d7955.png,2.2,0.4,หญ้า
+829,วาตะชิรากะ,828,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2228db793fff2d97914423388ecd615d768c145e.png,2.5,0.5,หญ้า
+830,วูลู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0f9274a5a0f2c6b58f5d2e3bbb332bd330fe41db.png,6,0.6,ปกติ
+831,ไบวูลู,830,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e5143016fe60e78d51382d55296ce9483059c120.png,43,1.3,ปกติ
+832,คามุคาเมะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a720acb1b88d2746cc844973d60e2c9d99c52a84.png,8.5,0.3,น้ำ
+833,คาจิริกาเมะ,832,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3e51b7753e66e588550a7e870086fe64d4b4b8c4.png,115.5,1,น้ำ หิน
+834,วันปาจิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f9f909811997f8b1370d31e14b93a9246d33b9e5.png,13.5,0.3,ไฟฟ้า
+835,พัลส์วัน,834,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1512284ef8db6f80f8a947ac3b757497cafa0ef4.png,34,1,ไฟฟ้า
+836,ทันด้ง,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ae1561871fc595cd22fcfd4752680307d8232cd2.png,12,0.3,หิน
+837,โทร็อกกอน,836,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/809a83f4863dda71ab9fd47c458454d781a8fbe9.png,78,1.1,หิน ไฟ
+838,เซคิทันซัง,837,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/987d07964a7ca3d1dd1aaaacd090454bb056f8ce.png,310.5,2.8,หิน ไฟ
+839,คาจิชชู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dd71cb3a3af041aff2dfa5c09b0e3360522e2a06.png,0.5,0.2,หญ้า มังกร
+840,แอปปริว,839,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b2f6923394d1c03cb3ece6bbc4b444761919e84d.png,1,0.3,หญ้า มังกร
+841,ทารุปเปิล,840,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e8daf20ad66b77cd29a1ae55b2bf124cc33f0eae.png,13,0.4,หญ้า มังกร
+842,ซึนะเฮบิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0187e2b373cd9bf97138f76214400631c40ed022.png,7.6,2.2,ดิน
+843,ซาไดจา,842,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e0944f6a804b8e63a39efa14106e14b234047319.png,65.5,3.8,ดิน
+844,อุ๊อุ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/bb8dc4e3ad558dc0e7094c230a9bc19285655806.png,18,0.8,บิน น้ำ
+845,ซาชิคามาสึ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c08a9d436c4e889c9fea8f668fd00619c85959cb.png,1,0.5,น้ำ
+846,คามาสึโจ,845,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fbb7e89337fc9bb103ecb95c4e8037195f43bec2.png,30,1.3,น้ำ
+847,เอเลซัน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cc06f3f8b28b24066f13ade66099550dda620b88.png,11,0.4,ไฟฟ้า พิษ
+848,สตรินเดอร์,847,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/934abb75ba6150531ce0c890209aa667461c214e.png,40,1.6,ไฟฟ้า พิษ
+849,ยาคุเดะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dc78e2cfb7af8c2c8d3e1002b4d2511ae7a0781e.png,1,0.7,ไฟ แมลง
+850,มารุยาคุเดะ,849,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2a7de7577cdb916f257b6ddcd61d462f76116840.png,120,3,ไฟ แมลง
+851,ทาทักโกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0c3a8d20e16d21fadd1a0e9d3b23e6b4aaaec0b6.png,4,0.6,ต่อสู้
+852,โอโทสพัส,851,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e7dd50b77501ca2f4a5e15b4ce3449c01a3971db.png,39,1.6,ต่อสู้
+853,ยาบาฉะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f922931c0aa29fd68c1b40ca8bbe7ff83bba7c13.png,0.2,0.1,ผี
+854,พอตเดธ,853,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c30af54344886af9bf4d4c68e2110759011fc4b5.png,0.4,0.2,ผี
+855,มิบริม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e28459db253e10f805a80bfcdfa14d324a142110.png,3.4,0.4,พลังจิต
+856,เทบริม,855,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/408ff2d3ac361c914916c6218472fcfb574e43db.png,4.8,0.6,พลังจิต
+857,บริมออน,856,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e270693f04a25ecf6fd9de399bfc3d1e6a43af86.png,5.1,2.1,พลังจิต แฟรี่
+858,เบโรบา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/caef4a511a5e9ac4707cbfd2cf4483f88d95f747.png,5.5,0.4,ความมืด แฟรี่
+859,กิโม,858,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/27fbb7512631588e8d680c5f8a7569059eb3f7a7.png,12.5,0.8,ความมืด แฟรี่
+860,โอลองเกะ,859,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8279a9876d26f23c9491a6219ada140f6016c1a6.png,61,1.5,ความมืด แฟรี่
+861,ทาจิฟุซากุมะ ,860,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e8f6e2d427e5e57a4037649aafc1ef2dc9d687d4.png,46,1.6,ความมืด ปกติ
+862,เนียคิง,861,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/136e4f959be1d1452ae49f9f39d5eb5c687c64d1.png,28,0.8,โลหะ
+863,ซานิกอน,862,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b40704dded1bf77d418a28d0ab2e9c8bed354bc3.png,0.4,1,ผี
+864,เนกิกะไนท์,863,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/70a91d7bed9893ec5e1bff2f44c52178a41f74e0.png,117,0.8,ต่อสู้
+865,บาริโคโอรุ,864,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b69694fef4ad58d17bbda53e3e65ce9f86e0e58a.png,58.2,1.5,น้ำแข็ง พลังจิต
+866,เดธบาน,865,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9db27bce33ab6fe29980cd87f036ccea86df6d80.png,66.6,1.6,ดิน ผี
+867,มาโฮมิล,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0da68c40afe2c3b24395d10376d270823a3945ae.png,0.3,0.2,แฟรี่
+868,มาวิป,867,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/163c4755d05b84456e75c3f7ff14a5d80559a96d.png,0.5,0.3,แฟรี่
+869,ไทเรสึ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/685b5f37cb2613b65fbb9b2cf377600762d17f62.png,62,3,ต่อสู้
+870,บาจินอุนิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b08bff60618d2e8fa53bb0ffa8782268e43b4f3b.png,1,0.3,ไฟฟ้า
+871,ยูกิฮามิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/02f7f5bcb17cb72e8b5b9009b1489f750834707f.png,3.8,0.3,น้ำแข็ง แมลง
+872,มอสโนว์,871,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f85fe24ef598322c0828b6765339f1c82be31853.png,42,1.3,น้ำแข็ง แมลง
+873,อิชิเฮนจิน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1086bb30451998c2911e948c5be7148b57c38d15.png,520,2.5,หิน
+874,โคโอริปโปะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9da95ef348ed8cc01b2a5b3cddc783596aeaf7de.png,89,1.4,น้ำแข็ง
+875,อิเอซซัน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/805ff937b190880bd048a146b14992237214b4ef.png,28,0.9,พลังจิต ปกติ
+876,โมรุเปโกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d65369136ebd11732f8a25c968940ad9bdaaaea2.png,3,0.3,ไฟฟ้า ความมืด
+877,โซโด,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7ffac39bed5b93f241e81dc5743614b95a5d8179.png,100,1.2,โลหะ
+878,ไดโอโด,877,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f6129f3cfa82e8d7b681d938903d50f5dfd175ec.png,650,3,โลหะ
+879,พัจจิรากอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7e7fa305313bef31873759715db05af3de469d49.png,190,1.8,ไฟฟ้า มังกร
+880,พัจจิรุดอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/09fd7e1cb013974cb8d992a8e5b9cee84c21c85f.png,150,2.3,ไฟฟ้า น้ำแข็ง
+881,อุโอโนรากอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a9a6aa931b7d14263c3119287c1313523463326b.png,215,2.3,น้ำ มังกร
+882,อุโอจิรุดอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2bc3199842b64ba4923b84241ac9c8d5a09dc31c.png,175,2,น้ำ น้ำแข็ง
+883,ดิวรัลดอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9a5fb4293e3a799c651929e75d0ec8d2df4f3dca.png,40,1.8,โลหะ มังกร
+884,โดราเมชิยะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/772f49f099aecc8980511f6c1eacb3d2447ae7c6.png,2,0.5,มังกร ผี
+885,โดรอนจิ,884,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9ca4ac0da92f55dfe19e937be087ce394c658395.png,11,1.4,มังกร ผี
+886,โดราพัลท์,885,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/721ba56bc5288de03b8b1fc4142797fe04dcd62a.png,50,3,มังกร ผี
+887,ซาเชียน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3355ad49c0f36bacaef1ee5cc324ee2f6017c45b.png,110,2.8,แฟรี่
+888,ซามาเซนตา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1c3912b24104fef5d164c31ee60b498b74514ba8.png,210,2.9,ต่อสู้
+889,มุเก็นไดนา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ad283c0980a1c4a6bf7abfe48b393360e315be46.png,950,20,พิษ มังกร
+890,ดาคุมะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/26993e0a278bd6bcab4b4fdf2dfa8a2de51484e8.png,12,0.6,ต่อสู้
+891,วูลาโอส,890,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c75966bd3806220bfe0388277c854081353e8804.png,105,1.9,ต่อสู้ ความมืด
+892,ซารู้ด,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9abe35a74e07e57e8217ba441cfd26a6a4ab83ab.png,70,1.8,ความมืด หญ้า
+893,เรจิเอเลคิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4ab9e53209b109c52ccaee6a2efb6eabad97676d.png,145,1.2,ไฟฟ้า
+894,เรจิดราโก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2ea3949197ec9f9743b66fc8cb576de069565720.png,200,2.1,มังกร
+895,บลิซซาพอส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/20ffeabefa4b8d806c4cd8973a00300dbdb01dd8.png,800,2.2,น้ำแข็ง
+896,เรสพอส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d9d77bc197553a7ed869956030d7ab651a154084.png,44.5,2,ผี
+897,บัดเดร็กซ์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fd8de6e5122d1adac15cb140ebcf159eb87fb65d.png,7.7,1.1,พลังจิต หญ้า
+898,อายาชิชิ,897,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/52dcbb20bb7282c73af655f8b7ad31510d2efe13.png,95.1,1.8,ปกติ พลังจิต
+899,บาซากิริ,898,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/15f47a5d0acb307ac834b6646c44877bbabdd524.png,89,1.8,แมลง หิน
+900,กาจิกุมะ,899,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/eddf16bd8b2bac5f30f5a93bb1f1b25cfabb1e08.png,290,2.4,ดิน ปกติ
+901,อิไดโต,900,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/658829cb6dc26528b731f83fab7b3f241f6e96fa.png,110,3,น้ำ ผี
+902,โอนิวลา,901,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1b8a26a4a56f0f053a684d851212a9afdbd0b165.png,43,1.3,ต่อสู้ พิษ
+903,ฮารีมัน,902,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/853b532b9b2a706da4202cf430fda184930cce0d.png,60.5,2.5,ความมืด พิษ
+904,เลิฟโทลอส,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/49e8703517112e087eb4eec59640e42e6db17a85.png,48,1.6,แฟรี่ บิน
+905,เนียวฮะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ab84ec2c5c157fe6c42442df93cb1215c3cfc54d.png,4.1,0.4,หญ้า
+906,เนียโรเต,905,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/33fb2f37eb3b83e9aa1bae78e5d762c19517d72a.png,12.2,0.9,หญ้า
+907,มาสเคอเนีย,906,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7ec8bac5e4b4c903ae179e3fc4217e19f617edfe.png,31.2,1.5,หญ้า ความมืด
+908,โฮเกเตอร์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/29abfe687405041fc401a6960a89bce946580987.png,9.8,0.4,ไฟ
+909,อาจิเกเตอร์,908,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9a9efb5fe12573c4fa137bd50fd068b1933a3f34.png,30.7,1,ไฟ
+910,ลาวด์โบน,909,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5431436748270d3361995b1c59f280b42c4ce3ac.png,326.5,1.6,ไฟ ผี
+911,แคว็กซ์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b3175095c9c4d55fade31a98f07340c7ca063536.png,6.1,0.5,น้ำ
+912,เวลคาโมะ,911,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/dc53be94c2fed43efd89aa83b2c3edaf1a1ecdd1.png,21.5,1.2,น้ำ
+913,เวนิวัล,912,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0e6fc3d2671b53b10ba6b9422e3c65c031e351f5.png,61.9,1.8,น้ำ ต่อสู้
+914,กูร์ตง,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/96a38b3a31b1386d233e0911e8c58d0302fc3a9b.png,10.2,0.5,ปกติ
+915,เพอร์ฟูตง,914,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c7910256d0fd3c4019c67568ff224868a6065d33.png,120,1,ปกติ
+916,ทามันทูล่า,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e987c2a30953f91ada76495b5c6e94576260345b.png,4,0.3,แมลง
+917,วาไนเดอร์,916,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/2d9262b45184edede7669af81e492ebf4b5c3462.png,16.5,1,แมลง
+918,มาเมะบัตตะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0ea618b4a74c294f3f0501fbf61ead49ac4c77c4.png,1,0.2,แมลง
+919,เอ็กซ์เลก,918,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5da8f512523759232f743f19421d15ae31ada198.png,17.5,1,แมลง ความมืด
+920,พาโม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/8bb97c22409c5c6d259c29bd36af86911b112716.png,2.5,0.3,ไฟฟ้า
+921,พาม็อต,920,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/b0e838754efa8f7af33ba20db278c635ef55f7a5.png,6.5,0.4,ไฟฟ้า ต่อสู้
+922,เพอร์ม็อต,921,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7d6a0d692c636c96b798dbc624135d1a44c72755.png,41,0.9,ไฟฟ้า ต่อสู้
+923,วักคาเนซูมิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/95f0cb39b166934420d4d061e5e3c4f6500ddd69.png,1.8,0.3,ปกติ
+924,อิกคาเนซูมิ,923,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c82ba7e03b7f624f3204182c8aa277826bdc8b5d.png,2.3,0.3,ปกติ
+925,พาปิม็อตจิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fc36ee2cde3c3d94cf1b2eb9ca37347f40c60604.png,10.9,0.3,แฟรี่
+926,บัลซ์เซล,925,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9f423ad64390dbc5f2d2b771c0ada800867aa86c.png,14.9,0.5,แฟรี่
+927,มินีฟ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d5804a649d20723765de9d74206e48e52df5a136.png,6.5,0.3,หญ้า ปกติ
+928,โอลีเนียว,927,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/851735ff077b0a6e7ddf14cbb6c33247487c1fe6.png,11.9,0.6,หญ้า ปกติ
+929,โอลีวา,928,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ffeebdce85867f3071fae1313dc0f3dab36fd0f0.png,48.2,1.4,หญ้า ปกติ
+930,อิคิริงโกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e224178e23e3513539fbd78f34eec73c46fba2cf.png,2.4,0.6,ปกติ บิน
+931,โคจีโอ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/16ce1b1ca46b10ee2314550a1e756637178a4ff0.png,16,0.4,หิน
+932,จีโอซึมู,931,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/1235a70d09c006a01fe2ba29147ad06e4585487c.png,105,0.6,หิน
+933,เคียวจีโอน,932,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7f0f14cc32ba8a3c8e98de94418de49cb8a07046.png,240,2.3,หิน
+934,คาร์โบ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/94ee2760b448ddde5ba5f13b97917fd473393bd8.png,10.5,0.6,ไฟ
+935,กุเร็นอาร์มา,934,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5114ee078d4b2fd3e083bfd4069891a129b96070.png,85,1.5,ไฟ พลังจิต
+936,โซเบลดส์,935,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/083849988ea741cfc3eef726f08c340a13989c85.png,62,1.6,ไฟ ผี
+937,ซุพีคา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/479858324392f1c20811d3584dd9413c489d965f.png,0.4,0.3,ไฟฟ้า
+938,ฮาราบารี,937,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d6b0160b62d78965c1eed9599624238a3001af9b.png,113,1.2,ไฟฟ้า
+939,ไคเด็น,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cee36155e303710f32bc5446cb34f6b711ad2951.png,3.6,0.4,ไฟฟ้า บิน
+940,ไทไคเด็น,939,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e103c1476c9618c54c19cd0db09e966583c0b967.png,38.6,1.4,ไฟฟ้า บิน
+941,โอราทิฟ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/698acab75c377a8bd9455dc2217ab3d31a3ea904.png,16,0.5,ความมืด
+942,มาฟีทิฟ,941,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e928bd06363214edb7e2ae2731446c9b810b0510.png,61,1.1,ความมืด
+943,ชิรุชูลู,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/a66c0266bb4b591c10f5827aedb5ccc5d24ce196.png,0.7,0.2,พิษ ปกติ
+944,ทากิงกูลู,943,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5934ef3d11e36c3a2e6233971a72bcdd38505a67.png,27.2,0.7,พิษ ปกติ
+945,อาโนะคุสะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0f76b68b45242a8311a3a229a457b0113d9adc40.png,0.6,0.6,หญ้า ผี
+946,อาโนะโฮรากุสะ,945,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9a6f528182b871c8953a67462b2baf9bbd3abed2.png,6,1.2,หญ้า ผี
+947,โนโนะคุราเกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f675f8b62b6b7992ee44465ca77459c1342eecaa.png,33,0.9,ดิน หญ้า
+948,ริคุคุราเกะ,947,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/5a41f2656aa561e0a3be6efb16748c6337984b85.png,58,1.9,ดิน หญ้า
+949,กาเคกานิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/cffabc5a6071da9a0f7f581b1019431033a85596.png,79,1.3,หิน
+950,แคปไซจิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/04934f99f8a7c539b8b860e776c9db5f7d3a2ef6.png,3,0.3,หญ้า
+951,สโกวิลเลิน,950,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0e23125d50b0bc139517e3fd3c752e702faad948.png,15,0.9,หญ้า ไฟ
+952,ชิกาโรโค,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f8183d72646d9b3180fa5585f955b99a553aa360.png,1,0.2,แมลง
+953,เบราคาสุ,952,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c758253622252c8ccf4acf9854c877daf32cfd64.png,3.5,0.3,แมลง พลังจิต
+954,ฮิราฮินะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e95ab60726442aa54894fd28c9a6c3de5cac327f.png,1.5,0.2,พลังจิต
+955,เควสพัตรา,954,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/554349dec5ec28f51bb7e4071dbb50cd316cc350.png,90,1.9,พลังจิต
+956,คานุจัง,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/452645592d7c016a6403fd10b19f04072296304f.png,8.9,0.4,แฟรี่ โลหะ
+957,นาคานุจัง,956,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7cd9dfec2d41e5d7a66174c37cb4799e02c54e0d.png,59.1,0.7,แฟรี่ โลหะ
+958,เดคานุจัง,957,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/98decc8ad1267a1286fd44958b37080ad75dd079.png,112.8,0.7,แฟรี่ โลหะ
+959,อุมิดิกดา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/150efa900bbeb4652816bfeabe8eb28a5ae70988.png,1.8,1.2,น้ำ
+960,อุมิทริโอ,959,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3e104028925c333dd42a641fe8374b2c22a84cce.png,5.4,1.2,น้ำ
+961,โอโตชิโดริ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/ee1a5f8f4d6fd291b0f9055a76a5845c85f5c38f.png,42.9,1.5,บิน ความมืด
+962,นามิอิรุกะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/86d635292916c477eecdff7021471b3dae5c153a.png,60.2,1.3,น้ำ
+963,อิรุกะแมน,962,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6e5f88014359b481fef1e6bd636ac6558312ce9b.png,60.2,1.3,น้ำ
+964,โบรรอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/02af4499fb9b410398b153f66fba66f6e9b1dfa8.png,35,1,โลหะ พิษ
+965,โบรโรโรม,964,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9933440d333a5b4a8f88383e464f87af8d52d231.png,120,1.8,โลหะ พิษ
+966,โมโตโทคาเงะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d8c929380197c91ee537f97e323e46c3ddfb03b6.png,63,1.6,มังกร ปกติ
+967,มิมิซึซึ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f4c261911d75fe64b15c06c45a72598488736d38.png,310,2.5,โลหะ
+968,คิราเมะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/7e8a6077d788e102845a137f51a133ee5f46956f.png,8,0.7,หิน พิษ
+969,คิราฟลอร์,968,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/f504a50e798fb55a3b21221096e3d101779e1b84.png,45,1.5,หิน พิษ
+970,โบจิ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/fc0e216b2a4a92a6acdbc3ec4fd77ce064700b5f.png,35,0.6,ผี
+971,ฮากาด็อก,970,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c1aa40b9263afffa425f9688fe30eee0aab2aa37.png,15,2,ผี
+972,คลามิงโก้,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e48fea48ee70cc9f3ab6681ef148529cfd565887.png,37,1.6,บิน ต่อสู้
+973,อารุคุจิระ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/895060a82143a6ec4551d0b74c96261ec8015fe4.png,45,1.2,น้ำแข็ง
+974,ฮัลค์จิระ,973,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9e6a0a8846f801e049467e44c6199fd02a378dd5.png,700,4.5,น้ำแข็ง
+975,มิกาลูซา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/68884de05acf2b3e2eccf26a63dd8568eac534db.png,90,2.5,น้ำ พลังจิต
+976,เฮรัชเชอร์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/03b216f0422d99365e9d6e168c5a4054c7e46503.png,220,12,น้ำ
+977,ชาริทัตสึ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/953166e4ae4c4f52fafa1bab0a3864f40ffe766a.png,8,0.3,มังกร น้ำ
+978,โคโนะโยซารุ,977,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6db2e14221638f77e9b00fa88aa883f154545304.png,56,1.2,ต่อสู้ ผี
+979,โดะโอ,978,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/60a46a9d79191bbcc037a369c61faa5eed1a8827.png,223,1.8,พิษ ดิน
+980,ริกิคิริน,979,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/566c8ecfa9f9fddf539ca05a7ae8c86ac3465f5b.png,160,3.2,ปกติ พลังจิต
+981,โนโกก็อจจิ,980,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/541d98075307b66dbe4e67dd898b01e1d72bb3a0.png,39.2,3.6,ปกติ
+982,โดโดเกซัน,981,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/3d1e9d886ba47475ac9df961a040ed2dbe56f217.png,120,2,ความมืด โลหะ
+983,งายักษ์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/82fe41fb47e693fd8d4a63413014cec51ba6962c.png,320,2.2,ดิน ต่อสู้
+984,หางตะเบ็ง,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9454bf8f4eee957a5743c81d644080cb0c488f64.png,8,1.2,แฟรี่ พลังจิต
+985,เห็ดคลุ้มคลั่ง,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/05bc70329cac3ebae64391df04698b02a9939579.png,21,1.2,หญ้า ความมืด
+986,เกศากระพือ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/c04afe5f950a37a8f88fba5e1f48e24ec5855fa3.png,4,1.4,ผี แฟรี่
+987,ปีกไล้พสุธา,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/e338595cc5580d7d3cbf7f58f608f7b4bab679c9.png,92,3.2,แมลง ต่อสู้
+988,ขนทราย,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/58e47ef2a96a5077591bee2726c1ecaf595b2569.png,60,2.3,ไฟฟ้า ดิน
+989,รอยล้อเหล็ก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/790f5d90d5e16c2c1cec34bbb455a630b890f67f.png,240,0.9,ดิน โลหะ
+990,ถุงเหล็ก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9dc0675d5d921031d28d6278a9cd1d7e74512fb5.png,11,0.6,น้ำแข็ง น้ำ
+991,แขนเหล็ก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/01c6e40a66b12e683dd5be65b07dd3b7d536ccf2.png,380.7,1.8,ต่อสู้ ไฟฟ้า
+992,คอเหล็ก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/097e387896d951df43d1fd368d48ebd78a5e0aa3.png,111,1.3,ความมืด บิน
+993,แมลงมอธเหล็ก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/6824a8acbe9d66fc53e9c48d6f0e1f292fac480b.png,36,1.2,ไฟ พิษ
+994,หนามเหล็ก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d34e5f3290ecc1d3f382723caf286cdf7c4f8f26.png,303,1.6,หิน ไฟฟ้า
+995,เซบิเอะ,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0475351adc47229c048c3c0155c43e2b1b722195.png,17,0.5,มังกร น้ำแข็ง
+996,เซโกล,995,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/0786b63c7fd5b235a361b3f076b5f6a71020e94f.png,30,0.8,มังกร น้ำแข็ง
+997,เซเกลฟ,996,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/af713b7e6c28234773dd6079505e00ed3a7e57d9.png,210,2.1,มังกร น้ำแข็ง
+998,คอลเลคเรย์,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/11e34993c5a77e79eec84540d217b64450bbdba8.png,5,0.3,ผี
+999,ซาร์ฟโก,998,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/72f68c5cd2f9f0825690aa993a10ea18834b3190.png,30,1.2,โลหะ ผี
+1000,ฉงเจี่ยน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/aa20d3dee9682dc43766e208899b1f8264954eff.png,74.2,1.5,ความมืด หญ้า
+1001,เป้าเจี้ยน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d0eea927557a1169557fe1ef40ba099b9ddcfc24.png,152.2,1.9,ความมืด น้ำแข็ง
+1002,ติ่งลู่,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/4816bc84c3cf37e6615f5ae64a8ea0cf5179d49f.png,699.7,2.7,ความมืด ดิน
+1003,อวี้อวี๋,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/9f52579b34d5e2c08866207437f2a857bea71891.png,4.9,0.4,ความมืด ไฟ
+1004,จันทร์คำรน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/546673ef745c1718e18ffd2507823b0e9d007f4a.png,380,2,มังกร ความมืด
+1005,นักรบเหล็ก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/99e24a2ee97c238f7c92c58b3fbd04045db23721.png,35,1.4,แฟรี่ ต่อสู้
+1006,โคไรดอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/254d10cd369553f4fb491b891b467784ee2e26d9.png,303,2.5,ต่อสู้ มังกร
+1007,มิไรดอน,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/601511f636d8684f66c50a13fa81bde92f591cf0.png,240,3.5,ไฟฟ้า มังกร
+1008,คลื่นน้ำกระเพื่อม,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/050d90c9c65752d273cd6641a4df765acbed777c.png,280,3.5,น้ำ มังกร
+1009,ใบด่างเหล็ก,null,https://th.portal-pokemon.com/play/resources/pokedex/img/pm/07bb6cd3da5bfaf91ea01acf262a5b203f47592b.png,125,1.5,หญ้า พลังจิต

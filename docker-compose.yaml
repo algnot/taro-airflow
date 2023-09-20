@@ -17,7 +17,7 @@ x-airflow-common:
     AIRFLOW__WEBSERVER__WARN_DEPLOYMENT_EXPOSURE: 'false'
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session'
     AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
-    _PIP_ADDITIONAL_REQUIREMENTS: 'UnleashClient'
+    _PIP_ADDITIONAL_REQUIREMENTS: 'UnleashClient sqlalchemy'
     _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
     _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
     AIRFLOW__CORE__DEFAULT_TIMEZONE: ${AIRFLOW__CORE__DEFAULT_TIMEZONE:-Asia/Bangkok}
@@ -58,10 +58,6 @@ services:
       - postgres-db-volume:/var/lib/postgresql/data
     expose:
       - 5432
-    # command: 
-    #   - bash
-    #   - -c
-    #   - createdb -h localhost -p 5432 -U $${POSTGRES_USER:-airflow} unleash
     healthcheck:
       test: ["CMD-SHELL", 'pg_isready -U "$${POSTGRES_DB:-airflow}"']
       interval: 10s
@@ -284,6 +280,18 @@ services:
     volumes:
         - /var/run/docker.sock:/var/run/docker.sock
     restart: unless-stopped
+
+  discord-bot:
+    build: 
+      context: bot/
+      dockerfile: Dockerfile
+    environment:
+      <<: *airflow-common-env
+    volumes:
+      - ${AIRFLOW_PROJ_DIR:-.}/bot/src:/src
+    depends_on:
+      unleash-web:
+        condition: service_healthy
 
 volumes:
   postgres-db-volume:
