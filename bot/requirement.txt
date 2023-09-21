@@ -7,3 +7,4 @@ UnleashClient
 sqlalchemy==1.4.49
 discord.py
 psycopg2
+Flask

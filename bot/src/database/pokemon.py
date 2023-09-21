@@ -7,8 +7,6 @@ class Pokemon:
     connect = None
     
     def __init__(self, client_id=False):
-        if not client_id:
-            raise Exception("Client ID is required")
         self.client = create_engine(url=client_id)
         self.connect = self.client.connect()
       
