@@ -10,6 +10,8 @@
 /bot/src/__pycache__/
 /bot/src/database/__pycache__/
 /bot/src/command/__pycache__/
+/bot/src/router/__pycache__/
+/bot/src/caller/__pycache__/
 .env
 .venv/
 

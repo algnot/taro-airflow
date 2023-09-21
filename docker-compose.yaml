@@ -287,11 +287,23 @@ services:
       dockerfile: Dockerfile
     environment:
       <<: *airflow-common-env
+    ports:
+      - "1000:5000"
     volumes:
       - ${AIRFLOW_PROJ_DIR:-.}/bot/src:/src
     depends_on:
       unleash-web:
         condition: service_healthy
+
+  pgadmin:
+    container_name: pgadmin4_container
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
 
 volumes:
   postgres-db-volume:

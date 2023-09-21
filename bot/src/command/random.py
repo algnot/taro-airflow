@@ -12,7 +12,11 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
     
     @tree.command(name=name, description=description, guild=discord.Object(id=discord_guild_id))
     async def call(interaction: discord.Interaction):
-        pokemon = Pokemon(config.get("POSTGRES_URL"))
+        if not bot.is_ready():
+            await interaction.response.send_message("⌛ รอสักครู่นะครับ กำลังเปิดระบบอยู่...")
+            return
+        
+        pokemon = Pokemon()
         random_pokemon = pokemon.get_random_pokemon()
         embed = discord.Embed(title=f"**{random_pokemon['name']}** ฉันเลือกนาย!\n",
                             description=f"คุณสุ่มได้ **{random_pokemon['name']}** `({random_pokemon['id']})`\n"

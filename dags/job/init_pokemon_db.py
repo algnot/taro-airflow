@@ -41,7 +41,7 @@ with DAG(dag_id="init_pokemon_db",
             if row["evo_from_id"] != -1:
                 pokemon_df.at[row["evo_from_id"], "evo_to_id"] = row["id"]
                 
-        pokemon_df.to_sql("pokemon_table", engine)
+        pokemon_df.to_sql("pokemon_table", engine, index=False)
         
         random_pokemon = pokemon_df.sample(1, random_state=random.default_rng()).iloc[0]
         

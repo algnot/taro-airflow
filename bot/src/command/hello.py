@@ -11,5 +11,8 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
     
     @tree.command(name=name, description=description, guild=discord.Object(id=discord_guild_id))
     async def call(interaction: discord.Interaction):
+        if not bot.is_ready():
+            await interaction.response.send_message("⌛ รอสักครู่นะครับ กำลังเปิดระบบอยู่...")
+            return
         await interaction.response.send_message("เป็นควยไร")
      

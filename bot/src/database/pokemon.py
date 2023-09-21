@@ -1,21 +1,11 @@
 from sqlalchemy import create_engine
+from .base import Base
 
-
-class Pokemon:
+class Pokemon (Base):
     _name = "Pokemon"
-    client = None
-    connect = None
     
-    def __init__(self, client_id=False):
-        self.client = create_engine(url=client_id)
-        self.connect = self.client.connect()
+    def __init__(self):
+        super().__init__()
       
     def get_random_pokemon(self):
-        res = self.connect.execute("SELECT * FROM public.pokemon_table ORDER BY RANDOM() LIMIT 1")
-        result = {}
-        for row in res:
-            for key in row.keys():
-                result[key] = row[key]
-        self.connect.close()
-        self.client.dispose()
-        return result
+        return self.execute("SELECT * FROM public.pokemon_table ORDER BY RANDOM() LIMIT 1")
