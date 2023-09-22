@@ -48,7 +48,9 @@ with DAG(dag_id="add_user_to_database",
                 pokemon_id BIGINT,
                 exp INTEGER,
                 level INTEGER,
-                active BOOLEAN default true
+                active BOOLEAN default true,
+                weight FLOAT,
+                height FLOAT
             );
         """)
     

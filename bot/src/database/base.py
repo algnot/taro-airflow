@@ -11,15 +11,31 @@ class Base:
         self.config = Config()
         
     def execute(self, query):
-        self.client = create_engine(url=self.config.get("POSTGRES_URL"))
-        self.connect = self.client.connect()
-        res = self.connect.execute(query)
-        result = {}
+        try:
+            self.client = create_engine(url=self.config.get("POSTGRES_URL"))
+            self.connect = self.client.connect()
+            res = self.connect.execute(query)
+            results = []
+            
+            if not res:
+                self.connect.close()
+                self.client.dispose()
+                return []
+            
+            for row in res:
+                result = {}
+                for key in row.keys():
+                    result[key] = row[key]
+                results.append(result)
+                    
+            self.connect.close()
+            self.client.dispose()
+            return results  
         
-        for row in res:
-            for key in row.keys():
-                result[key] = row[key]
-                
-        self.connect.close()
-        self.client.dispose()
-        return result
+        except Exception:
+            self.connect.close()
+            self.client.dispose()
+            return []
+            
+            
+        
