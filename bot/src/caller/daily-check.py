@@ -13,7 +13,7 @@ async def daily_check(bot : discord.Client):
     config = Config()
     logger = Logger()
     discord_guild_id = int(config.get("DISCORD_GUILD_ID"))
-    discord_channel_id = int(config.get("DISCORD_CHANNEL_USICK_DEV"))
+    discord_channel_id = int(config.get("DISCORD_CHANNEL_PLAY_WITH_TARO"))
     
     guild = bot.get_guild(discord_guild_id)
     channel = guild.get_channel(discord_channel_id)
