@@ -16,7 +16,7 @@ with DAG(dag_id="init_pokemon_db",
          description="Initial pokemon table",
          start_date=datetime.now() - timedelta(days=1),
          schedule="@once",
-         tags=["pokemon"]) as dag:
+         tags=["pokemon", "discord"]) as dag:
     
     config = Config()
 

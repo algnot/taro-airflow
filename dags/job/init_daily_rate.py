@@ -11,10 +11,10 @@ tzset()
 
 
 with DAG(dag_id="init_daily_rate_items_to_database",
-         description="Init daily rate items to database",
+         description="Initial daily rate items to database",
          start_date=datetime.now() - timedelta(days=1),
          schedule="@once",
-         tags=["pokemon"]) as dag:
+         tags=["pokemon", "discord"]) as dag:
     
     config = Config()
     

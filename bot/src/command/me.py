@@ -1,6 +1,5 @@
 import discord
 from config import Config
-from logger import Logger
 from database.user import User
 from database.pokemon import Pokemon
 
@@ -10,7 +9,6 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
     description = "ดูข้อมูลของคุณ"
     
     config = Config()
-    logger = Logger()
     discord_guild_id = int(config.get("DISCORD_GUILD_ID"))
     
     @tree.command(name=name, description=description, guild=discord.Object(id=discord_guild_id))
@@ -42,7 +40,6 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                                   f"Type: {pokemon_info['type']}\n"
                                   f"Level: {user_pokemon['level']} ({user_pokemon['exp']} exp)\n",
                             inline=True)
-            # embed.set_thumbnail(url=pokemon_info["image"])
             embed.set_image(url=pokemon_info["image"])
         else:
             embed.add_field(name="🟢 คู่หู", value="_", inline=True)

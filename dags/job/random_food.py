@@ -14,7 +14,7 @@ schedule = "0 9,12,17 * * *"
 with DAG(dag_id="random_food_job",
          description="Random Food Job",
          start_date=datetime.now() - timedelta(days=1),
-         tags=["food", "discord"],         
+         tags=["discord"],         
          schedule_interval=schedule) as dag:
 
     config = Config()

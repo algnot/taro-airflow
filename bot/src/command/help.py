@@ -20,6 +20,7 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                                         "`/random` สุ่มโปเกม่อน (ใช้ Pokéball 1 ลูก)\n"
                                         "`/partner` ดูโปเกม่อนของคุณ\n"
                                         "`/release` ปล่อยโปเกม่อนของคุณ\n"
-                                        "`/me` ดูข้อมูลของคุณ")
+                                        "`/me` ดูข้อมูลของคุณ\n"
+                                        "`/daily` รับของรางวัลประจำวัน")
         
         
