@@ -21,6 +21,7 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                                         "`/partner` ดูโปเกม่อนของคุณ\n"
                                         "`/release` ปล่อยโปเกม่อนของคุณ\n"
                                         "`/me` ดูข้อมูลของคุณ\n"
-                                        "`/daily` รับของรางวัลประจำวัน")
+                                        "`/daily` รับของรางวัลประจำวัน"
+                                        "`/use-item` ใช้ไอเทม\n")
         
         
