@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.decorators import task
+from airflow.operators.bash import BashOperator
 from model.config import Config
 from model.logger import Logger
 from time import tzset
@@ -14,7 +15,7 @@ tzset()
 with DAG(dag_id="add_user_to_database",
          description="Add user to database",
          start_date=datetime.now() - timedelta(days=1),
-         schedule_interval="0 22 * * *",
+         schedule_interval="0 21 * * *",
          tags=["pokemon"]) as dag:
     
     config = Config()
@@ -33,7 +34,8 @@ with DAG(dag_id="add_user_to_database",
                 created_at TIMESTAMP,
                 joined_at TIMESTAMP,
                 is_bot BOOLEAN,
-                pokemon_id BIGINT 
+                pokemon_id BIGINT,
+                is_daily_login BOOLEAN default false
             );
             CREATE TABLE IF NOT EXISTS user_inventory_table (
                 user_id BIGINT PRIMARY KEY,
@@ -53,6 +55,11 @@ with DAG(dag_id="add_user_to_database",
                 height FLOAT
             );
         """)
+        
+    create_table_complete = BashOperator(
+        task_id="create_table_complete",
+        bash_command="echo 'Create table complete'"
+    )   
     
     @task()
     def add_user_to_database():
@@ -64,7 +71,8 @@ with DAG(dag_id="add_user_to_database",
                 ON CONFLICT (user_id) DO UPDATE SET
                     name = EXCLUDED.name,
                     display_name = EXCLUDED.display_name,
-                    display_avatar = EXCLUDED.display_avatar
+                    display_avatar = EXCLUDED.display_avatar,
+                    is_daily_login = FALSE
             """, (
                 user["user_id"],
                 user["name"],
@@ -82,8 +90,4 @@ with DAG(dag_id="add_user_to_database",
         logger.warning("Update user to database successfully")
         engine.dispose()
         
-    def main():
-        create_table()
-        add_user_to_database()
-    
-    main()
+    create_table() >> create_table_complete >> add_user_to_database()

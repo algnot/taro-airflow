@@ -1,9 +1,11 @@
 from .base import Base
 from .pokemon import Pokemon
+from .items import Items
+from logger import Logger
 
 
 class User (Base):
-    _name = "Pokemon"
+    _name = "User"
     user_id = None
     user_info = {}
     
@@ -52,3 +54,18 @@ class User (Base):
             SET active = FALSE
             WHERE user_id = {self.user_id}
         """)
+        
+    def update_daily_login(self):
+        item = Items()
+        item_info = item.get_daily_rate_item()
+        
+        if item_info["add_type"] == "UPDATE":
+            self.execute(f"""
+                UPDATE public.{item_info["item_table"]}
+                SET {item_info["item_key"]} = {item_info["item_key"]} + {item_info["amount"]}
+                WHERE user_id = {self.user_id};
+                UPDATE public.users_table 
+                SET is_daily_login = TRUE
+                WHERE user_id = {self.user_id};
+            """)
+        return item_info
