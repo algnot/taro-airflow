@@ -22,7 +22,7 @@ async def daily_check(bot : discord.Client):
     tomorrow = today.replace(day=today.day+1, hour=0, minute=0, second=0, microsecond=0)
     tomorrow = tomorrow.strftime("%d/%m/%Y")
     
-    embed = discord.Embed(title=f"✨ 🔥 ของรางวัลประจำวันที่ {tomorrow}", description="รีเซ็ททุก 22:00 กดปุ่มด้านล่างเพื่อรับของรางวัล (1 ครั้ง/วัน/คน)", color=0x00ff00)
+    embed = discord.Embed(title=f"✨ 🔥 ของรางวัลประจำวันที่ {tomorrow}", description="รีเซ็ททุก 22:00 กดปุ่มด้านล่างเพื่อรับของรางวัล (1 ครั้ง/วัน/คน)\nหากไม่สามารถกดปุ่มด้านล่างได้ให้ใช้คำสั่ง `/daily`", color=0x00ff00)
     daily_btn = discord.ui.Button(label="🔥 รับของรางวัลเลย", style=discord.ButtonStyle.green, custom_id="daily_login_btn")
     view = discord.ui.View()
     view.add_item(daily_btn)
