@@ -23,6 +23,7 @@ class Pokemon (Base):
         """)
         
     def increse_abilities(self, user_id:int, pokemon_id:int, abilities:any):
+        abilities["value"] = round(abilities["value"], 2)
         self.execute(f"""
             UPDATE public.{abilities['increse_table']}
             SET {abilities['increse_key']} = {abilities['increse_key']} + {abilities['value']}
