@@ -1,8 +1,8 @@
 item_key,type,increse_table,increse_key,min_value,max_value,chance
 fresh_water,increse,pokemon_exp_table,exp,30,50,100
-fresh_water,increse,pokemon_exp_table,weight,0.01,0.02,13
-fresh_water,increse,pokemon_exp_table,height,0.01,0.02,13
+fresh_water,increse,pokemon_exp_table,weight,0.005,0.008,13
+fresh_water,increse,pokemon_exp_table,height,0.005,0.008,13
 banana,increse,pokemon_exp_table,exp,50,100,100
-banana,increse,pokemon_exp_table,weight,0.02,0.03,13
-banana,increse,pokemon_exp_table,height,0.02,0.03,13
+banana,increse,pokemon_exp_table,weight,0.008,0.01,13
+banana,increse,pokemon_exp_table,height,0.008,0.01,13
 gem,evo,,,0,0,5
