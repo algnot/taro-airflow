@@ -1,5 +1,6 @@
 import discord
 from config import Config
+from logger import Logger
 from database.user import User
 from database.pokemon import Pokemon
 import enum
@@ -10,12 +11,13 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
     description = "ใช้ไอเทม"
     
     config = Config()
+    logger = Logger()
     discord_guild_id = int(config.get("DISCORD_GUILD_ID"))
+    discord_channel_id = int(config.get("DISCORD_CHANNEL_PLAY_WITH_TARO"))
     
     class Items(enum.Enum):
         FreshWater = "fresh_water"
         Banana = "banana"
-        Gem = "gem"
     
     @tree.command(name=name, description=description, guild=discord.Object(id=discord_guild_id))
     @discord.app_commands.describe(item="ไอเทมที่ต้องการใช้", amount="จำนวนที่ต้องการใช้")
@@ -27,5 +29,40 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
         if amount < 1:
             return await interaction.followup.send("❌ จำนวนที่ต้องการใช้ต้องมากกว่า 0")
         
-        await interaction.followup.send("command not implemented yet")
+        user = User(interaction.user.id)
+        user_info = user.user_info
+        user_pokemon = user.get_user_pokemon()
+                
+        if not user_pokemon:
+            return await interaction.followup.send("❌ ยังไม่มีโปเกมอนไม่สามารถใช้ไอเทมได้กรุณาเพิ่มโปเกมอนก่อน โดยใช้คำสั่ง `/random`")
+        
+        if user_info[item.value] < amount:
+            return await interaction.followup.send(f"❌ ไอเทมไม่เพียงพอ (คงเหลือ `{user_info[item.value]}` {item.name})")
+        
+        message = await interaction.followup.send("⌛ กำลังใช้ไอเทม...")
+        
+        try:
+            result, is_level_up = user.use_item(item.value, amount)
+            pokemon = Pokemon()
+            pokemon_info = pokemon.get_pokemon_by_id(user_pokemon["pokemon_id"])
+            message_result = f"✅ ใช้ {item.name} จำนวน {amount} ชิ้นแล้ว\n"
+            for ability in result:
+                message_result += f"✅ `{pokemon_info['name']}` ของคุณ ได้รับ `{ability['increse_key']}` จำนวน `{ability['value']}`\n"
+            
+            if is_level_up:
+                channel = interaction.guild.get_channel(discord_channel_id)
+                
+                embed = discord.Embed(type="article", color=0x00ff00)
+                embed.set_author(name=f"🎉 โปเกมอนของ {user_info['name']} เลเวลอัพแล้ว", 
+                                 icon_url=user.user_info["display_avatar"])
+                embed.add_field(name=f"{pokemon_info['name']}",
+                                value=f"อัพเลเวลจาก {is_level_up['old_level']} เป็นเลเวล {is_level_up['new_level']}",
+                                inline=True)
+                embed.set_thumbnail(url=pokemon_info["image"])
+                await channel.send(embed=embed)
+            await message.edit(content=message_result)
+            
+        except Exception as e:
+            await interaction.followup.send("❌ ไม่สามารถใช้ไอเทมได้ กรุณาลองใหม่อีกครั้ง")
+            raise e
         
