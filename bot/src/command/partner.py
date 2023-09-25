@@ -28,8 +28,9 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
         
         embed = discord.Embed(title=f"**{pokemon_info['name']}** คือคู่หูของ {user.user_info['name']}\n",
                               description=f"ประเภท: **{pokemon_info['type']}**\n"
-                                          f"เลเวล: **{user_pokemon['level']}** ({user_pokemon['exp']} exp)\n"
-                                          f"สัดส่วน: {user_pokemon['weight']}kg, {user_pokemon['height']}m\n",
+                                          f"เลเวล: **{user_pokemon['level']}** ({round(float(user_pokemon['exp']), 3)} exp)\n"
+                                          f"สัดส่วน: {round(float(user_pokemon['weight']), 3)}kg, {round(float(user_pokemon['height']), 3)}m\n"
+                                          f"ATK|DEF|HP: ** - | - | - **\n",
                               color=0x00ff00)
         
         embed.set_image(url=pokemon_info["image"])

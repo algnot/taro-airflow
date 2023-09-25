@@ -37,8 +37,8 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
             
             embed.add_field(name="🟢 คู่หู\n",
                             value=f"_\n{pokemon_info['name']}\n\n"
-                                  f"Type: {pokemon_info['type']}\n"
-                                  f"Level: {user_pokemon['level']} ({user_pokemon['exp']} exp)\n",
+                                  f"ประเภท: {pokemon_info['type']}\n"
+                                  f"เลเวล: {user_pokemon['level']} ({round(float(user_pokemon['exp']), 3)} exp)\n",
                             inline=True)
             embed.set_image(url=pokemon_info["image"])
         else:
