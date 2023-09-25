@@ -86,6 +86,10 @@ class User (Base):
         
         is_level_up = pokemon.handle_level_up(self.user_id)
         if is_level_up:
+            logger = Logger()
+            logger.info(f"Reproduce level up bug: {str(is_level_up)}")
+            
+        if is_level_up and is_level_up[0]["new_level"] > is_level_up[0]["old_level"]:
             pokemon.action_level_up(self.user_id, is_level_up[0]["new_level"], is_level_up[0]["want_exp"])
             return items_info, is_level_up[0]
         

@@ -50,6 +50,7 @@ class Pokemon (Base):
         """);
         
     def action_level_up(self, user_id:int, new_level:int, use_exp:int):
+        use_exp = round(use_exp, 2)
         self.execute(f"""
             UPDATE public.pokemon_exp_table
             SET level = {new_level}, exp = exp - {use_exp}
