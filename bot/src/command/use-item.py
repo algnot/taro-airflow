@@ -1,6 +1,5 @@
 import discord
 from config import Config
-from logger import Logger
 from database.user import User
 from database.pokemon import Pokemon
 import enum
@@ -11,7 +10,6 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
     description = "ใช้ไอเทม"
     
     config = Config()
-    logger = Logger()
     discord_guild_id = int(config.get("DISCORD_GUILD_ID"))
     discord_channel_id = int(config.get("DISCORD_CHANNEL_PLAY_WITH_TARO"))
     

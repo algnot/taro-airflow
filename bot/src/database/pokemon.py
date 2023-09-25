@@ -1,4 +1,6 @@
 from .base import Base
+from random import randint
+
 
 
 class Pokemon (Base):
@@ -14,13 +16,22 @@ class Pokemon (Base):
         return self.execute(f"SELECT * FROM public.pokemon_table WHERE id = {pokemon_id}")[0]
     
     def create_pokemon(self, user_id:int, pokemon_data:any):
+        random_atk = randint(20, 30)
+        random_def = randint(20, 30)
+        random_hp = randint(200, 300)
         self.execute(f"""
-            INSERT INTO public.pokemon_exp_table (user_id, pokemon_id, exp, level, active, weight, height)
-            VALUES ({user_id}, {pokemon_data['id']}, 0, 1, TRUE, {pokemon_data['weight']}, {pokemon_data['height']});
+            INSERT INTO public.pokemon_exp_table (user_id, pokemon_id, exp, level, active, weight, height, atk, def, hp)
+            VALUES ({user_id}, {pokemon_data['id']}, 0, 1, TRUE, {pokemon_data['weight']}, {pokemon_data['height']}, {random_atk}, {random_def}, {random_hp});
             UPDATE public.users_table
             SET pokemon_id = {pokemon_data['id']}
             WHERE user_id = {user_id};
         """)
+        
+        return {
+            "atk": random_atk,
+            "def": random_def,
+            "hp": random_hp
+        }
         
     def increse_abilities(self, user_id:int, pokemon_id:int, abilities:any):
         abilities["value"] = round(abilities["value"], 2)

@@ -32,12 +32,13 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
         
         try:
             await message.edit(content="⌛ กำลังสุ่มโปเกม่อน...")
-            random_pokemon = user.action_get_random_pokemon()
+            random_pokemon, pokemon_abilities = user.action_get_random_pokemon()
             await message.edit(content=f"✅ สุ่มโปเกม่อนสำเร็จแล้ว! (คงเหลือ {user_info['pokeball'] - 1} Pokéball)")
             
             embed = discord.Embed(title=f"**{random_pokemon['name']}** ฉันเลือกนาย!\n",
                                 description=f"**{user_info['name']}** สุ่มได้ **{random_pokemon['name']}** `({random_pokemon['id']})`\n"
-                                            f"ประเภท: **{random_pokemon['type']}**\n",
+                                            f"ประเภท: **{random_pokemon['type']}**\n"
+                                            f"atk: `{pokemon_abilities['atk']}` def: `{pokemon_abilities['def']}`  hp: `{pokemon_abilities['hp']}`\n",
                                 color=0x00ff00)
             embed.set_image(url=random_pokemon["image"])
             await message.edit(embed=embed)

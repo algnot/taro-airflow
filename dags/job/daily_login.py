@@ -52,7 +52,10 @@ with DAG(dag_id="sync_user_to_database_daily",
                 level INTEGER,
                 active BOOLEAN default true,
                 weight FLOAT,
-                height FLOAT
+                height FLOAT,
+                atk INTEGER,
+                def INTEGER,
+                hp INTEGER
             );
         """)
         

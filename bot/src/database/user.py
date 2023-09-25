@@ -44,9 +44,9 @@ class User (Base):
         self.action_use_pokeball(1)
         
         random_pokemon = pokemon.get_random_no_evo_pokemon()
-        pokemon.create_pokemon(self.user_id, random_pokemon)
+        pokemon_abilities = pokemon.create_pokemon(self.user_id, random_pokemon)
         
-        return random_pokemon
+        return random_pokemon, pokemon_abilities
     
     def action_release_pokemon(self):
         self.execute(f"""
