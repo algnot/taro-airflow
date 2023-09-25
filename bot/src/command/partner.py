@@ -30,7 +30,7 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                               description=f"ประเภท: **{pokemon_info['type']}**\n"
                                           f"เลเวล: **{user_pokemon['level']}** ({round(float(user_pokemon['exp']), 3)} exp)\n"
                                           f"สัดส่วน: {round(float(user_pokemon['weight']), 3)}kg, {round(float(user_pokemon['height']), 3)}m\n"
-                                          f"ATK|DEF|HP: ** - | - | - **\n",
+                                          f"atk: `-` def: `-`  hp: `-`\n",
                               color=0x00ff00)
         
         embed.set_image(url=pokemon_info["image"])
