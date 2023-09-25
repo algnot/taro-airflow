@@ -40,11 +40,11 @@ class Pokemon (Base):
                 SUM(lspt.step_to_next_level) OVER (ORDER BY lspt.level) as want_exp
                 FROM public.pokemon_exp_table pxt
                 INNER JOIN public.level_step_pokemon_table lspt
-                ON lspt.level >= pxt.level
+                ON lspt.level > pxt.level
                 WHERE pxt.user_id={user_id} AND 
-                    pxt.exp > lspt.step_to_next_level AND 
-                    pxt.active = TRUE
-                ) as result_table WHERE result_table.exp > result_table.want_exp
+                      pxt.active = TRUE
+                ) as result_table 
+            WHERE result_table.exp >= result_table.want_exp
             ORDER BY result_table.want_exp DESC
             LIMIT 1
         """);
