@@ -78,7 +78,25 @@ with DAG(dag_id="init_rate_items_db",
             
         df = DataFrame(d)
         df.to_sql("level_step_pokemon_table", engine, index=False)
-                
+        
+    @task()
+    def add_shop_to_db():
+        engine = create_engine(config.get("POSTGRES_URL"))
+        engine.execute("DROP TABLE IF EXISTS shop_table")
+        shop_df = read_csv("/opt/airflow/data/shop.csv")
+        
+        shop_df.astype({
+            "item_key": "string",
+            "item_name": "string",
+            "increse_table": "string",
+            "buy": "int64",
+            "sell": "int64",
+            "active": "bool"
+        })
+        
+        shop_df.to_sql("shop_table", engine, index=False)
+                        
     add_daily_rate_db()
     add_item_abilities_rate_db()
     add_level_step_of_pokemon()
+    add_shop_to_db()

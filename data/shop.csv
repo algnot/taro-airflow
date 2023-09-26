@@ -1,0 +1,4 @@
+item_key,item_name,increse_table,buy,sell,add_type,active
+fresh_water,Fresh Water,pokemon_exp_table,50,45,update,true
+banana,Banana,pokemon_exp_table,70,65,update,true
+gem,Gem,pokemon_exp_table,5500,5000,update,true
