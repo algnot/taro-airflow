@@ -1,6 +1,5 @@
 import discord
 from config import Config
-from logger import Logger
 from database.user import User
 from database.shop import Shop
 import enum
@@ -11,7 +10,6 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
     description = "ซื้อสินค้าในร้านค้า"
     
     config = Config()
-    logger = Logger()
     discord_guild_id = int(config.get("DISCORD_GUILD_ID"))
     
     class Items(enum.Enum):
@@ -31,9 +29,7 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
         
         coin_of_user = user.user_info["coin"]
         item_info = shop.get_shop_item(item.value)
-        
-        logger.info(f"{item.value} {item_info}")
-        
+                
         if not item_info:
             return await interaction.followup.send("❌ ไม่มีสินค้านี้ในร้านค้า")
         
