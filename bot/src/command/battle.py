@@ -67,7 +67,7 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                             
             if round_of_player == 1:
                 if attack <= defense:
-                    content = f"{round_of_game} - `{player_1_pokemon_info['name']}` โจมตี `{player_2_pokemon_info['name']}` ด้วยพลัง `{attack}` กันได้ `{attack}` ไม่เกิดความเสียหาย (เหลือ hp `{player_2_hp}`))"
+                    content = f"{round_of_game} - `{player_1_pokemon_info['name']}` โจมตี `{player_2_pokemon_info['name']}` ด้วยพลัง `{attack}` กันได้ `{attack}` ไม่เกิดความเสียหาย (เหลือ hp `{player_2_hp}`)"
                 else:
                     player_2_hp = hp - (attack - defense) if hp - (attack - defense) > 0 else 0
                     content = f"{round_of_game} - `{player_1_pokemon_info['name']}` โจมตี `{player_2_pokemon_info['name']}` ด้วยพลัง `{attack}` กันได้ `{defense}` เสียหาย `{attack - defense}` (เหลือ hp `{player_2_hp}`)"
@@ -84,7 +84,7 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
             round_of_player = 1 if round_of_player == 2 else 2       
             round_of_game += 1
         
-        await message.edit(content=summary_message)
+        await message.edit(content=content)
         
         embed = discord.Embed(type="article", color=0xff8c00)
         
@@ -113,5 +113,7 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                               f"atk `{player_2_pokemon['atk']}`\n"
                               f"def `{player_2_pokemon['def']}`\n"
                               f"hp `{player_2_pokemon['hp']}`", inline=True)
+        
+        embed.set_footer(text=f"จำนวนรอบการต่อสู้ `{round_of_game - 1}` รอบ")
         
         await interaction.followup.send(embed=embed)
