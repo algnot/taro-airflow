@@ -40,9 +40,3 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
         
         await interaction.followup.send(f"✅ เพิ่ม `{item_info[0]['item_name']}` จำนวน `{amount}` แล้ว")
         
-        
-            
-        
-        
-        
-        

@@ -24,6 +24,7 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                                         "`/daily` รับของรางวัลประจำวัน\n"
                                         "`/use-item` ใช้ไอเทม\n"
                                         "`/shop-info` ดูรายละเอียดร้านค้า\n"
-                                        "`/shop-buy` ซื้อสินค้าในร้านค้า\n")
+                                        "`/shop-buy` ซื้อสินค้าในร้านค้า\n"
+                                        "`/userinfo` ดูข้อมูลผู้เล่น\n")
         
         
