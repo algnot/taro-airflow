@@ -80,12 +80,10 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                     content = f"{round_of_game} - `{player_2_pokemon_info['name']}` โจมตี `{player_1_pokemon_info['name']}` ด้วยพลัง `{attack}` กันได้ `{defense}` เสียหาย `{attack - defense}` (เหลือ hp `{player_1_hp}`)"
             
             summary_message += f"{content}\n"
-            await message.edit(content=summary_message)
+            await message.edit(content=content)
             round_of_player = 1 if round_of_player == 2 else 2       
             round_of_game += 1
-        
-        await message.edit(content=content)
-        
+                
         embed = discord.Embed(type="article", color=0xff8c00)
         
         if player_1_hp <= 0:
