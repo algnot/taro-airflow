@@ -92,7 +92,7 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                     player_2_hp = hp - (attack - defense) - real_damage 
                     if hp - (attack - defense) - real_damage < 0:
                         player_2_hp = 0
-                    content = f"{round_of_game} - `{player_1_pokemon_info['name']}` โจมตี `{player_2_pokemon_info['name']}` ด้วยพลัง `{attack + real_damage}` กันได้ `{defense}` เสียหาย `{attack - defense}` (เหลือ hp `{player_2_hp}`) "
+                    content = f"{round_of_game} - `{player_1_pokemon_info['name']}` โจมตี `{player_2_pokemon_info['name']}` ด้วยพลัง `{attack + real_damage}` กันได้ `{defense}` เสียหาย `{attack - defense + real_damage}` (เหลือ hp `{player_2_hp}`) "
                 
             if round_of_player == 2:
                 if attack <= defense and not real_damage:
@@ -102,7 +102,7 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                     player_1_hp = hp - (attack - defense) - real_damage 
                     if hp - (attack - defense) - real_damage < 0:
                         player_1_hp = 0
-                    content = f"{round_of_game} - `{player_2_pokemon_info['name']}` โจมตี `{player_1_pokemon_info['name']}` ด้วยพลัง `{attack + real_damage}` กันได้ `{defense}` เสียหาย `{attack - defense}` (เหลือ hp `{player_1_hp}`) "
+                    content = f"{round_of_game} - `{player_2_pokemon_info['name']}` โจมตี `{player_1_pokemon_info['name']}` ด้วยพลัง `{attack + real_damage}` กันได้ `{defense}` เสียหาย `{attack - defense + real_damage}` (เหลือ hp `{player_1_hp}`) "
             
             if is_critical:
                 content += "⚡ ความเสียหายคริติคอล "
