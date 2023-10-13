@@ -1,5 +1,6 @@
 import discord
 from config import Config
+from logger import Logger
 from database.user import User
 from database.pokemon import Pokemon
 import enum
@@ -10,6 +11,7 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
     description = "ใช้ไอเทม"
     
     config = Config()
+    logger = Logger()
     discord_guild_id = int(config.get("DISCORD_GUILD_ID"))
     discord_channel_id = int(config.get("DISCORD_CHANNEL_PLAY_WITH_TARO"))
     
@@ -51,6 +53,7 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                 message_result += f"✅ `{pokemon_info['name']}` ของคุณ ได้รับ `{ability['increse_key']}` จำนวน `{ability['value']}`\n"
             
             if is_level_up:
+                logger.info(f"{str(is_level_up)}")
                 channel = interaction.guild.get_channel(discord_channel_id)
                 
                 embed = discord.Embed(type="article", color=0x00ff00)
@@ -61,6 +64,22 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                                 inline=True)
                 embed.set_thumbnail(url=pokemon_info["image"])
                 await channel.send(embed=embed)
+                
+                if is_level_up["old_evo_step"] != is_level_up["new_evo_step"]:
+                    old_pokemon_name = pokemon_info["name"]
+                    user_pokemon = user.get_user_pokemon()
+                    pokemon_info = pokemon.get_pokemon_by_id(user_pokemon["pokemon_id"])
+                    evo_embed = discord.Embed(type="article", color=0x00ff00)
+                    evo_embed.set_author(name=f"🎉 {old_pokemon_name} ได้อีโวเป็น {pokemon_info['name']}", 
+                                        icon_url=user.user_info["display_avatar"])
+                    evo_embed.add_field(name="ความสามารถเพิ่มเติม",
+                                        value=f"critacal rate: `{user_pokemon['critical_rate']}%`\n"
+                                            f"cretical damage: `{user_pokemon['critical_damage'] + 100}%`\n"
+                                            f"real damage: `{user_pokemon['real_damage']}%`",
+                                        inline=True)   
+                    evo_embed.set_thumbnail(url=pokemon_info["image"])
+                    await channel.send(embed=evo_embed)
+                    
             await message.edit(content=message_result)
             
         except Exception as e:

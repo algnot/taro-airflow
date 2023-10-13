@@ -55,7 +55,11 @@ with DAG(dag_id="sync_user_to_database_daily",
                 height FLOAT,
                 atk INTEGER,
                 def INTEGER,
-                hp INTEGER
+                hp INTEGER,
+                evo_step BIGINT default 0,
+                critical_rate DOUBLE default 0,
+                critical_damage DOUBLE default 0,
+                real_damage DOUBLE default 0
             );
         """)
         

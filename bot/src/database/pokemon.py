@@ -48,7 +48,9 @@ class Pokemon (Base):
                 SELECT pxt.exp,
                 pxt.level as old_level,
                 lspt.level as new_level,
-                SUM(lspt.step_to_next_level) OVER (ORDER BY lspt.level) as want_exp
+                SUM(lspt.step_to_next_level) OVER (ORDER BY lspt.level) as want_exp,
+                pxt.evo_step  old_evo_step,
+	            lspt.evo_step  new_evo_step
                 FROM public.pokemon_exp_table pxt
                 INNER JOIN public.level_step_pokemon_table lspt
                 ON lspt.level > pxt.level
@@ -67,4 +69,28 @@ class Pokemon (Base):
             SET level = {new_level}, exp = exp - {use_exp}
             WHERE user_id = {user_id} AND active = TRUE;
         """)
+    
+    def action_evo_pokemon(self, user_id:int, new_pokemon_id:int):
+        random_critical_rate = randint(10, 25)
+        random_critical_damage = randint(50, 100)
+        random_real_damage = randint(2, 5)
+        if new_pokemon_id != -1:
+            self.execute(f"""
+                UPDATE public.pokemon_exp_table
+                SET pokemon_id = {new_pokemon_id}, 
+                    evo_step = evo_step + 1,
+                    critical_rate = critical_rate + {random_critical_rate},
+                    critical_damage = critical_damage + {random_critical_damage},
+                    real_damage = real_damage + {random_real_damage}
+                WHERE user_id = {user_id} AND active = TRUE;
+            """)
+        else:
+            self.execute(f"""
+                UPDATE public.pokemon_exp_table
+                SET evo_step = evo_step + 1,
+                    critical_rate = critical_rate + {random_critical_rate},
+                    critical_damage = critical_damage + {random_critical_damage},
+                    real_damage = real_damage + {random_real_damage}
+                WHERE user_id = {user_id} AND active = TRUE;
+            """)
         

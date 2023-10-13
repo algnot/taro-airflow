@@ -87,6 +87,11 @@ class User (Base):
         is_level_up = pokemon.handle_level_up(self.user_id)
         if is_level_up and is_level_up[0]["new_level"] > is_level_up[0]["old_level"]:
             pokemon.action_level_up(self.user_id, is_level_up[0]["new_level"], is_level_up[0]["want_exp"])
+            
+            if is_level_up[0]["old_evo_step"] < is_level_up[0]["new_evo_step"]:
+                pokemon_info = pokemon.get_pokemon_by_id(self.user_info["pokemon_id"])
+                pokemon.action_evo_pokemon(self.user_id, pokemon_info["evo_to_id"])
+            
             return items_info, is_level_up[0]
         
         return items_info, None
