@@ -16,7 +16,13 @@ for file in os.listdir("/src/command"):
         file_name = file.split(".")[0]
         handle = getattr(__import__(f"command.{file_name}", fromlist=["handle"]), "handle")
         handle(bot, tree)
+    
+async def handle_command_error(interection, error):
+    await interection.followup.send("❌ ไม่สามารถใช้คำสั่งได้ โปรดลองใหม่อีกครั้ง", ephemeral=True)
+    logger.error(f"[Discord Command] {error}")
         
+tree.on_error = handle_command_error
+            
 @app.route('/', methods=['GET'])
 def index():
     return "Server is running :)"
