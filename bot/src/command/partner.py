@@ -33,7 +33,7 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
         
         if user_pokemon["evo_step"] > 0:
             pokemon_description += f"critacal rate: `{user_pokemon['critical_rate']}%`\n" \
-                                   f"critacal damage: `{user_pokemon['critical_damage']}%`\n" \
+                                   f"critacal damage: `{float(user_pokemon['critical_damage']) + 100.00}%`\n" \
                                    f"real damage: `{user_pokemon['real_damage']}%`\n"
         
         embed = discord.Embed(title=f"**{pokemon_info['name']}** คือคู่หูของ {user.user_info['name']}\n",
