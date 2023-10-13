@@ -79,8 +79,8 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
             hp = player_2_hp if round_of_player == 1 else player_1_hp
             defense = int(defense * random_float)
             
-            if attack > defense:
-                hp = hp - (attack - defense)
+            if defense > attack:
+                defense = attack
             
             content = ""
                             
@@ -89,16 +89,20 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                     content = f"{round_of_game} - `{player_1_pokemon_info['name']}` โจมตี `{player_2_pokemon_info['name']}` ด้วยพลัง `{attack}` กันได้ `{attack}` ไม่เกิดความเสียหาย (เหลือ hp `{player_2_hp}`) "
                 else:
                     real_damage = int(attack * (float(real_damage) / 100))
-                    player_2_hp = hp - real_damage if hp - real_damage > 0 else 0
-                    content = f"{round_of_game} - `{player_1_pokemon_info['name']}` โจมตี `{player_2_pokemon_info['name']}` ด้วยพลัง `{attack}` กันได้ `{defense}` เสียหาย `{attack - defense}` (เหลือ hp `{player_2_hp}`) "
+                    player_2_hp = hp - (attack - defense) - real_damage 
+                    if hp - (attack - defense) - real_damage < 0:
+                        player_2_hp = 0
+                    content = f"{round_of_game} - `{player_1_pokemon_info['name']}` โจมตี `{player_2_pokemon_info['name']}` ด้วยพลัง `{attack + real_damage}` กันได้ `{defense}` เสียหาย `{attack - defense}` (เหลือ hp `{player_2_hp}`) "
                 
             if round_of_player == 2:
                 if attack <= defense and not real_damage:
                     content = f"{round_of_game} - `{player_2_pokemon_info['name']}` โจมตี `{player_1_pokemon_info['name']}` ด้วยพลัง `{attack}` กันได้ `{attack}` ไม่เกิดความเสียหาย (เหลือ hp `{player_1_hp}`) "
                 else:
                     real_damage = int(attack * (float(real_damage) / 100))
-                    player_1_hp = hp - real_damage if hp - real_damage > 0 else 0
-                    content = f"{round_of_game} - `{player_2_pokemon_info['name']}` โจมตี `{player_1_pokemon_info['name']}` ด้วยพลัง `{attack}` กันได้ `{defense}` เสียหาย `{attack - defense}` (เหลือ hp `{player_1_hp}`) "
+                    player_1_hp = hp - (attack - defense) - real_damage 
+                    if hp - (attack - defense) - real_damage < 0:
+                        player_1_hp = 0
+                    content = f"{round_of_game} - `{player_2_pokemon_info['name']}` โจมตี `{player_1_pokemon_info['name']}` ด้วยพลัง `{attack + real_damage}` กันได้ `{defense}` เสียหาย `{attack - defense}` (เหลือ hp `{player_1_hp}`) "
             
             if is_critical:
                 content += "⚡ ความเสียหายคริติคอล "
