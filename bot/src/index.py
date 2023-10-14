@@ -48,6 +48,7 @@ def caller():
 @bot.event
 async def on_ready():
     guilds = bot.guilds
+    logger.warning(f"[Discord] Bot is ready on `{config.get('ENV', 'Production')}` environment!")
     for guild in guilds:
         await tree.sync(guild=discord.Object(id=guild.id))
         
