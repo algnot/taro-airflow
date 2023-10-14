@@ -13,8 +13,8 @@
 /bot/src/battle-summary.csv
 /bot/src/router/__pycache__/
 /bot/src/caller/__pycache__/
-/proxy/*
-/letsencrypt/*
+/proxy
+/letsencrypt
 .env
 .venv/
 
