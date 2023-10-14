@@ -1,2 +1,0 @@
-2023/10/14 11:05:34 [warn] 147#147: server name "localhost/pgadmin" has suspicious symbols in /data/nginx/proxy_host/3.conf:15
-2023/10/14 11:12:02 [warn] 353#353: 512 worker_connections are not enough, reusing connections
