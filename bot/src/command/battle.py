@@ -22,6 +22,9 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
         if not bot.is_ready():
             return await interaction.followup.send("⌛ รอสักครู่นะครับ กำลังเปิดระบบอยู่...")
         
+        if interaction.user.id == user.id:
+            return await interaction.followup.send("❌ ไม่สามารถต่อสู้กับตัวเองได้")
+        
         player_1 = User(interaction.user.id)
         player_2 = User(user.id)
         

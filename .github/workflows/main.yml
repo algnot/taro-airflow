@@ -21,6 +21,7 @@ jobs:
           command_timeout: 200m
           script: 
             cd ./taro-airflow &&
-            git pull &&
+            git reset --hard origin/master &&
             docker-compose up -d &&
+            docker-compose restart discord-bot &&
             echo "Deploy completed!"
