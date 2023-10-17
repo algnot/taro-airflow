@@ -27,6 +27,9 @@ class Config:
           print(f"Get config {name} from env value")
           return os.environ[name]
         
+        print(f"Get config {name} from defualt value")
+        return defualt   
+        
       except Exception as e:
         print(e)
         if name in os.environ:

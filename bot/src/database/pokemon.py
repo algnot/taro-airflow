@@ -33,12 +33,12 @@ class Pokemon (Base):
             "hp": random_hp
         }
         
-    def increse_abilities(self, user_id:int, pokemon_id:int, abilities:any):
+    def increse_abilities(self, user_id:int, abilities:any):
         abilities["value"] = round(abilities["value"], 2)
         self.execute(f"""
             UPDATE public.{abilities['increse_table']}
             SET {abilities['increse_key']} = {abilities['increse_key']} + {abilities['value']}
-            WHERE user_id = {user_id} AND pokemon_id = {pokemon_id} AND active = TRUE;
+            WHERE user_id = {user_id} AND active = TRUE;
         """)
         
     def handle_level_up(self, user_id:int):
@@ -83,6 +83,9 @@ class Pokemon (Base):
                     critical_damage = critical_damage + {random_critical_damage},
                     real_damage = real_damage + {random_real_damage}
                 WHERE user_id = {user_id} AND active = TRUE;
+                UPDATE public.users_table
+                SET pokemon_id = {new_pokemon_id}
+                WHERE user_id = {user_id};
             """)
         else:
             self.execute(f"""

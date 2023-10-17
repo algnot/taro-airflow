@@ -69,14 +69,14 @@ class User (Base):
                 WHERE user_id = {self.user_id};
             """)
         return item_info
-    
+
     def use_item(self, name: str, amount: int):
         item = Items()
         items_info = item.get_random_abilities_of_item(name, amount)
-        
+                
         pokemon = Pokemon()
         for item_info in items_info:
-            pokemon.increse_abilities(self.user_id, self.user_info["pokemon_id"], item_info)
+            pokemon.increse_abilities(self.user_id, item_info)
         
         self.execute(f"""
             UPDATE public.user_inventory_table

@@ -1,14 +1,17 @@
 from sqlalchemy import create_engine
 from config import Config
+from logger import Logger
 
 
 class Base:
     client = None
     connect = None
     config = None
+    logger = None
     
     def __init__(self):
         self.config = Config()
+        self.logger = Logger()
         
     def execute(self, query):
         try:
