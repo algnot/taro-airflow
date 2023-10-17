@@ -37,8 +37,9 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
         if user_info[item.value] < amount:
             return await interaction.followup.send(f"❌ ไอเทมไม่เพียงพอ (คงเหลือ `{user_info[item.value]}` {item.name})")
         
-        if amount > 10:
-            return await interaction.followup.send("❌ สามารถใช้ไอเทมได้ไม่เกิน 10 ชิ้นต่อครั้ง")
+        max_item_use = int(config.get("MAX_ITEM_USE"))
+        if amount > max_item_use:
+            return await interaction.followup.send(f"❌ สามารถใช้ไอเทมได้ไม่เกิน {max_item_use} ชิ้นต่อครั้ง")
         
         message = await interaction.followup.send("⌛ กำลังใช้ไอเทม...")
         
