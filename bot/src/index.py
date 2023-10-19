@@ -44,6 +44,25 @@ def caller():
     except Exception as e:
         logger.error(f"[Discord Caller] Can not use function {function_id} with error {str(e)}")
         return str(e)
+    
+# on message
+@bot.event
+async def on_message(message):
+    if message.author.bot:
+        return
+    
+    user = message.author
+    
+    admin_list = str(config.get("TARO_DISCORD_ADMIN", "")).split(",")
+    
+    if str(user.id) not in admin_list:
+        return
+        
+    await message.add_reaction("🐶")
+    
+    if message.content == "ping":
+        env = config.get("ENV")
+        await message.channel.send(f"pong! in `{env}` environment.")
 
 @bot.event
 async def on_ready():
