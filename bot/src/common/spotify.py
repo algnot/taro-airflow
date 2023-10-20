@@ -23,7 +23,7 @@ class Spotify():
         res = post(url="https://accounts.spotify.com/api/token", data=payload)
         
         if res.status_code != 200:
-            raise Exception(f"Can not get access token\n{res.text}")
+            raise Exception(f"Can not get access token status code:{res.status_code}")
         
         return res.json()["access_token"]
     
@@ -34,7 +34,7 @@ class Spotify():
         })
         
         if res.status_code != 200:
-            raise Exception(f"Can not get count song in playlist\n{res.text}")
+            raise Exception(f"Can not get count song in playlist status code:{res.status_code}")
         
         return res.json()["tracks"]["total"]
     
@@ -45,7 +45,7 @@ class Spotify():
         })
         
         if res.status_code != 200:
-            raise Exception(f"Can not get song in playlist by index\n{res.text}")
+            raise Exception(f"Can not get song in playlist by index status code:{res.status_code}")
         
         return res.json()["items"][0]["track"]
     
