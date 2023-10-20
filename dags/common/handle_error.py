@@ -1,5 +1,5 @@
 from model.logger import Logger
-from config import Config
+from model.config import Config
 import traceback
 
 def handle_error(func):
