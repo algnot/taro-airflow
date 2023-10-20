@@ -6,6 +6,7 @@ import os
 import threading
 from common.spotify import Spotify
 from random import randint
+import traceback
 
 config = Config()
 logger = Logger()
@@ -21,7 +22,7 @@ for file in os.listdir("/src/command"):
     
 async def handle_command_error(interection, error):
     await interection.followup.send("❌ ไม่สามารถใช้คำสั่งได้ โปรดลองใหม่อีกครั้ง", ephemeral=True)
-    logger.error(f"[Discord Command] {error}")
+    logger.error(f"[Discord Command] Can not use command with error\n```{traceback.format_exc()}```")
         
 tree.on_error = handle_command_error
             
@@ -44,7 +45,7 @@ def caller():
                 return str(return_value)
         return "OK"
     except Exception as e:
-        logger.error(f"[Discord Caller] Can not use function {function_id} with error {str(e)}")
+        logger.error(f"[Discord Caller] Can not use function {function_id} with error\n```{traceback.format_exc()}```")
         return str(e)
     
 @bot.event

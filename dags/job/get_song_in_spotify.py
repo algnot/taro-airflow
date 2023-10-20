@@ -6,6 +6,7 @@ from model.spotify import Spotify
 from random import randint
 from model.discord import Discord
 from model.config import Config
+from common.handle_error import handle_error
 
 tzset()
 
@@ -17,7 +18,8 @@ with DAG(dag_id="get_song_in_spotify",
          tags=["spotify", "discord"]) as dag:
     
     @task()
-    def get_song_in_spotify():
+    @handle_error
+    def get_song_in_spotify(*args, **kwargs):
         config = Config()
         spotify = Spotify()
         discord = Discord(config.get("DISCORD_SEND_SONG_WEBHOOK_URL"))

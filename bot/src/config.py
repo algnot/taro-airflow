@@ -1,6 +1,8 @@
 from dotenv import load_dotenv
 import os
 from UnleashClient import UnleashClient
+from requests import patch
+import json
 
 
 class Config:
@@ -38,4 +40,27 @@ class Config:
         
         print(f"Get config {name} from defualt value")
         return defualt   
+      
+    def set(self, name, value):
+      url = f"http://unleash-web:4242/api/admin/projects/default/features/{name}/environments/development/variants"
+      
+      payload = json.dumps([
+        {
+          "op": "replace",
+          "path": "/0/payload/value",
+          "value": value
+        }
+      ])
+      
+      api_key = self.get("UNLEASH_ADMIN_API_KEY")
+      
+      res = patch(url=url, headers={
+        "Authorization": api_key,
+        "Content-Type": "application/json"
+      }, data=payload)
+      
+      if res.status_code != 200:
+        raise Exception(f"Can not set config {name} status code {res.status_code} {url} {payload}")
+      
+      return res
     
