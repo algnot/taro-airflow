@@ -1,12 +1,11 @@
-from config import Config
-from logger import Logger
-from flask import Flask, request, jsonify
 import discord
 import os
 import threading
-from common.spotify import Spotify
-from random import randint
 import traceback
+from config import Config
+from logger import Logger
+from flask import Flask, request, jsonify
+from message.message_handle import handle_message
 
 config = Config()
 logger = Logger()
@@ -54,31 +53,7 @@ def caller():
     
 @bot.event
 async def on_message(message):
-    if message.author.bot:
-        return
-    
-    user = message.author
-    
-    admin_list = str(config.get("TARO_DISCORD_ADMIN", "")).split(",")
-    
-    if str(user.id) not in admin_list:
-        if "ทาโร่" in message.content and "ขอเพลง" in message.content:
-            await message.add_reaction("❌")
-        return
-        
-    await message.add_reaction("🐶")
-    
-    if message.content == "ping":
-        env = config.get("ENV")
-        await message.channel.send(f"pong! in `{env}` environment.")
-    
-    if "ทาโร่" in message.content and "เพลง" in message.content:
-        spotify = Spotify()
-        total_song = spotify.get_count_song_in_playlist()
-        random_index = randint(0, total_song - 1)
-        song = spotify.get_song_in_playlist_by_index(random_index)
-        
-        await message.channel.send(song["external_urls"]["spotify"])
+    await handle_message(message)
 
 @bot.event
 async def on_ready():

@@ -60,7 +60,7 @@ class Config:
       }, data=payload)
       
       if res.status_code != 200:
-        raise Exception(f"Can not set config {name} status code {res.status_code} {url} {payload}")
+        raise Exception(f"Can not set config {name} status code {res.status_code}")
       
       return res
     
