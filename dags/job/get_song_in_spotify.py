@@ -14,7 +14,7 @@ tzset()
 with DAG(dag_id="get_song_in_spotify",
          description="Get song in spotify",
          start_date=datetime.now() - timedelta(days=1),
-         schedule="@once",
+         schedule_interval="0 15 * * *",
          tags=["spotify", "discord"]) as dag:
     
     @task()
@@ -27,7 +27,7 @@ with DAG(dag_id="get_song_in_spotify",
         random_index = randint(0, total_song - 1)
         
         song = spotify.get_song_in_playlist_by_index(random_index)
-        discord.send_message(song["external_urls"]["spotify"])
+        discord.send_message(f"{song['external_urls']['spotify']} - เพิ่มเพลงให้ทาโร่ได้ [ที่นี่](<{config.get('SPOTIFY_INVITE_LINK')}>)")
     
     get_song_in_spotify()
     
