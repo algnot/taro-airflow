@@ -23,10 +23,15 @@ async def change_all_username(bot : discord.Client):
         if guild.id != discord_guild_id:
             continue
         members = guild.members
+        index = 1
         for member in members:
             if member.bot:
                 continue
-            asyncio.run_coroutine_threadsafe(member.edit(nick=" "), bot.loop)
+            change_name_config = config.get("DISCORD_CHANGE_NAME_CONFIG", " ")
+            change_name_config = change_name_config.replace("{index}", str(index))
+            asyncio.run_coroutine_threadsafe(member.edit(change_name=change_name_config), bot.loop)
+    
+            index += 1
             
             # result = food_df.sample(1, random_state=random.default_rng()).iloc[0]["food"]
             # asyncio.run_coroutine_threadsafe(member.edit(nick=str(result)), bot.loop)
