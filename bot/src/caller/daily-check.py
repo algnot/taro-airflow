@@ -2,7 +2,6 @@ import discord
 from config import Config
 from datetime import datetime
 import asyncio
-from datetime import datetime
 from database.user import User
 
 def handle(bot : discord.Client):

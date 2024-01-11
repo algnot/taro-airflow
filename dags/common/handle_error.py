@@ -7,7 +7,8 @@ def handle_error(func):
     config = Config()
     def runner(*args, **kwargs):
         try:
-            return func(*args, **kwargs)
+            func(*args, **kwargs)
+            logger.info(f"Run task: `{func.__name__}` successfully")
         except Exception as e:
             logger.error(f"Error when running task: `{func.__name__}` with error\n```{traceback.format_exc()}```env: `{config.get('ENV')}`")
             raise e

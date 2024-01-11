@@ -3,6 +3,8 @@ version: '3.8'
 x-airflow-common:
   &airflow-common
   image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.7.0}
+  env_file:
+    - .env
   environment:
     &airflow-common-env
     TZ: ${TZ:-Asia/Bangkok}
@@ -286,12 +288,15 @@ services:
     build: 
       context: bot/
       dockerfile: Dockerfile
+    env_file:
+      - .env
     environment:
       <<: *airflow-common-env
     ports:
       - "1000:5000"
     volumes:
       - ${AIRFLOW_PROJ_DIR:-.}/bot/src:/src
+      - ${AIRFLOW_PROJ_DIR:-.}/data:/src/data
     depends_on:
       unleash-web:
         condition: service_healthy

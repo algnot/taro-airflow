@@ -34,7 +34,6 @@ with DAG(dag_id="random_food_job",
                 image_url = random.choice(image["images_results"])
                 if "original" in image_url:
                     image_url = image_url["original"]
-        
         if 0 < now.hour < 10:
             discord.send_message(f"🍔 เช้าแล้วอย่าลืมกินข้าวนะ! คุณควรกินข้าวกับ **{result}**", image_url)
         elif 10 < now.hour < 15:

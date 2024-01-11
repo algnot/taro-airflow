@@ -48,7 +48,7 @@ def caller():
                 return str(return_value)
         return "OK"
     except Exception as e:
-        logger.error(f"[Discord Caller] Can not use function {function_id} with error\n```{traceback.format_exc()}```env: `{config.get('ENV')}`")
+        logger.error(f"[Discord Caller] Can not use function `{function_id}` with error\n```{traceback.format_exc()}```env: `{config.get('ENV')}`")
         return str(e)
     
 @bot.event
