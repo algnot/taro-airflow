@@ -3,6 +3,7 @@ from config import Config
 from .ping_message import on_ping_message
 from .spotify_message import on_request_music_message
 from .config_message import on_get_config_message, on_set_config_message
+from requests import get
 
 async def handle_message(message: discord.Message):
     config = Config()
@@ -31,4 +32,10 @@ async def handle_message(message: discord.Message):
         
     elif content_splited[0].lower() == "config" and  content_splited[1].lower() == "set":
         await on_set_config_message(message, content_splited[2], content_splited[3], is_admin)
+    
+    elif content == "deploy ดีไหม":
+        response = get("https://deploydeemai.today/api")
+        result = response.json()
+        await message.channel.send(f"{'✅' if result['deploydeemai'] else '❌'} {result['message']}")
+        
         
