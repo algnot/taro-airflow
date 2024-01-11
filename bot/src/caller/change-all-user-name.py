@@ -24,10 +24,10 @@ async def change_all_username(bot : discord.Client):
             continue
         members = guild.members
         index = 1
+        change_name_config = config.get("DISCORD_CHANGE_NAME_CONFIG", " ")
         for member in members:
             if member.bot:
                 continue
-            change_name_config = config.get("DISCORD_CHANGE_NAME_CONFIG", " ")
             change_name_config = change_name_config.replace("{index}", str(index))
             asyncio.run_coroutine_threadsafe(member.edit(change_name=change_name_config), bot.loop)
     
