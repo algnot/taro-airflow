@@ -321,7 +321,6 @@ services:
       - airflow-webserver
       - unleash-web
       - portainer
-      - pgadmin
 
 volumes:
   postgres-db-volume:
