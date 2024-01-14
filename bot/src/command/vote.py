@@ -1,5 +1,6 @@
 import discord
 from discord import ui
+from database.vote import Vote
 from config import Config
 
 
@@ -14,17 +15,47 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
     async def call(interaction: discord.Interaction):
         await interaction.response.send_modal(VoteModal(title="Create Vote 📝"))
         
-def get_choice_message(choices: list):
-    message = ""
-    all_count = sum([choice["count"] for choice in choices]) 
-    all_count = 1 if all_count == 0 else all_count
-    
-    for index, choice in enumerate(choices):
-        percent = round((choice["count"] / all_count) * 100, 2)
-        message += f"{index + 1}. {choice['name']} - {choice['count']} vote\n"
-        message += f"|{'■' * int(40 * percent // 100)}{' ' * (40 - int(40 * percent // 100))}| {percent}%\n\n"
+    @bot.event
+    async def on_interaction(interaction: discord.Interaction):
+        if interaction.type == discord.InteractionType.component:
+            custom_id = interaction.data["custom_id"]
+            await interaction.response.defer()
+            
+            if custom_id.startswith("on_vote"):
+                message = await interaction.followup.send("⌛ กำลังโหวต..", ephemeral=True)
+                vote_id, choice = custom_id.split("on_vote-")[1].split("-", maxsplit=1)
+                vote = Vote(int(vote_id))
+                vote.on_vote(interaction.user.id, choice)
+                embed = VoteEmbed(vote.topic, vote.description, vote.choices, interaction, vote.create_by)
+                await interaction.message.edit(embed=embed)
+                await message.edit(content=f"✅ {interaction.user.mention} โหวตเรียบร้อยแล้ว!")
+                
+class VoteEmbed(discord.Embed):
+    def __init__(self, topic, description, choices, interaction, create_by_id=None):
+        super().__init__(title=f"📝 Vote: {topic}", 
+                         description=description)
         
-    return message
+        self.add_field(name="Summary", value=f"```{self.get_choice_message(choices)}```")
+        
+        if create_by_id:
+            create_by = interaction.guild.get_member(create_by_id)
+            self.set_footer(text=f"Created by {create_by.display_name}", 
+                        icon_url=create_by.display_avatar)
+            
+    def update(self, choices):
+        self.set_field_at(0, name="Summary", value=f"```{self.get_choice_message(choices)}```")
+        
+    def get_choice_message(self, choices: list):
+        message = ""
+        all_count = sum([choice["count"] for choice in choices]) 
+        all_count = 1 if all_count == 0 else all_count
+        
+        for index, choice in enumerate(choices):
+            percent = round((choice["count"] / all_count) * 100, 2)
+            message += f"{index + 1}. {choice['name']} - {choice['count']} vote\n"
+            message += f"|{'■' * int(40 * percent // 100)}{' ' * (40 - int(40 * percent // 100))}| {percent}%\n\n"
+            
+        return message
         
 class VoteModal(discord.ui.Modal):
     topic = ui.TextInput(label="Topic", 
@@ -39,41 +70,31 @@ class VoteModal(discord.ui.Modal):
         await interaction.response.defer()
         message = await interaction.followup.send("⌛ Vote is creating...", ephemeral=True)
         
-        embed = discord.Embed(title=f"📝 Vote: {self.topic.value}", 
-                              description=self.description.value)
+        choices = [{"name": choice, "count": 0} for choice in self.choice.value.split(",")]
+        choices = [dict(t) for t in {tuple(d.items()) for d in choices}]
         
-        choices = self.choice.value.split(",")
-        choices_list = [{"name": choice, "count": 0} for choice in choices] 
-        date = interaction.created_at.strftime("%d/%m/%Y %H:%M")
+        embed = VoteEmbed(self.topic.value, self.description.value, choices, interaction, interaction.user.id)
         
-        embed.add_field(name="Summary", value=f"```{get_choice_message(choices_list)}```")
-        embed.set_footer(text=f"Vote by {interaction.user.name} at {date}", 
-                         icon_url=interaction.user.display_avatar)
+        vote = Vote(message.id)
+        vote.create(self.topic.value, self.description.value, choices, interaction.user.id)
         
         message = await message.edit(content="✅ Vote is created!")
         await interaction.channel.send(embed=embed,
-                                       view=VoteView(message.id, 
-                                                     self.topic.value, 
-                                                     self.description.value, 
-                                                     self.choice.value))
+                                       view=VoteView(message.id, self.topic.value, self.description.value, choices))
         
 class VoteView(discord.ui.View):
     def __init__(self, id, topic, description, choices):
-        super().__init__()
+        super().__init__(timeout=None)
         self.topic = topic
         self.description = description
         self.choices = choices
         
-        index = 1
-        for choice in self.choices.split(","):
-            self.add_item(discord.ui.Button(label=f"{index}. {choice}", 
+        for index, choice in enumerate(choices):
+            self.add_item(discord.ui.Button(label=f"{index+1}. {choice['name']}", 
                                             style=discord.ButtonStyle.blurple, 
-                                            custom_id=f"{id}-choice-{index}-{choice}"))
-            index += 1
+                                            custom_id=f"on_vote-{id}-{choice['name']}",
+                                            row=0))
             
-        self.add_item(discord.ui.Button(label="Add Choice", style=discord.ButtonStyle.gray, custom_id=f"{id}-add"))
-        self.add_item(discord.ui.Button(label="Close Vote", style=discord.ButtonStyle.red, custom_id=f"{id}-close"))
-        
-    async def on_timeout(self):
-        await self.message.edit(view=None)
+        self.add_item(discord.ui.Button(label="Add Choice", style=discord.ButtonStyle.gray, custom_id=f"on_add_choice-{id}", row=1))
+        self.add_item(discord.ui.Button(label="Close Vote", style=discord.ButtonStyle.red, custom_id=f"on_close_vote-{id}", row=1))
         

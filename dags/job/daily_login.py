@@ -61,6 +61,25 @@ with DAG(dag_id="sync_user_to_database_daily",
                 critical_damage DOUBLE default 0,
                 real_damage DOUBLE default 0
             );
+            CREATE TABLE IF NOT EXISTS vote_table (
+                id BIGINT PRIMARY KEY,
+                topic TEXT,
+                description TEXT,
+                create_by BIGINT,
+            );
+            CREATE TABLE IF NOT EXISTS choice_table (
+                id SERIAL PRIMARY KEY,
+                vote_id BIGINT REFERENCES vote_table(id),
+                index BIGINT,
+                name TEXT,
+                count BIGINT default 0
+            );
+            CREATE TABLE IF NOT EXISTS vote_user_table (
+                id SERIAL PRIMARY KEY,
+                vote_id BIGINT REFERENCES vote_table(id),
+                choice_id BIGINT REFERENCES choice_table(id),
+                user_id BIGINT 
+            );
         """)
         
     create_table_complete = BashOperator(
