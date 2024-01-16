@@ -65,6 +65,18 @@ class Vote (Base):
         
         return result[0]["id"]
     
+    def add_choice(self, choice_list:list):
+        choice_list = [choice for choice in choice_list if choice not in [choice["name"] for choice in self.choices]]
+        
+        for choice_name in choice_list:
+            self.execute(f"""
+                INSERT INTO choice_table (vote_id, index, name)
+                VALUES ({self.vote_id}, {len(self.choices) + 1}, '{choice_name}')
+            """)
+        
+        self.get()
+        return self
+    
     def on_vote(self, user_id:int, choice_name:str):
         result = self.execute(f"""
             SELECT * FROM vote_user_table

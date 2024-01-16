@@ -1,6 +1,7 @@
 import discord
 from discord import ui
 from database.vote import Vote
+from database.user import User
 from config import Config
 
 
@@ -19,9 +20,9 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
     async def on_interaction(interaction: discord.Interaction):
         if interaction.type == discord.InteractionType.component:
             custom_id = interaction.data["custom_id"]
-            await interaction.response.defer()
             
             if custom_id.startswith("on_vote"):
+                await interaction.response.defer()
                 message = await interaction.followup.send("⌛ กำลังโหวต..", ephemeral=True)
                 vote_id, choice = custom_id.split("on_vote-")[1].split("-", maxsplit=1)
                 vote = Vote(int(vote_id))
@@ -30,17 +31,28 @@ def handle(bot:discord.Client, tree:discord.app_commands.CommandTree):
                 await interaction.message.edit(embed=embed)
                 await message.edit(content=f"✅ {interaction.user.mention} โหวตเรียบร้อยแล้ว!")
                 
+            elif custom_id.startswith("on_add_choice"):
+                vote_id = custom_id.split("on_add_choice-")[1]
+                await interaction.response.send_modal(AddChoiceModal(title="Add Choice 📝", message_id=interaction.message.id, vote_id=vote_id))
+
+                
 class VoteEmbed(discord.Embed):
-    def __init__(self, topic, description, choices, interaction, create_by_id=None):
+    def __init__(self, topic, description, choices, interaction, create_by_id=False):
         super().__init__(title=f"📝 Vote: {topic}", 
                          description=description)
         
         self.add_field(name="Summary", value=f"```{self.get_choice_message(choices)}```")
         
         if create_by_id:
-            create_by = interaction.guild.get_member(create_by_id)
-            self.set_footer(text=f"Created by {create_by.display_name}", 
-                        icon_url=create_by.display_avatar)
+            try:
+                create_by = interaction.guild.get_member(create_by_id)
+                self.set_footer(text=f"Created by {create_by.display_name}", 
+                            icon_url=create_by.display_avatar)
+            except AttributeError:
+                user = User(create_by_id)
+                if user.user_info:
+                    self.set_footer(text=f"Created by {user.user_info['name']}",
+                                    icon_url=user.user_info['display_avatar'])
             
     def update(self, choices):
         self.set_field_at(0, name="Summary", value=f"```{self.get_choice_message(choices)}```")
@@ -56,6 +68,28 @@ class VoteEmbed(discord.Embed):
             message += f"|{'■' * int(40 * percent // 100)}{' ' * (40 - int(40 * percent // 100))}| {percent}%\n\n"
             
         return message
+    
+class AddChoiceModal(discord.ui.Modal):
+    choice = ui.TextInput(label="New Choice", 
+                          placeholder="Enter choice here (separate by comma ',')")
+    
+    def __init__(self, title: str, message_id: int, vote_id: int):
+        super().__init__(title=title)
+        self.vote_id = vote_id
+        self.message_id = message_id
+    
+    async def on_submit(self, interaction: discord.Interaction):
+        await interaction.response.defer()
+        interaction = await interaction.followup.send("⌛ Adding choice...", ephemeral=True)
+        message = await interaction.channel.fetch_message(self.message_id)
+        vote = Vote(self.vote_id)
+        vote.add_choice(self.choice.value.split(","))
+        
+        embed = VoteEmbed(vote.topic, vote.description, vote.choices, interaction, vote.create_by)
+        view = VoteView(self.vote_id, vote.topic, vote.description, vote.choices)
+        
+        await message.edit(embed=embed, view=view)
+        await interaction.edit(content="✅ Choice is added!")
         
 class VoteModal(discord.ui.Modal):
     topic = ui.TextInput(label="Topic", 
