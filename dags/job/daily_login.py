@@ -8,6 +8,7 @@ from time import tzset
 from sqlalchemy import create_engine
 from requests import get
 from pandas import DataFrame
+from common.handle_error import handle_error
 
 tzset()
 
@@ -23,7 +24,8 @@ with DAG(dag_id="sync_user_to_database_daily",
     engine = create_engine(config.get("POSTGRES_URL"))
     
     @task()
-    def create_table():
+    @handle_error
+    def create_table(*args, **kwargs):
         engine.execute("""
             CREATE TABLE IF NOT EXISTS users_table (
                 id SERIAL PRIMARY KEY,
@@ -65,7 +67,7 @@ with DAG(dag_id="sync_user_to_database_daily",
                 id BIGINT PRIMARY KEY,
                 topic TEXT,
                 description TEXT,
-                create_by BIGINT,
+                create_by BIGINT
             );
             CREATE TABLE IF NOT EXISTS choice_table (
                 id SERIAL PRIMARY KEY,
@@ -88,7 +90,8 @@ with DAG(dag_id="sync_user_to_database_daily",
     )   
     
     @task()
-    def add_user_to_database():
+    @handle_error
+    def add_user_to_database(*args, **kwargs):
         users = get("http://discord-bot:5000/caller?function=get-user").json()["datas"]
         for user in users:
             engine.execute("""
@@ -122,7 +125,8 @@ with DAG(dag_id="sync_user_to_database_daily",
     )
     
     @task()
-    def send_daily_login():
+    @handle_error
+    def send_daily_login(*args, **kwargs):
         get("http://discord-bot:5000/caller?function=daily-check")
         logger.info("Alert Daily Login to Discord successfully :)")
     
