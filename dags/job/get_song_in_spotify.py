@@ -28,7 +28,6 @@ with DAG(dag_id="get_song_in_spotify",
         random_index = randint(0, total_song - 1)
         
         logger = Logger()
-        logger.info(config.get("test-flag"))
         
         song = spotify.get_song_in_playlist_by_index(random_index)
         discord.send_message(f"{song['external_urls']['spotify']} - เพิ่มเพลงให้ทาโร่ได้ [ที่นี่](<{config.get('SPOTIFY_INVITE_LINK')}>)")

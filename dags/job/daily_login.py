@@ -116,7 +116,6 @@ with DAG(dag_id="sync_user_to_database_daily",
                 VALUES (%s)
                 ON CONFLICT (user_id) DO NOTHING
             """, (user["user_id"]))
-        logger.warning("Update user to database successfully")
         engine.dispose()
         
     add_user_to_database_complete = BashOperator(
@@ -128,6 +127,5 @@ with DAG(dag_id="sync_user_to_database_daily",
     @handle_error
     def send_daily_login(*args, **kwargs):
         get("http://discord-bot:5000/caller?function=daily-check")
-        logger.info("Alert Daily Login to Discord successfully :)")
     
     create_table() >> create_table_complete >> add_user_to_database() >> add_user_to_database_complete >> send_daily_login()
